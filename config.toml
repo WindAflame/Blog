@@ -1,3 +1,70 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://ewa-blog.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site - What ?!"
+title = "Blog - Endy WindAflame"
+theme = "hugo-initio"
+
+[params]
+    name = "Endy WindAflame"
+    description = "Embedded developer by day, gamer by night"
+    email = "dev.windaflame@gmail.com"
+    background = "/images/avatar.jpg"
+    favicon = ""
+    DateForm = "January 2, 2006"
+    showSubheader = false
+    showServices = false
+    showRecentWorks = true
+    showDownload = false
+    showClients = false
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "nextwavesolutions.io"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "UA-109147161-1"
+
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/nextwavesllc"
+    icon = "fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+    title = "linkedin"
+    url = "https://www.linkedin.com/in/justyntemme"
+    icon = "fa-linkedin-square"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+    title = "github"
+    url = "https://github.com/justyntemme"
+    icon = "fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+    title = "email"
+    url = "mailto:info@nextwavesolutions.io"
+    icon = "fa-envelope"
+    footer = false
+    sharethis = true
+    network = "email"
