@@ -1,26 +1,40 @@
 baseurl = "http://ewa-blog.netlify.com/"
-languageCode = "en-us"
+languageCode = "en-uk"
 title = "Blog - Endy WindAflame"
 theme = "hugo-initio"
 
 [params]
-    name = "Endy WindAflame"
-    description = "Embedded developer by day, gamer by night"
-    email = "dev.windaflame@gmail.com"
-    background = "/images/avatar.jpg"
+# Headers
     favicon = ""
-    DateForm = "January 2, 2006"
-    showSubheader = false
-    showServices = false
-    showRecentWorks = true
-    showDownload = false
-    showClients = false
 
+#    customsharethis = ""
+
+    name = "Endy WindAflame"
+    description = "Embedded developer by Day, Gamer by Night."
+#    email = "dev.windaflame@gmail.com"
+    avatar ="guy.jpg"
+#    tags = []
+
+    DateForm = "January 2, 2006"
+
+## Contents
+    showSubheader = true
+    showProjects = true
+    showRecentWorks = false
+    showDownloads = false
+    showClients = false
+    
+# Footers
+    displayFooter = true
     footerEnableContact = true
     footerEnableFollowme = true
     footerEnableTextWidget = false
     footerEnableFormWidget = false
 
+    year = "2018"
+
+# Content
+## Menus
 [[menu.main]]
     name = "home"
     url = "/"
@@ -28,43 +42,37 @@ theme = "hugo-initio"
 [[menu.main]]
     name = "blog"
     url = "/post/"
-    weight = 5
+    weight = 2
 
-[params.disqus]
-    site = "nextwavesolutions.io"
-
-[params.sharethis]
-    property = "123456789012345678901234"
-    custom = true
-
-[params.google.analytics]
-    trackerID = "UA-109147161-1"
-
+## Footers
 [[params.social]]
     title = "twitter"
-    url = "https://twitter.com/nextwavesllc"
+    url = "https://twitter.com/endywindaflame"
     icon = "fa-twitter-square"
     footer = true
-    sharethis = true
+    sharethis = false
     network = "twitter"
+
 [[params.social]]
     title = "linkedin"
-    url = "https://www.linkedin.com/in/justyntemme"
+    url = "https://www.linkedin.com/in/cédric-saint-ghislain-76a08a110"
     icon = "fa-linkedin-square"
-    footer = false
-    sharethis = true
-    network = "linkedin"
-[[params.social]]
-    title = "github"
-    url = "https://github.com/justyntemme"
-    icon = "fa-github"
     footer = true
     sharethis = false
-    network = ""
+    network = "linkedin"
+
+[[params.social]]
+    title = "github"
+    url = "https://github.com/windaflame"
+    icon = "fa-github"
+    footer = true
+    sharethis = true
+    network = "github"
+
 [[params.social]]
     title = "email"
-    url = "mailto:info@nextwavesolutions.io"
+    url = "mailto:dev.windaflame@gmail.com"
     icon = "fa-envelope"
-    footer = false
+    footer = true
     sharethis = true
     network = "email"
