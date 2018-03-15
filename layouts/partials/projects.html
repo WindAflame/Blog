@@ -6,7 +6,7 @@
         {{ range $index, $area := .Site.Data.projects }}
             {{ if .image }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <a class="thumbnail" href="{{ .url }}">
+                <a {{ if .targeted }} target="_blank" {{ end }} class="thumbnail" href="{{ .url }}">
                     <span class="img">
                         <img src="{{ .image }}" alt="">
                         <span class="cover"><span class="more">See details &rarr;</span></span>
@@ -16,7 +16,7 @@
                 <span class="details">
                     {{ $len := sub (len .items) 1 }}
                     {{ range $i, $item := where .items "id" .index }}
-                        <a href="{{ .url }}">{{ .name }}</a>
+                        <a target="_blank" href="{{ .url }}">{{ .name }}</a>
                         {{ if gt $len $i }} | {{ end }}
                     {{ end }}
                 </span>
@@ -25,15 +25,20 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">                
                 <h3 class="text-center">{{ .name }}</h3>                
                 <p><center>{{ .describ }}</center></p>
-                {{ if .btn_label}}
-                <p class="text-center"><a target="_blank" href="{{ .url }}" class="btn btn-action">{{ .btn_label}}</a></p>
-                {{ else }}
-                <p class="text-center"><a target="_blank" href="{{ .url }}" class="btn btn-action">See details</a></p>
-                {{ end }}
+             
+                <p class="text-center">
+                    <a {{ if .targeted }} target="_blank" {{ end }} href="{{ .url }}" class="btn btn-action">
+                        {{ if .btn_label }}
+                            {{ .btn_label }}
+                        {{ else }}
+                            See details
+                        {{ end }}
+                    </a>
+                </p>
                 <span class="details">
                     {{ $len := sub (len .items) 1 }}
                     {{ range $i, $item := where .items "id" .index }}
-                        <a href="{{ .url }}">{{ .name }}</a>
+                        <a target="_blank" href="{{ .url }}">{{ .name }}</a>
                         {{ if gt $len $i }} | {{ end }}
                     {{ end }}
                 </span>

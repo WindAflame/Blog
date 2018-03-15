@@ -18,7 +18,8 @@
                 "url": "https://gohugo.io/"
             }
         ],
-        "btn_label": "View Source"
+        "btn_label": "View Source",
+        "targeted": true
     },
     {
         "id": 1,
