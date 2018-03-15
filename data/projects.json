@@ -17,7 +17,8 @@
                 "name": "Hugo",
                 "url": "https://gohugo.io/"
             }
-        ]
+        ],
+        "btn_label": "View Source"
     },
     {
         "id": 1,
