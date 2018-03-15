@@ -4,6 +4,7 @@
 
     <div class="thumbnails recentworks">
         {{ range $index, $area := .Site.Data.projects }}
+            {{ if .image }}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <a class="thumbnail" href="{{ .url }}">
                     <span class="img">
@@ -20,6 +21,21 @@
                     {{ end }}
                 </span>
             </div>
+            {{ else }}
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <h3 class="text-center">{{ .name }}</h3>
+                <p><center>{{ .describ }}</center></p>
+                
+                <p class="text-center"><a href="{{ .url }}" class="btn btn-action">See details</a></p>
+                <span class="details">
+                    {{ $len := sub (len .items) 1 }}
+                    {{ range $i, $item := where .items "id" .index }}
+                        <a href="{{ .url }}">{{ .name }}</a>
+                        {{ if gt $len $i }} | {{ end }}
+                    {{ end }}
+                </span>
+            </div>
+            {{ end }}
         {{ end }}
     </div>
 

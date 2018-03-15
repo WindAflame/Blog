@@ -7,6 +7,8 @@
 					<h3 class="widget-title">Contact</h3>
 					<div class="widget-body">
 						<p>
+							{{ .Site.Params.phone }}
+							<br>
 							<i class="fa fa-envelope"></i> <a href="mailto:{{ .Site.Params.email }}"  target="_blank">{{ .Site.Params.email }}</a>
 							<br>
 							<i class="fa fa-at"></i> {{ .Site.Params.address }}

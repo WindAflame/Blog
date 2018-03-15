@@ -45,6 +45,16 @@
 				<a href=""> <i class="fa fa-envelope"></i> {{ .Site.Params.email }}</a>
 			</span>
 			{{ end }}
+			{{ if .Site.Params.headerEnableFollowme }}
+			<span class="tagline" style="font-size: 24px;">
+					{{ range .Site.Params.social }}
+						{{ if .footer }}
+							<a href="{{ .url }}" target="_blank"><i class="fa {{ .icon }} fa-2"></i></a>
+						{{ end }}
+					{{ end }}
+					&nbsp;
+			</span>
+			{{ end }}
 			{{ if .Site.Params.tags }}
 			<span class="tagline">
 				{{ delimit .Site.Params.tags " | " }}

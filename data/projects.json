@@ -1,95 +1,31 @@
 [
     {
         "id": 0,
-        "name": "List Gamez",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Hugo for RPi",
+        "describ": "A fork of hypriot/rpi-hugo with upgrade.",
+        "url": "https://github.com/WindAFlame/rpi-hugo",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "Raspberry Pi",
+                "url": "https://www.raspberrypi.org/"
+            },
+            {   
+                "name": "Docker",
+                "url": "https://www.docker.com/"
             },
             {
-                "name": "Wordpress",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
+                "name": "Hugo",
+                "url": "https://gohugo.io/"
             }
         ]
     },
     {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
+        "name": "Bank Preview",
+        "describ": "A little application for previsionnal purchase.",
         "url": "#",
         "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
+            {   
                 "name": "Web design",
                 "url": "#"
             },

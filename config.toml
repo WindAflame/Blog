@@ -16,6 +16,7 @@ theme = "hugo-initio"
 #    tags = []
 
     DateForm = "January 2, 2006"
+    headerEnableFollowme = true
 
 ## Contents
     showSubheader = true
@@ -25,9 +26,9 @@ theme = "hugo-initio"
     showClients = false
     
 # Footers
-    displayFooter = true
-    footerEnableContact = true
-    footerEnableFollowme = true
+    displayFooter = false
+    footerEnableContact = false
+    footerEnableFollowme = false
     footerEnableTextWidget = false
     footerEnableFormWidget = false
 
