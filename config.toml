@@ -4,7 +4,7 @@ layoutdir = "layouts"
 publishdir = "public"
 languageCode = "en-uk"
 title = "Blog - Endy WindAflame"
-theme = "hugo-initio"
+theme = "initio"
 
 [params]
     favicon = ""
@@ -49,13 +49,15 @@ theme = "hugo-initio"
     name = "home"
     url = "/"
     weight = 0
+
 [[menu.main]]
     name = "blog"
-    url = "post/"
+    url = "/post/"
     weight = 5
+    
 [[menu.main]]
     name = "about"
-    url = "about/"
+    url = "/about/"
     weight = 10
 
 ## Footers
