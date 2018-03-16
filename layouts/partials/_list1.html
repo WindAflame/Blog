@@ -1,0 +1,36 @@
+<div class="row section recentworks topspace">
+
+        <h2 class="section-title"><span>Your Title</span></h2>
+    
+        <div class="thumbnails recentworks">
+    
+            {{ range $index, $area := .Site.Data.YourData }}
+    
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <a {{ if .targeted }} target="_blank" {{ end }} class="thumbnail" href="{{ .url }}">
+                    <span class="img">
+                        <img src="{{ .image }}" alt="">
+                        <span class="cover"><span class="more">
+                            {{ if .btn_label }}
+                                {{ .btn_label }}
+                            {{ else }}
+                                See details
+                            {{ end }} &rarr;</span></span>
+                    </span>
+                    <span class="title">{{ .name }}</span>
+                </a>
+                <span class="details">
+                    {{ $len := sub (len .items) 1 }}
+                    {{ range $i, $item := where .items "id" .index }}
+                        <a target="_blank" href="{{ .url }}">{{ .name }}</a>
+                        {{ if gt $len $i }} | {{ end }}
+                    {{ end }}
+                </span>
+            </div>
+    
+            {{ end }}
+    
+        </div>
+    
+    </div> <!-- /section -->
+    

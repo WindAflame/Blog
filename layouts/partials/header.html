@@ -23,14 +23,13 @@
 
     {{ if .Site.Params.customsharethis }}
         <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=custom-share-buttons"></script>
-    {{ else }}
-        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=inline-share-buttons"></script>
     {{ end }}
 
 </head>
 <body class="home">
 
 <header id="header">
+
 	<div id="head" class="parallax" parallax-speed="2">
 		<h1 id="logo" class="text-center">
 			<img class="img-circle" src="{{ .Site.BaseURL }}images/{{ .Site.Params.avatar }}" alt="">
@@ -40,7 +39,7 @@
 				{{ .Site.Params.description }}
 			</span>
 			{{ end }}
-			{{ if .Site.Params.email }}
+			{{ if .Site.Params.headerEnableEmail }}
 			<span class="tagline">
 				<a href=""> <i class="fa fa-envelope"></i> {{ .Site.Params.email }}</a>
 			</span>

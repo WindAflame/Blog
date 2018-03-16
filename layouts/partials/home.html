@@ -2,28 +2,40 @@
 
 	<div class="container">
 
-        {{ if .Site.Params.showSubheader }}
+        {{ if .Site.Params.showSection1 }}
             {{ partial "subheader.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showServices }}
-            {{ partial "services.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.showProjects }}
+        {{ if .Site.Params.showSection2 }}
             {{ partial "projects.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showRecentWorks }}
-            {{ partial "recentworks.html" . }}
+        {{ if .Site.Params.showSection3 }}
+            {{ partial "_empty.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showDownload }}
-            {{ partial "download.html" . }}
+        {{ if .Site.Params.showSection4 }}
+            {{ partial "_empty.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.showClients }}
-            {{ partial "clients.html" . }}
+        {{ if .Site.Params.showSection5 }}
+            {{ partial "_empty.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showSection6 }}
+            {{ partial "_empty.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showSection7 }}
+            {{ partial "_empty.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showSection8 }}
+            {{ partial "_empty.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.showSection9 }}
+            {{ partial "_empty.html" . }}
         {{ end }}
 
 	</div>	<!-- /container -->

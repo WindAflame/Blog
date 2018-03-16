@@ -1,32 +1,41 @@
-baseurl = "https://ewa-blog.netlify.com/"
+baseurl = "/"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
 languageCode = "en-uk"
 title = "Blog - Endy WindAflame"
 theme = "hugo-initio"
 
 [params]
-# Headers
     favicon = ""
-
+# Shared
 #    customsharethis = ""
-
     name = "Endy WindAflame"
+    DateForm = "January 2, 2006"
+    email = "dev.windaflame@gmail.com"
+
+# Headers
+    avatar = "guy.jpg"
     description = "Embedded developer by Day, Gamer by Night."
-#    email = "dev.windaflame@gmail.com"
-    avatar ="guy.jpg"
 #    tags = []
 
-    DateForm = "January 2, 2006"
-    headerEnableFollowme = true
+    headerEnableEmail = false
+    headerEnableFollowme = true    
 
-## Contents
-    showSubheader = true
-    showProjects = true
-    showRecentWorks = false
-    showDownloads = false
-    showClients = false
+## Contents - Edit file /layouts/partials/home.html
+
+    showSection1 = true
+    showSection2 = true
+    showSection3 = false
+    showSection4 = false
+    showSection5 = false
+    showSection6 = false
+    showSection7 = false
+    showSection8 = false
+    showSection9 = false
     
 # Footers
-    displayFooter = false
+    displayFooter = false    
     footerEnableContact = false
     footerEnableFollowme = false
     footerEnableTextWidget = false
@@ -44,6 +53,10 @@ theme = "hugo-initio"
     name = "blog"
     url = "/post/"
     weight = 2
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 3
 
 ## Footers
 [[params.social]]
