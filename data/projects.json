@@ -2,6 +2,7 @@
     {
         "id": 0,
         "name": "Hugo for RPi",
+        "btn_label": "See Source",
         "describ": "A fork of hypriot/rpi-hugo with upgrade.",
         "url": "https://github.com/WindAFlame/rpi-hugo",
         "items": [
@@ -18,7 +19,6 @@
                 "url": "https://gohugo.io/"
             }
         ],
-        "btn_label": "View Source",
         "targeted": true
     },
     {
@@ -36,5 +36,23 @@
                 "url": "#"
             }
         ]
+    },
+    {
+        "id": 2,
+        "name": "List Gamez",
+        "btn_label": "See website",
+        "describ": "Website for share games.",
+        "url": "https://ewa-listgamez.netlify.com/",
+        "items": [
+            {   
+                "name": "AngularJS",
+                "url": "https://angularjs.org/"
+            },
+            {
+                "name": "Material Design Lite",
+                "url": "https://getmdl.io/"
+            }
+        ],
+        "targeted": true
     }
 ]
