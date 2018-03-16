@@ -1,0 +1,49 @@
+[
+    {
+        "grouping":"Architecture",
+        "skills":[ "IP Networking","DNS","Load Balancing","Microservices","RESTful APIs" ]
+    },
+    {
+        "grouping":"Languages & Scripts",
+        "skills":[ "Java","J2EE","Python 2.x","Python 3.x","C","C++","C#", "GO","HTML5","CSS3","SASS","Javascript","JSON","YAML","TOML","XML" ]
+    },
+    {
+        "grouping":"Framework CSS",
+        "skills":[ "Bootstrap 3","Angular Material","Material Design Lite","Materialize" ]
+    },
+    {
+        "grouping":"Framework JAVASCRIPT",
+        "skills":[ "Angular 5.x","AngularJS 1.x", "Node.js" ]
+    },
+    {
+        "grouping":"Framework Node.js",
+        "skills":[ "Sequelize","Express.js","Socket.io","Winston" ]
+    },
+    {
+        "grouping":"Framework Java",
+        "skills":[ "Hibernate","JUnit","Servlet","Struts 2","EJB","Swing","Jersey","Android" ]
+    },
+    {
+        "grouping":"Framework C#",
+        "skills":[ "Unity","ASP .NET" ]
+    },
+    {
+        "grouping":"Framework GO",
+        "skills":[ "Godot","HUGO" ]
+    },
+    {
+        "grouping":"Platform Development, Administration & Tools",
+        "skills":[ "Github","GOGS","HUGO","NGINX","PostgreSQL","SQLite","Subversion","Git","npm","Redmine", "Gulp" ]
+    },
+    {
+        "grouping":"Containers & Cloud",
+        "skills":[
+            {"name":"Docker","link":"https://docker.com/"},
+            {"name":"Netlify","link":"https://www.netlify.com/"}
+        ]
+    },
+    {
+        "grouping":"Operating Systems",
+        "skills":[ "CentOS","Debian","Raspbian","Windows 7","Windows 10" ]
+    }
+  ]

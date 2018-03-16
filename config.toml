@@ -1,0 +1,42 @@
+baseURL = "http://192.168.1.28:1314/"
+languageCode = "en-us"
+title = "Endy WindAflame"
+theme = "hugo-resume"
+
+[params]
+    firstName = "Endy"
+    lastName = "WindAflame"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "images/avatar.jpg"
+    email = "dev.windaflame@gmail.com"
+    description = "Embedded developer by Day, Gamer by Night.."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = true
+    showOpenSource = false
+    showPublications = false
+    showExperience = false
+    showEducation = false
+
+    showQr = true
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/endywindaflame"
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/cédric-saint-ghislain-76a08a110"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/windaflame"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/9504726"
+    icon = "stack-overflow"
+
+[params.google.analytics]
+    trackerID = "UA-115903272-1"
