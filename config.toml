@@ -48,15 +48,15 @@ theme = "hugo-initio"
 [[menu.main]]
     name = "home"
     url = "/"
-    weight = 1
+    weight = 0
 [[menu.main]]
     name = "blog"
-    url = "/post/"
-    weight = 2
+    url = "post/"
+    weight = 5
 [[menu.main]]
     name = "about"
-    url = "/about/"
-    weight = 3
+    url = "about/"
+    weight = 10
 
 ## Footers
 [[params.social]]
