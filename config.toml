@@ -1,4 +1,4 @@
-baseURL = "https://ewa-blog.netlify.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Blog"
 theme = "initio"
