@@ -1,20 +1,18 @@
 baseurl = "/"
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-languageCode = "en-uk"
-title = "Blog - Endy WindAflame"
+languageCode = "en-us"
+title = "Blog"
 theme = "initio"
+publishDir = "public"
 
 [params]
-    favicon = ""
+    favicon = "images/guy.jpg"
 # Shared
 #    customsharethis = ""
-    name = "Endy WindAflame"
     DateForm = "January 2, 2006"
     email = "dev.windaflame@gmail.com"
 
 # Headers
+    name = "Endy WindAflame"
     avatar = "guy.jpg"
     description = "Embedded developer by Day, Gamer by Night."
 #    tags = []
@@ -48,17 +46,18 @@ theme = "initio"
 [[menu.main]]
     name = "home"
     url = "/"
-    weight = 0
-
+    weight = 1
 [[menu.main]]
-    name = "blog"
+    name = "post"
     url = "/post/"
-    weight = 5
-    
+    weight = 5    
 [[menu.main]]
     name = "about"
     url = "/about/"
     weight = 10
+
+[params.google.analytics]
+    trackerID = "UA-115903272-1"
 
 ## Footers
 [[params.social]]
@@ -68,7 +67,6 @@ theme = "initio"
     footer = true
     sharethis = false
     network = "twitter"
-
 [[params.social]]
     title = "linkedin"
     url = "https://www.linkedin.com/in/cédric-saint-ghislain-76a08a110"
@@ -76,7 +74,6 @@ theme = "initio"
     footer = true
     sharethis = false
     network = "linkedin"
-
 [[params.social]]
     title = "github"
     url = "https://github.com/windaflame"
@@ -84,7 +81,6 @@ theme = "initio"
     footer = true
     sharethis = true
     network = "github"
-
 [[params.social]]
     title = "email"
     url = "mailto:dev.windaflame@gmail.com"
