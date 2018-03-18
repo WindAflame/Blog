@@ -63,7 +63,7 @@ publishDir = "public"
 [[params.social]]
     title = "youtube"
     url = "https://www.youtube.com/channel/UCsbreMLpZK1iiX3Eea2O__g"
-    icon = "fa-youtube"
+    icon = "fa-youtube-play"
     footer = true
     sharethis = true
     network = "youtube"
