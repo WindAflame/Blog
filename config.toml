@@ -48,7 +48,7 @@ publishDir = "public"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "post"
+    name = "posts"
     url = "/post/"
     weight = 5    
 [[menu.main]]
