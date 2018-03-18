@@ -6,21 +6,15 @@ publishDir = "public"
 
 [params]
     favicon = "images/guy.jpg"
-# Shared
-#    customsharethis = ""
     DateForm = "January 2, 2006"
     email = "dev.windaflame@gmail.com"
 
-# Headers
     name = "Endy WindAflame"
     avatar = "guy.jpg"
     description = "Embedded developer by Day, Gamer by Night."
-#    tags = []
 
     headerEnableEmail = false
     headerEnableFollowme = true    
-
-## Contents - Edit file /layouts/partials/home.html
 
     showSection1 = true
     showSection2 = true
@@ -32,7 +26,6 @@ publishDir = "public"
     showSection8 = false
     showSection9 = false
     
-# Footers
     displayFooter = false    
     footerEnableContact = false
     footerEnableFollowme = false
@@ -41,8 +34,6 @@ publishDir = "public"
 
     year = "2018"
 
-# Content
-## Menus
 [[menu.main]]
     name = "home"
     url = "/"
@@ -59,7 +50,6 @@ publishDir = "public"
 [params.google.analytics]
     trackerID = "UA-115903272-1"
 
-## Footers
 [[params.social]]
     title = "youtube"
     url = "https://www.youtube.com/channel/UCsbreMLpZK1iiX3Eea2O__g"
