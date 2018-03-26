@@ -3,54 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://windaflame.github.io/Blog/about/</loc>
   </url>
   
   <url>
-    <loc>/recentworks/project3/</loc>
+    <loc>https://windaflame.github.io/Blog/recentworks/project3/</loc>
   </url>
   
   <url>
-    <loc>/recentworks/project1/</loc>
+    <loc>https://windaflame.github.io/Blog/recentworks/project1/</loc>
   </url>
   
   <url>
-    <loc>/recentworks/project2/</loc>
+    <loc>https://windaflame.github.io/Blog/recentworks/project2/</loc>
   </url>
   
   <url>
-    <loc>/recentworks/project4/</loc>
+    <loc>https://windaflame.github.io/Blog/recentworks/project4/</loc>
   </url>
   
   <url>
-    <loc>/post/new/</loc>
+    <loc>https://windaflame.github.io/Blog/post/new/</loc>
     <lastmod>2018-03-16T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-03-16T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+    <loc>https://windaflame.github.io/Blog/</loc>
     <lastmod>2018-03-16T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/recentworks/</loc>
+    <loc>https://windaflame.github.io/Blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://windaflame.github.io/Blog/post/</loc>
+    <lastmod>2018-03-16T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://windaflame.github.io/Blog/recentworks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://windaflame.github.io/Blog/tags/</loc>
     <priority>0</priority>
   </url>
   
