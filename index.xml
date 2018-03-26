@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <link>/</link>
+    <description>Recent content on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+Necessitatibus Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</description>
+    </item>
+    
+    <item>
+      <title>Bank Preview</title>
+      <link>/recentworks/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recentworks/project3/</guid>
+      <description>Empty</description>
+    </item>
+    
+    <item>
+      <title>Hugo for RPi</title>
+      <link>/recentworks/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recentworks/project1/</guid>
+      <description>Empty</description>
+    </item>
+    
+    <item>
+      <title>Hugo-Initio</title>
+      <link>/recentworks/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recentworks/project2/</guid>
+      <description>Empty</description>
+    </item>
+    
+    <item>
+      <title>List Gamez</title>
+      <link>/recentworks/project4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/recentworks/project4/</guid>
+      <description>Empty</description>
+    </item>
+    
+    <item>
+      <title>Blog published</title>
+      <link>/post/new/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/post/new/</guid>
+      <description>This is my first post. Please, be nice with me.</description>
+    </item>
+    
+  </channel>
+</rss>
