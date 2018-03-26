@@ -1,3 +1,4 @@
 [submodule "themes/hugo-initio"]
 	path = themes/hugo-initio
 	url = https://github.com/windaflame/hugo-initio.git
+	branch = master
