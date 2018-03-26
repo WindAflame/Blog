@@ -5,34 +5,16 @@ theme = "initio"
 publishDir = "public"
 
 [params]
+    avatar = "guy.jpg"
+    name = "Endy WindAflame"
+    description = "Embedded developer by Day, Gamer by Night."
+    email = "dev.windaflame@gmail.com"
+    phone = "+234 23 9873237"
+    address = "234 Hidden Pond Road, Ashland City, TN 37015"
+    year = 2018
+    background = ""
     favicon = "images/guy.jpg"
     DateForm = "January 2, 2006"
-    email = "dev.windaflame@gmail.com"
-
-    name = "Endy WindAflame"
-    avatar = "guy.jpg"
-    description = "Embedded developer by Day, Gamer by Night."
-
-    headerEnableEmail = false
-    headerEnableFollowme = true    
-
-    showSection1 = true
-    showSection2 = true
-    showSection3 = false
-    showSection4 = false
-    showSection5 = false
-    showSection6 = false
-    showSection7 = false
-    showSection8 = false
-    showSection9 = false
-    
-    displayFooter = false    
-    footerEnableContact = false
-    footerEnableFollowme = false
-    footerEnableTextWidget = false
-    footerEnableFormWidget = false
-
-    year = "2018"
 
 [[menu.main]]
     name = "home"
@@ -47,6 +29,40 @@ publishDir = "public"
     url = "/about/"
     weight = 10
 
+[params.section.header]
+    enableEmail = false
+    enableFollowme = true
+
+[params.section.subheader]
+    show = true
+    text = "All my projects are referenced below."
+
+[params.section.service]
+    show = false
+    title = "Services"
+
+[params.section.recentworks]
+    show = true
+    # Choose type "image", "summary" or "content"
+    # For type image and summary. The content is loaded from data/recentworks.json.
+    # For type content. The content is loaded by article from content/recentworks/*.md.
+    type = "content"
+    title = "Projects"
+
+[params.section.download]
+    show = false
+
+[params.section.clients]
+    show = false
+    title = "Clients"
+
+[params.section.upperfooter]
+    show = false
+    enableContact = true
+    enableFollowme = true
+    enableTextWidget = true
+    enableFormWidget = true
+
 [params.google.analytics]
     trackerID = "UA-115903272-1"
 
@@ -54,6 +70,7 @@ publishDir = "public"
     title = "youtube"
     url = "https://www.youtube.com/channel/UCsbreMLpZK1iiX3Eea2O__g"
     icon = "fa-youtube-play"
+    header = true
     footer = true
     sharethis = true
     network = "youtube"
@@ -61,6 +78,7 @@ publishDir = "public"
     title = "twitch"
     url = "https://www.twitch.tv/endy_windaflame"
     icon = "fa-twitch"
+    header = true
     footer = true
     sharethis = true
     network = "twitch"
@@ -68,6 +86,7 @@ publishDir = "public"
     title = "twitter"
     url = "https://twitter.com/endywindaflame"
     icon = "fa-twitter-square"
+    header = true
     footer = true
     sharethis = false
     network = "twitter"
@@ -75,6 +94,7 @@ publishDir = "public"
     title = "linkedin"
     url = "https://www.linkedin.com/in/cédric-saint-ghislain-76a08a110"
     icon = "fa-linkedin-square"
+    header = true
     footer = true
     sharethis = false
     network = "linkedin"
@@ -82,6 +102,7 @@ publishDir = "public"
     title = "github"
     url = "https://github.com/windaflame"
     icon = "fa-github"
+    header = true
     footer = true
     sharethis = true
     network = "github"
@@ -89,6 +110,7 @@ publishDir = "public"
     title = "email"
     url = "mailto:dev.windaflame@gmail.com"
     icon = "fa-envelope"
+    header = true
     footer = true
     sharethis = true
     network = "email"
