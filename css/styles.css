@@ -27,12 +27,16 @@ body {
   border-radius: 0;
   background-clip: padding-box;
   width: 100%;
+  z-index: 1;
 }
-.navbar.stick {
+.stick {
   position: fixed;
   top: 0;
   left: 0;
   opacity: .85;
+}
+.content-fix {
+  padding-top: 80px;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
