@@ -5,10 +5,8 @@ description: "Website for share games."
 image: ""
 linkurl: "https://ewa-listgamez.netlify.com/"
 linklabel: "See website"
-tags: [
-    { name: "AngularJS", url: "https://angularjs.org/" },
-    { name: "Material Design Lite", url: "https://getmdl.io/" },
-]
+nametags: [ "AngularJS", "Material Design Lite" ]
+urltags: [ "https://angularjs.org/", "https://getmdl.io/" ]
 weight: 10
 ---
 
