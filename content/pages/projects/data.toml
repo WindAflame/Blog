@@ -1,0 +1,28 @@
+[[project]]
+name = "Sharing Website"
+desc = """A new-generation sharing site inspired by nyaa.si.
+It's an empty shell that can be connected to a json file, api or exclusively on its deployment site.
+The project is currently on hold."""
+tags = ["angular", "share"]
+links = [
+    { name = "homepage", url = "https://ewa-share.netlify.app/"},
+    { name = "source", url = "https://github.com/WindAflame/ListGamez" },
+]
+
+[[project]]
+name = "Port Games to USB Key"
+desc = "A set of scripts and repositories for porting games to the PortableApps template to generate applications that can be run from a USB stick."
+tags = ["Bash", "PortableApps"]
+links = [
+    { name = "source", url = "https://github.com/WindAflame/PortableGOG" },
+    { name = "PortableApps", url = "https://portableapps.com" },
+]
+
+[[project]]
+name = "MKVToolNix Companion"
+desc = "Python application for wrapping MKVToolNix, to extract mkv content and merge mkvs according to a configuration."
+tags = ["Python", "MKVToolNix"]
+links = [
+    { name = "source", url = "https://github.com/WindAflame/matroska-series-companion" },
+    { name = "MKVToolNix", url = "https://mkvtoolnix.download/downloads.html" },
+]

@@ -1,0 +1,82 @@
+base_url = "http://localhost:1111"
+theme = "linkita"
+
+# Default language is english
+default_language = "en"
+author = "endyw"
+minify_html = false
+
+title = "EWA's blog"
+description = ""
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [
+  { name = "tags", feed = true, paginate_by = 5 },
+  { name = "authors", feed = true, paginate_by = 5 },
+]
+
+[languages.fr]
+title = "Blog EWA"
+description = ""
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+taxonomies = [
+  { name = "tags", feed = true, paginate_by = 5 },
+  { name = "authors", feed = true, paginate_by = 5 },
+]
+
+[markdown]
+highlight_code = true
+extra_syntaxes_and_themes = []
+highlight_theme = "material-light"
+
+[extra]
+math = false
+mermaid = false
+comment = false
+title_separator = " | "
+header_menu_name = "menu_header"
+use_cdn = false
+disable_default_favicon = false
+
+[extra.menus]
+menu_header = [
+  { url = "$BASE_URL/projects/", names = { "en" = "Project", "fr" = "Projet"} },
+  { url = "$BASE_URL/archive/", name = "Archive" },
+  { url = "$BASE_URL/about/", names = { "en" = "About me", "fr" = "A propos de" } },
+]
+
+[extra.languages]
+[extra.languages.en]
+locale = "en_US"
+date_format = "%F"
+date_format_archive = "%m-%d"
+[extra.languages.fr]
+locale = "fr_FR"
+date_format = "%F"
+date_format_archive = "%d-%m"
+
+# Endy's profile
+[extra.profiles.endyw]
+avatar_url = "23154083.jpg"
+avatar_invert = false
+social = [
+  { name = "twitch", url = "https://www.twitch.tv/endy_windaflame" },
+  { name = "twitter", url = "https://twitter.com/endywindaflame" },
+  { name = "youtube", url = "https://www.youtube.com/@endywindaflame3475" },
+  { name = "gitlab", url = "https://framagit.org/WindAflame/" },
+  { name = "github", url = "https://github.com/WindAflame" },
+  { name = "rss", url = "$BASE_URL/atom.xml" },
+]
+
+[extra.profiles.endyw.languages]
+[extra.profiles.endyw.languages.en]
+name = "Endy WindAflame"
+bio = "I like coding by day and exploring virtual worlds by night."
+avatar_alt = "Profile avatar."
+[extra.profiles.endyw.languages.fr]
+name = "Endy WindAflame"
+bio = "J'aime coder le jour et explorer des mondes virtuels la nuit."
+avatar_alt = "Avatar de mon profil"
