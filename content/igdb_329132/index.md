@@ -37,5 +37,5 @@ Does my review matter to you?
 
 ## Links
 
-- [Ninja Gaiden II](https://www.igdb.com/games/329132)
-- [Ninja Gaiden II Black](https://www.igdb.com/games/329132)
+- [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
+- [Ninja Gaiden II Black](https://www.igdb.com/games/ninja-gaiden-ii-black)
