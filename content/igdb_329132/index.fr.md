@@ -7,7 +7,7 @@ path = "fr/329132"
 [extra]
 [extra.cover]
 image_url = "https://images.igdb.com/igdb/image/upload/t_720p/ar39z5.webp"
-alt = "Game logo"
+alt = "NINJA GAIDEN 2 Black"
 width = 1600
 height = 800
 [extra.igdb]
@@ -19,26 +19,32 @@ tags = ["game", "review", "329132"]
 authors = ["endyw"]
 +++
 
-## Le tour du proproétaire
-
+## Informations sur ce jeu
+<!-- 
 !["User Ratings"](https://img.shields.io/badge/User_Ratings-6.5-blue)
-!["Critic Ratings"](https://img.shields.io/badge/Critic_Ratings-8.0-blue)
+!["Critic Ratings"](https://img.shields.io/badge/Critic_Ratings-8.0-blue) -->
 
-- **Company:** [Team NINJA](https://www.igdb.com/companies/team-ninja)
-- **Genre:** [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)
-- **Platforms:** [PC (Microsoft Windows)](https://www.igdb.com/platforms/win),  [PlayStation 5](https://www.igdb.com/platforms/ps5),  [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)
+- **Développeur(s):** [Team NINJA](https://www.igdb.com/companies/team-ninja)
+- **Genre(s):** [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)
+- **Platforme(s):** [PC (Microsoft Windows)](https://www.igdb.com/platforms/win),  [PlayStation 5](https://www.igdb.com/platforms/ps5),  [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)
 - **Remake:** [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
 - **Synopsis:**
 
 Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA GAIDEN 2," featuring additional playable characters and enhanced battle support functions.
 
-*All this information is provided by [IGDB](https://www.igdb.com/games/ninja-gaiden-ii-black)*
+- **Trailer:**
+
+[![NINJA GAIDEN 2 Black Official Launch Trailer | Developer_Direct 2025](https://i.ytimg.com/vi/MFjWCZIVZDw/maxresdefault.jpg)](https://youtu.be/MFjWCZIVZDw)
+
+- **Note:** Média : 8.0 | Utilisateur : 6.5
+
+*Toutes ces informations sont fournies par [IGDB](https://www.igdb.com/games/ninja-gaiden-ii-black)*
 
 ## Présentation du jeu
 
-## Trailer
+Ninja Gaiden 2 Black plonge le joueur dans une aventure intense où il incarne Ryu Hayabusa, un ninja légendaire. Le gameplay met l'accent sur un combat rapproché exigeant, demandant rapidité et précision pour maîtriser les nombreuses techniques et armes à disposition. L'atmosphère sombre et stylisée du jeu, conjuguée à des environnements variés et des ennemis puissants, crée une expérience visuellement captivante et terriblement stimulante. La difficulté du jeu est réputée, poussant le joueur à perfectionner ses compétences et à explorer les subtilités du système de combat pour survivre. Chaque affrontement est une épreuve de réflexes et de stratégie, nécessitant une adaptation constante face à la diversité des créatures et des défis proposés. Au-delà de l'action pure, le jeu propose une exploration riche en secrets et en détails, invitant le joueur à une immersion complète dans l'univers impitoyable de Ryu Hayabusa.
 
-![(https://youtu.be/MFjWCZIVZDw)](https://i.ytimg.com/vi/MFjWCZIVZDw/hqdefault.jpg)
+*Cette présentation vous est proposé par ChatGPT*
 
 ## Mon avis
 
@@ -58,9 +64,11 @@ Si vous n'avez pas jouer à un Ninja Gaiden moderne (Pas les versions d'arcade e
 
 Au contraire, si vous avez joué aux versions d'origines, malgré l'évolution graphiques, je ne vous le recommande pas. Le jeu semble me prendre par la main malgré la difficulté que j'ai pris. J'ai l'habitude des versions d'origine, impitouillable et où la précision 
 
-## Liens
+## Comparaison 
 
-- [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
-- [Ninja Gaiden Σ2](https://www.igdb.com/games/ninja-gaiden-sigma-2)
-- [Ninja Gaiden - Master Collection](https://www.igdb.com/games/ninja-gaiden-master-collection)
-- [Ninja Gaiden II Black](https://www.igdb.com/games/ninja-gaiden-ii-black)
+## Liens utile pour mieux comprendre mon avis
+
+- [Ninja Gaiden II (2008)](https://www.igdb.com/games/ninja-gaiden-ii)
+- [Ninja Gaiden Σ2 (2009)](https://www.igdb.com/games/ninja-gaiden-sigma-2)
+- [Ninja Gaiden - Master Collection (2021)](https://www.igdb.com/games/ninja-gaiden-master-collection)
+- [Ninja Gaiden II Black (2025)](https://www.igdb.com/games/ninja-gaiden-ii-black)
