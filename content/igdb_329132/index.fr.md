@@ -18,6 +18,28 @@ genres = ["Hack and slash/Beat 'em up", "Adventure"]
 tags = ["game", "review", "329132"]
 authors = ["endyw"]
 +++
+
+## Le tour du proproétaire
+
+!["User Ratings"](https://img.shields.io/badge/User_Ratings-6.5-blue)
+!["Critic Ratings"](https://img.shields.io/badge/Critic_Ratings-8.0-blue)
+
+- **Company:** [Team NINJA](https://www.igdb.com/companies/team-ninja)
+- **Genre:** [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)
+- **Platforms:** [PC (Microsoft Windows)](https://www.igdb.com/platforms/win),  [PlayStation 5](https://www.igdb.com/platforms/ps5),  [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)
+- **Remake:** [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
+- **Synopsis:**
+
+Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA GAIDEN 2," featuring additional playable characters and enhanced battle support functions.
+
+*All this information is provided by [IGDB](https://www.igdb.com/games/ninja-gaiden-ii-black)*
+
+## Présentation du jeu
+
+## Trailer
+
+![(https://youtu.be/MFjWCZIVZDw)](https://i.ytimg.com/vi/MFjWCZIVZDw/hqdefault.jpg)
+
 ## Mon avis
 
 Le jeu est un remaster de la version Ninja Gaiden Sigma 2, sortie sur PSVita, PS3 et dans la compile Ninja Gaiden Collection.
@@ -36,23 +58,9 @@ Si vous n'avez pas jouer à un Ninja Gaiden moderne (Pas les versions d'arcade e
 
 Au contraire, si vous avez joué aux versions d'origines, malgré l'évolution graphiques, je ne vous le recommande pas. Le jeu semble me prendre par la main malgré la difficulté que j'ai pris. J'ai l'habitude des versions d'origine, impitouillable et où la précision 
 
-
-## En savoir plus sur le jeu
-
-!["User Ratings"](https://img.shields.io/badge/User_Ratings-6.5-blue)
-!["Critic Ratings"](https://img.shields.io/badge/Critic_Ratings-8.0-blue)
-
-- **Company:** [Team NINJA](https://www.igdb.com/companies/team-ninja)
-- **Genre:** [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)
-- **Platforms:** [PC (Microsoft Windows)](https://www.igdb.com/platforms/win),  [PlayStation 5](https://www.igdb.com/platforms/ps5),  [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)
-- **Remake:** [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
-- **Synopsis:**
-
-Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA GAIDEN 2," featuring additional playable characters and enhanced battle support functions.
-
-*All this information is provided by [IGDB](https://www.igdb.com/games/ninja-gaiden-ii-black)*
-
 ## Liens
 
 - [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
+- [Ninja Gaiden Σ2](https://www.igdb.com/games/ninja-gaiden-sigma-2)
+- [Ninja Gaiden - Master Collection](https://www.igdb.com/games/ninja-gaiden-master-collection)
 - [Ninja Gaiden II Black](https://www.igdb.com/games/ninja-gaiden-ii-black)
