@@ -1,3 +1,4 @@
+{%- set igdb_trans_data = load_data(path="templates/i18n.json", format="json") %}
 <!-- Page article with information from IGDB -->
 <article>
   <!-- Page Start inject -->
@@ -9,13 +10,13 @@
     {% set igdb = page.extra.igdb -%}
     <div class="text-md antialiased pb-1">
       {%- if igdb.genres %}
-      Genre : {% for genre in igdb.genres %}
+      {{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}: {% for genre in igdb.genres %}
         <a href="https://www.igdb.com/genres/#">{{ genre }}</a>{% if loop.index < igdb.genres|length %},{% endif %}
       {% endfor %}
       {%- endif %}      
       {%- if igdb.genres and igdb.companies %} |{% endif %}
       {%- if igdb.companies %}
-      Editor : {% for company in igdb.companies %}
+      {{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}: {% for company in igdb.companies %}
         <a href="https://www.igdb.com/companies/#">{{ company }}</a>{% if loop.index < igdb.companies|length %},{% endif %}
       {% endfor %}
       {%- endif %}
