@@ -7,22 +7,22 @@ path = "fr/329132"
 [extra]
 [extra.cover]
 image_url = "https://images.igdb.com/igdb/image/upload/t_720p/ar39z5.webp"
-alt = "NINJA GAIDEN 2 Black"
-width = 1600
-height = 800
+alt = "NINJA GAIDEN II Black - Banner"
+width = 1920
+height = 620
 [extra.igdb]
 id = "329132"
 companies = ["Team NINJA"]
 genres = ["Hack and slash/Beat 'em up", "Adventure"]
+[extra.igdb.playlist]
+title = "NINJA GAIDEN II Black - OST"
+url = "https://www.youtube.com/embed/videoseries?si=g_sZKEd4B1QFYG5y&amp;list=PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
 [taxonomies]
 tags = ["game", "review", "329132"]
 authors = ["endyw"]
 +++
 
 ## Informations sur ce jeu
-<!-- 
-!["User Ratings"](https://img.shields.io/badge/User_Ratings-6.5-blue)
-!["Critic Ratings"](https://img.shields.io/badge/Critic_Ratings-8.0-blue) -->
 
 - **Développeur(s):** [Team NINJA](https://www.igdb.com/companies/team-ninja)
 - **Genre(s):** [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)
@@ -36,6 +36,8 @@ Using Unreal Engine 5 to significantly enhance graphic expression, this is the d
 
 [![NINJA GAIDEN 2 Black Official Launch Trailer | Developer_Direct 2025](https://i.ytimg.com/vi/MFjWCZIVZDw/maxresdefault.jpg)](https://youtu.be/MFjWCZIVZDw)
 
+<small>*click image to [open video](https://youtu.be/MFjWCZIVZDw)*</small>
+
 - **Note:** Média : 8.0 | Utilisateur : 6.5
 
 *Toutes ces informations sont fournies par [IGDB](https://www.igdb.com/games/ninja-gaiden-ii-black)*
@@ -45,6 +47,11 @@ Using Unreal Engine 5 to significantly enhance graphic expression, this is the d
 Ninja Gaiden 2 Black plonge le joueur dans une aventure intense où il incarne Ryu Hayabusa, un ninja légendaire. Le gameplay met l'accent sur un combat rapproché exigeant, demandant rapidité et précision pour maîtriser les nombreuses techniques et armes à disposition. L'atmosphère sombre et stylisée du jeu, conjuguée à des environnements variés et des ennemis puissants, crée une expérience visuellement captivante et terriblement stimulante. La difficulté du jeu est réputée, poussant le joueur à perfectionner ses compétences et à explorer les subtilités du système de combat pour survivre. Chaque affrontement est une épreuve de réflexes et de stratégie, nécessitant une adaptation constante face à la diversité des créatures et des défis proposés. Au-delà de l'action pure, le jeu propose une exploration riche en secrets et en détails, invitant le joueur à une immersion complète dans l'univers impitoyable de Ryu Hayabusa.
 
 *Cette présentation vous est proposé par ChatGPT*
+
+_________________________________________________
+
+Ninja Gaiden 2 Black est un jeu qui vous plonge dans une aventure contemporaine où vous incarnerez Ryu Hayabusa, le dernier ninja dragon.
+Le gameplay est une suite de combat en arène, dynamique et exigente avec des phases de plateforme qui vous demanderons de la précision et prise de décision. En effet, il vous ai parfois nécessaire d'évoluer dans de la plateforme durant les combats, ce qui demandera des prises de décision rapide pour vous enfuir ou pour prendre avantage de la position.
 
 ## Mon avis
 
@@ -64,7 +71,9 @@ Si vous n'avez pas jouer à un Ninja Gaiden moderne (Pas les versions d'arcade e
 
 Au contraire, si vous avez joué aux versions d'origines, malgré l'évolution graphiques, je ne vous le recommande pas. Le jeu semble me prendre par la main malgré la difficulté que j'ai pris. J'ai l'habitude des versions d'origine, impitouillable et où la précision 
 
-## Comparaison 
+## Comparaison
+
+N/A
 
 ## Liens utile pour mieux comprendre mon avis
 
