@@ -81,3 +81,7 @@ N/A
 - [Ninja Gaiden Σ2 (2009)](https://www.igdb.com/games/ninja-gaiden-sigma-2)
 - [Ninja Gaiden - Master Collection (2021)](https://www.igdb.com/games/ninja-gaiden-master-collection)
 - [Ninja Gaiden II Black (2025)](https://www.igdb.com/games/ninja-gaiden-ii-black)
+
+## OST - Playlist
+
+{{ youtube(id="g_sZKEd4B1QFYG5y", playlist="PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H") }}

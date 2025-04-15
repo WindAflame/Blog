@@ -1,6 +1,6 @@
 +++
 title = "Ninja Gaiden II Black"
-description = "J'ai fini le jeu et je vous donne mon avis (IGDB: 329132)"
+description = "I have finished the game and I ask you my review (IGDB: 329132)"
 date = 2025-03-27
 path = "329132"
 [extra]
@@ -37,6 +37,6 @@ Does my review matter to you?
 - [Ninja Gaiden - Master Collection (2021)](https://www.igdb.com/games/ninja-gaiden-master-collection)
 - [Ninja Gaiden II Black (2025)](https://www.igdb.com/games/ninja-gaiden-ii-black)
 
-## Playlist
+## OST - Playlist
 
 {{ youtube(id="g_sZKEd4B1QFYG5y", playlist="PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H") }}
