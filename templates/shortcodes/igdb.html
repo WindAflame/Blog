@@ -1,38 +1,33 @@
+{% import "macros.html" as macros %}
+{%- set igdb_trans_data = load_data(path="templates/shortcodes/igdb.i18n.json", format="json") %}
 <div>
     <ul>
-        <!-- <li><strong>Développeur(s):</strong> <a href="https://www.igdb.com/companies/team-ninja">Team NINJA</a></li> -->
-        <li><strong>Companies:</strong> <a href="https://www.igdb.com/companies/team-ninja">Team NINJA</a></li>
-        <!-- <li><strong>Genre(s):</strong> [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)</li> -->
-        <li><strong>Genre:</strong>
+        <li><strong>{{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}:</strong> <a href="https://www.igdb.com/companies/team-ninja">Team NINJA</a></li>
+        <li><strong>{{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}:</strong>
             <a href="https://www.igdb.com/genres/hack-and-slash-beat-em-up">Hack and slash/Beat 'em up</a>,
             <a href="https://www.igdb.com/genres/adventure">Adventure</a>
         </li>
-        <!-- <li><strong>Platforme(s):</strong> [PC (Microsoft Windows)](https://www.igdb.com/platforms/win),  [PlayStation 5](https://www.igdb.com/platforms/ps5),  [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)</li> -->
-        <li><strong>Platforms:</strong>
+        <li><strong>{{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}:</strong>
             <a href="https://www.igdb.com/platforms/win">PC (Microsoft Windows)</a>,
             <a href="https://www.igdb.com/platforms/ps5">PlayStation 5</a>,
             <a href="https://www.igdb.com/platforms/series-x-s">Xbox Series X|S</a>
         </li>
-        <li><strong>Remake:</strong> <a href="https://www.igdb.com/games/ninja-gaiden-ii">Ninja Gaiden II</a></li>
-        <li><strong>Synopsis:</strong></li>
+        <li><strong>{{ macros::tr(key="igdb_remake", lk=lang, td=igdb_trans_data) }}:</strong> <a href="https://www.igdb.com/games/ninja-gaiden-ii">Ninja Gaiden II</a></li>
+        <li><strong>{{ macros::tr(key="igdb_synopsis", lk=lang, td=igdb_trans_data) }}:</strong></li>
     </ul>
     <p>Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA
         GAIDEN 2," featuring additional playable characters and enhanced battle support functions.</p>
     <ul>
         <li>
-            <strong>Trailer:</strong>
+            <strong>{{ macros::tr(key="igdb_trailer", lk=lang, td=igdb_trans_data) }}:</strong>
         </li>
     </ul>
-    <div style="position: relative; width: 100%; padding-bottom: 56.25%">
-        <iframe src="https://www.youtube-nocookie.com/embed/MFjWCZIVZDw" webkitallowfullscreen mozallowfullscreen
-            allowfullscreen style="position: absolute; width: 100%; height: 100%;">
-        </iframe>
-    </div>
+    {%- set id = "MFjWCZIVZDw" %}
+    {% include "shortcodes/youtube.html" %}
     <ul>
-        <li><strong>Note:</strong> Média : 8.0 | Utilisateur : 6.5</li>
+        <li><strong>{{ macros::tr(key="igdb_review", lk=lang, td=igdb_trans_data) }}:</strong> {{ macros::tr(key="igdb_review_critic", lk=lang, td=igdb_trans_data) }} : 8.0 | {{ macros::tr(key="igdb_review_user", lk=lang, td=igdb_trans_data) }} : 6.5</li>
     </ul>
 
-    <!-- <small style="font-style: italic;">Toutes ces informations sont fournies par <a href="https://www.igdb.com/games/ninja-gaiden-ii-black">IGDB</a></small> -->
-    <small style="font-style: italic;">All this information is provided by <a
+    <small style="font-style: italic;">{{ macros::tr(key="igdb_nfo", lk=lang, td=igdb_trans_data) }}<a
             href="https://www.igdb.com/games/ninja-gaiden-ii-black">IGDB</a></small>
 </div>

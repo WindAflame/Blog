@@ -1,0 +1,42 @@
+{
+    "igdb_genre": {
+        "en": "Genre",
+        "fr": "Genre"
+    },
+    "igdb_company": {
+        "en": "Company",
+        "fr": "Editeur"
+    },
+    "igdb_plateform": {
+        "en": "Plateform",
+        "fr": "Plateforme"
+    },
+    "igdb_remake": {
+        "en": "Remake",
+        "fr": "Remake"
+    },
+    "igdb_synopsis": {
+        "en": "Synopsis",
+        "fr": "Synopsis"
+    },
+    "igdb_trailer": {
+        "en": "Trailer",
+        "fr": "Trailer"
+    },
+    "igdb_review": {
+        "en": "Review",
+        "fr": "Note"
+    },
+    "igdb_review_critic": {
+        "en": "Critic",
+        "fr": "Média"
+    },
+    "igdb_review_user": {
+        "en": "User",
+        "fr": "Utilisateur"
+    },
+    "igdb_nfo": {
+        "en": "All this information is provided by ",
+        "fr": "Toutes ces informations sont fournies par "
+    }
+}
