@@ -13,7 +13,9 @@
             <a href="https://www.igdb.com/platforms/ps5">PlayStation 5</a>,
             <a href="https://www.igdb.com/platforms/series-x-s">Xbox Series X|S</a>
         </li>
+        {%- if igdb_game_data.game_type == "Remake"%}
         <li><strong>{{ macros::tr(key="igdb_remake", lk=lang, td=igdb_trans_data) }}:</strong> <a href="https://www.igdb.com/games/ninja-gaiden-ii">Ninja Gaiden II</a></li>
+        {%- endif %}
         <li><strong>{{ macros::tr(key="igdb_synopsis", lk=lang, td=igdb_trans_data) }}:</strong></li>
     </ul>
     <p>Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA
