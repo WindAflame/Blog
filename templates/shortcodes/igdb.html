@@ -1,4 +1,5 @@
 {% import "macros.html" as macros %}
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
 {%- set igdb_trans_data = load_data(path="templates/shortcodes/igdb.i18n.json", format="json") %}
 <div>
     <ul>

@@ -1,3 +1,4 @@
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
 {%- set igdb_trans_data = load_data(path="templates/i18n.json", format="json") %}
 <!-- Page article with information from IGDB -->
 <article>
@@ -24,22 +25,11 @@
     {%- endif %}
     {% include "partials/page_info.html" %}
   </header>
-  {%- if page.extra.cover.image %}
+  {%- if igdb_game_data.artworks %}
   <figure class="mb-12 mt-0">
     <img
       class="h-auto w-full rounded-lg"
-      src="{{ get_url(path=page.extra.cover.image) }}"
-      {% if page.extra.cover.alt is defined %}alt="{{ page.extra.cover.alt | escape_xml | safe }}"{% endif %}
-      {% if g_image_data.width is defined %}width="{{ g_image_data.width | int }}"{% endif %}
-      {% if g_image_data.height is defined %}height="{{ g_image_data.height | int }}"{% endif %}
-    />
-  </figure>
-  {%- endif %}
-  {%- if page.extra.cover.image_url %}
-  <figure class="mb-12 mt-0">
-    <img
-      class="h-auto w-full rounded-lg"
-      src="{{ page.extra.cover.image_url }}"
+      src="https://images.igdb.com/igdb/image/upload/t_720p/{{ igdb_game_data.artworks[0] }}.webp"
       {% if page.extra.cover.alt is defined %}alt="{{ page.extra.cover.alt | escape_xml | safe }}"{% endif %}
       {% if g_image_data.width is defined %}width="{{ g_image_data.width | int }}"{% endif %}
       {% if g_image_data.height is defined %}height="{{ g_image_data.height | int }}"{% endif %}
