@@ -3,34 +3,48 @@
 {%- set igdb_trans_data = load_data(path="templates/shortcodes/igdb.i18n.json", format="json") %}
 <div>
     <ul>
-        <li><strong>{{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}:</strong> <a href="https://www.igdb.com/companies/team-ninja">Team NINJA</a></li>
-        <li><strong>{{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}:</strong>
-            <a href="https://www.igdb.com/genres/hack-and-slash-beat-em-up">Hack and slash/Beat 'em up</a>,
-            <a href="https://www.igdb.com/genres/adventure">Adventure</a>
+        <li>
+            <strong>{{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}:</strong>
+            {% for item in igdb_game_data.involved_companies %}
+                <a href="https://www.igdb.com/companies/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.involved_companies|length %},{% endif %}
+            {%- endfor %}
         </li>
-        <li><strong>{{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}:</strong>
-            <a href="https://www.igdb.com/platforms/win">PC (Microsoft Windows)</a>,
-            <a href="https://www.igdb.com/platforms/ps5">PlayStation 5</a>,
-            <a href="https://www.igdb.com/platforms/series-x-s">Xbox Series X|S</a>
+        <li>
+            <strong>{{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}:</strong>
+            {% for item in igdb_game_data.genres %}
+                <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.genres|length %},{% endif %}
+            {%- endfor %}
+        </li>
+        <li>
+            <strong>{{ macros::tr(key="igdb_platform", lk=lang, td=igdb_trans_data) }}:</strong>
+            {% for item in igdb_game_data.platforms %}
+                <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.platforms|length %},{% endif %}
+            {%- endfor %}
         </li>
         {%- if igdb_game_data.game_type == "Remake"%}
-        <li><strong>{{ macros::tr(key="igdb_remake", lk=lang, td=igdb_trans_data) }}:</strong> <a href="https://www.igdb.com/games/ninja-gaiden-ii">Ninja Gaiden II</a></li>
+        <li><strong>{{ macros::tr(key="igdb_remake", lk=lang, td=igdb_trans_data) }}:</strong> 
+            <a href="https://www.igdb.com/games/{{igdb_game_data.parent_game.slug}}">{{igdb_game_data.parent_game.name}}</a>
+        </li>
         {%- endif %}
         <li><strong>{{ macros::tr(key="igdb_synopsis", lk=lang, td=igdb_trans_data) }}:</strong></li>
     </ul>
-    <p>Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA
-        GAIDEN 2," featuring additional playable characters and enhanced battle support functions.</p>
+    <p>{{igdb_game_data.summary}}</p>
+    {%- if igdb_game_data.videos %}
     <ul>
         <li>
             <strong>{{ macros::tr(key="igdb_trailer", lk=lang, td=igdb_trans_data) }}:</strong>
         </li>
     </ul>
-    {%- set id = "MFjWCZIVZDw" %}
+    {%- set id = igdb_game_data.videos[0] %}
     {% include "shortcodes/youtube.html" %}
+    {%- endif %}
     <ul>
-        <li><strong>{{ macros::tr(key="igdb_review", lk=lang, td=igdb_trans_data) }}:</strong> {{ macros::tr(key="igdb_review_critic", lk=lang, td=igdb_trans_data) }} : 8.0 | {{ macros::tr(key="igdb_review_user", lk=lang, td=igdb_trans_data) }} : 6.5</li>
+        <li><strong>{{ macros::tr(key="igdb_review", lk=lang, td=igdb_trans_data) }}:</strong> 
+            {{ macros::tr(key="igdb_review_critic", lk=lang, td=igdb_trans_data) }} : {{igdb_game_data.aggregated_rating}} 
+            | {{ macros::tr(key="igdb_review_user", lk=lang, td=igdb_trans_data) }} : {{igdb_game_data.rating}}
+        </li>
     </ul>
 
     <small style="font-style: italic;">{{ macros::tr(key="igdb_nfo", lk=lang, td=igdb_trans_data) }}<a
-            href="https://www.igdb.com/games/ninja-gaiden-ii-black">IGDB</a></small>
+            href="https://www.igdb.com/games/{{igdb_game_data.slug}}">IGDB</a></small>
 </div>

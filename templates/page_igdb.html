@@ -10,17 +10,13 @@
     {%- if page.extra.igdb %}
     {% set igdb = page.extra.igdb -%}
     <div class="text-md antialiased pb-1">
-      {%- if igdb.genres %}
-      {{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}: {% for genre in igdb.genres %}
-        <a href="https://www.igdb.com/genres/#">{{ genre }}</a>{% if loop.index < igdb.genres|length %},{% endif %}
+      {{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}: {% for item in igdb_game_data.genres %}
+        <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.genres|length %},{% endif %}
       {% endfor %}
-      {%- endif %}      
-      {%- if igdb.genres and igdb.companies %} |{% endif %}
-      {%- if igdb.companies %}
-      {{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}: {% for company in igdb.companies %}
-        <a href="https://www.igdb.com/companies/#">{{ company }}</a>{% if loop.index < igdb.companies|length %},{% endif %}
+      |
+      {{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}: {% for item in igdb_game_data.involved_companies %}
+        <a href="https://www.igdb.com/companies/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.involved_companies|length %},{% endif %}
       {% endfor %}
-      {%- endif %}
     </div>
     {%- endif %}
     {% include "partials/page_info.html" %}

@@ -12,11 +12,10 @@ width = 1920
 height = 620
 [extra.igdb]
 id = "329132"
-companies = ["Team NINJA"]
-genres = ["Hack and slash/Beat 'em up", "Adventure"]
 [extra.igdb.playlist]
 title = "NINJA GAIDEN II Black - OST"
-url = "https://www.youtube.com/embed/videoseries?si=g_sZKEd4B1QFYG5y&amp;list=PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
+video_id = "g_sZKEd4B1QFYG5y"
+playlist_id = "PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
 [taxonomies]
 tags = ["game", "review", "329132"]
 authors = ["endyw"]
@@ -24,23 +23,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-- **Développeur(s):** [Team NINJA](https://www.igdb.com/companies/team-ninja)
-- **Genre(s):** [Hack and slash/Beat 'em up](https://www.igdb.com/genres/hack-and-slash-beat-em-up),  [Adventure](https://www.igdb.com/genres/adventure)
-- **Platforme(s):** [PC (Microsoft Windows)](https://www.igdb.com/platforms/win),  [PlayStation 5](https://www.igdb.com/platforms/ps5),  [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)
-- **Remake:** [Ninja Gaiden II](https://www.igdb.com/games/ninja-gaiden-ii)
-- **Synopsis:**
-
-Using Unreal Engine 5 to significantly enhance graphic expression, this is the definitive version of "NINJA GAIDEN 2," featuring additional playable characters and enhanced battle support functions.
-
-- **Trailer:**
-
-[![NINJA GAIDEN 2 Black Official Launch Trailer | Developer_Direct 2025](https://i.ytimg.com/vi/MFjWCZIVZDw/maxresdefault.jpg)](https://youtu.be/MFjWCZIVZDw)
-
-<small>*click image to [open video](https://youtu.be/MFjWCZIVZDw)*</small>
-
-- **Note:** Média : 8.0 | Utilisateur : 6.5
-
-*Toutes ces informations sont fournies par [IGDB](https://www.igdb.com/games/ninja-gaiden-ii-black)*
+{{ igdb() }}
 
 ## Présentation du jeu
 
@@ -84,4 +67,4 @@ N/A
 
 ## OST - Playlist
 
-{{ youtube(id="g_sZKEd4B1QFYG5y", playlist="PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H") }}
+{{ igdb_playlist_youtube() }}

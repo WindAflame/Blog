@@ -8,11 +8,13 @@ path = "329132"
 image_url = "https://images.igdb.com/igdb/image/upload/t_720p/ar39z5.webp"
 alt = "NINJA GAIDEN II Black - Banner"
 width = 1920
-height = 620
+height = 1080
 [extra.igdb]
 id = "329132"
-companies = ["Team NINJA"]
-genres = ["Hack and slash/Beat 'em up", "Adventure"]
+[extra.igdb.playlist]
+title = "NINJA GAIDEN II Black - OST"
+video_id = "g_sZKEd4B1QFYG5y"
+playlist_id = "PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
 [taxonomies]
 tags = ["game", "review", "329132"]
 authors = ["endyw"]
@@ -39,4 +41,4 @@ Does my review matter to you?
 
 ## OST - Playlist
 
-{{ youtube(id="g_sZKEd4B1QFYG5y", playlist="PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H") }}
+{{ igdb_playlist_youtube() }}
