@@ -14,7 +14,7 @@ height = 620
 id = "329132"
 [extra.igdb.playlist]
 title = "NINJA GAIDEN II Black - OST"
-video_id = "g_sZKEd4B1QFYG5y"
+video_id = "OaOsehXy-c8"
 playlist_id = "PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
 [taxonomies]
 tags = ["game", "review", "329132"]
@@ -52,11 +52,11 @@ Le jeu reste bon dans son ensemble mais je reste frustré sur l'impression que l
 
 Si vous n'avez pas jouer à un Ninja Gaiden moderne (Pas les versions d'arcade et NES), je vous recommande ce jeu car il est beau, fluide et nerveux. C'est un bon équilibrage action plateforme que je classe comme un classic dans les jeux Beat'em all.
 
-Au contraire, si vous avez joué aux versions d'origines, malgré l'évolution graphiques, je ne vous le recommande pas. Le jeu semble me prendre par la main malgré la difficulté que j'ai pris. J'ai l'habitude des versions d'origine, impitouillable et où la précision 
+Au contraire, si vous avez joué aux versions d'origines, malgré l'évolution graphiques, je ne vous le recommande pas. Le jeu semble me prendre par la main malgré la difficulté que j'ai pris. J'ai l'habitude des versions d'origine, impitouillable et où la précision
 
-## Comparaison
+## Comparaison Original vs. Remake
 
-N/A
+{{ youtube(id="g2fUEUk1Sm0") }}
 
 ## Liens utile pour mieux comprendre mon avis
 

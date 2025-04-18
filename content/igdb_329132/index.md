@@ -13,7 +13,7 @@ height = 1080
 id = "329132"
 [extra.igdb.playlist]
 title = "NINJA GAIDEN II Black - OST"
-video_id = "g_sZKEd4B1QFYG5y"
+video_id = "OaOsehXy-c8"
 playlist_id = "PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
 [taxonomies]
 tags = ["game", "review", "329132"]
