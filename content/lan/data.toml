@@ -1,0 +1,27 @@
+[[project]]
+name = "Power Bomberman"
+desc = "Power Bomberman is a feature-rich Bomberman fangame."
+tags = ["Windows", "Mac", "LAN", "Free"]
+links = [
+    { name = "Homepage", url = "https://www.bombermanboard.com/viewtopic.php?t=1925"},
+]
+
+[[project]]
+name = "Dr. Robotnik's Ring Racers"
+desc = """“Dr. Robotnik’s Ring Racers” is a Technical Kart Racer, drawing inspiration from “antigrav” racers, fighting games, and traditional-style kart racing.
+
+Designed to minimize randomness and emphasize player expression, Ring Racers isn’t just about precise handling—you’ll need to master tense combat, resource management, and taking risks under pressure.
+
+Ring Racers is not a “pick-up-and-play” experience. If you aren’t already a racing fanatic, the learning curve will be quite steep."""
+tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
+links = [
+    { name = "Homepage", url = "https://www.kartkrew.org" },
+]
+
+[[project]]
+name = "Counter-Strike²"
+desc = "Counter-Strike is the ultimate competitive experience, bringing millions of people together for over twenty years. Now it's time to write the next chapter in Counter-Strike history. Make way for Counter-Strike 2."
+tags = ["Windows", "Linux", "Free"]
+links = [
+    { name = "Homepage", url = "https://store.steampowered.com/app/730/CounterStrike_2/" },
+]
