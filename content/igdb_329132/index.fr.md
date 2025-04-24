@@ -32,59 +32,32 @@ Ninja Gaiden 2 Black plonge le joueur dans une aventure intense où il incarne R
 
 ## Mon avis
 
-<!-- J'ai terminé le jeu dans sa difficulté Ninja. Qui est équivalente à la difficulté Difficile dans la plus part des jeux.
-Cela m'a pris x heures de jeu et je suis mitigié sur mon expérience. Je vous explique tout !
+Après avoir terminé le jeu en difficulté Ninja (l'équivalent du mode Difficile dans la plupart des jeux), soit après 20 heures de jeu, je suis partagé sur mon expérience. Le jeu est beau, fluide, exigent et violent, mais avec mon expérience sur sa version d'origine, Ninja Gaiden II sortie sur Xbox 360 en 2008, et sa version re-imaginée, Ninja Gaiden Σ2 sortie sur PS3 en 2009, je trouve que celle-ci se base sur ce dernier et re-imagine à son tour l'expérience.
 
-Le jeu suis le même scénario que Ninja Gaiden 2 et Ninja Gaiden Sigma 2 (ça version améliorer et censuré).
-Il n'est plus censuré, comporte des évolutions apportées par Sigma 2 et il est refait avec le moteur Unreal Engine 5.
-Il est beau, toujours aussi fluide et exigent qu'avant mais il a exactement les mêmes défauts que ces précédentes versions.
+### Un épisode marquant
 
-A savoir que la caméra a tendance a ne pas bien suivre l'action, le jeu est dur mais il offre des soins trop souvent qui rend les consommables et la boutique inutile.
+Cet épisode de la série marque l'ajout des exécutions, de nouveaux boss et enjeu. A mon sens, il s'agit du meilleur Ninja Gaiden du modèle sorti avec le renouveau fait sur Xbox première du nom. Son aventure est découpée en chapitre, à l'instar des beat'em all comme Bayonneta et Devil May Cry, à la différence qu'ici le jeu vous demande de tuer les ennemis le plus vite possible, d'être réactif et de vous adapter au différentes situation et de toujours utilisés vos atouts de ninja.
 
-Vis à vis de son contenu, j'ai l'impression qu'il s'agit d'un mix entre les deux versions Ninja Gaiden 2 et Ninja Gaiden Sigma 2. Il comporte les ajouts scénaristique, le mode défi de Sigma 2, il supprime certains boss de ce dernier et il propose moins de puzzle, enigme, plateforme ...
+### Qu'est ce qu'il a de plus que les autres versions ?
 
-Le jeu reste à l'essentiel, une succession de combat exigent, sanglant et diffile. Toutefois, les petits pauses qu'offrait le jeu d'origine ne sont pas là, comme les énigmes qui demande d'utiliser les équipements que l'on récupère pour dévérouiller le chemin, la plateforme pour mettre en avant l'agilité de notre ninja et qui nous permet de naviguer entre les niveaux.
+Il n'est ni plus, ni moins qu'un mélange des deux versions de Ninja Gaiden II avec un nouvel équilibrage.
 
-Il propose aussi beaucoup trop de checkpoint, trop de soins durant les combats (Il me semble que les boules de Ki bleu n'existe pas dans la version d'origine du jeu)
+En comparaison avec ces révisions précédentes, il ne comporte pas les ajouts de Ninja Gaiden Σ2 (A savoir plus d'énigmes, plus de boss), hormis pour les chapitres avec les personnages secondaires et adopte le re-équilibrage de ce dernier (Moins d'ennemis mais ils ont plus de vie, de la vie est générée durant les combats, moins d'armes dans l'arsenal). Il corrige toutefois une erreur de ce dernier car le jeu n'est plus censuré. Aurevoir la disparition des ennemies dans de la fumée !
 
-A l'instar de la version Ninja Gaiden Sigma 2, je le recommande si vous voulez découvrir la série et si vous souhaitez jouer à un jeu de type beat'em all et aventure.
-Personnellement, je recommande plus la version d'origine qui n'existe que sur la Xbox 360 que je considère comme un classic du genre par ça difficulté énorme et graduel, où chaque combat et exploration sont des défis et qui est mieux ryhtmé.
+Je retiens qu'il a les points négatifs principaux de la version Sigma 2, le jeu plus simple et la boutique ne sert à rien.
 
-<hr/> -->
+L'évolution des armes et ninpo (les sorts utilisés par notre ninja) sont entachées par le fait que les ennemis sont des sacs à pv. Qui rends l'évolution pas très intéressantes, contrairement à la version original où, certe il y a BEAUCOUP plus d'ennemis, mais le temps de les tués est bien plus court et satisfaisant.
+De plus, cette version propose le ki bleu amorcé dans Sigma 2 (une boule de ki est aléatoirement obtenue en tuant un ennemi), qui est trop souvent présente et qui permet de ce soigner en combat. Les consommables de soin ne sont plus utiles et la boutique non plus. Je ne l'ai jamais utilisé dans ma partie.
 
-Après avoir terminé le jeu en difficulté Ninja (l'équivalent du mode Difficile dans la plupart des jeux), soit après X heures de jeu intense, je suis partagé. Le jeu est beau, fluide et brutal comme on les aime, mais hélas, il souffre des mêmes défauts que ses prédécesseurs.
+Enfin, certaines phases de plateformes sont adaptées, raccourcies ou supprimées ce qui rend certaines phases vides ou qui s'enchaine trop vite de combat en combat.
 
-### Un Remaster Visuellement Impressionnant, Mais…
+### Mon verdict
 
-Ce remaster, fidèle au scénario de Ninja Gaiden 2 et Sigma 2, abandonne la censure et propose des graphismes améliorés grâce au moteur Unreal Engine 5. Le résultat est magnifique. Malgré la fluidité et l'exigence habituelles de la série, on retrouve les défauts de ses aînés : une caméra capricieuse qui ne suit pas toujours bien l'action, une difficulté accrue (mode Ninja oblige) mais compensée par un système de soins trop généreux, rendant les consommables presque inutiles.
+Pour moi, le premier Ninja Gaiden sur Xbox est le plus marquant car il a su rédifinir la série en 3D et mettre en place son identité action, aventure, plateforme qui le rend unique dans les propositions du genre.
 
-### Un Mix Décevant Entre Deux Mondes
+Celui-ci viens ajouter de la brutalité et fatalité dans l'exécution du gameplay et variété dans ses approches qui le propulse en tant que meilleur épisode de la série.
 
-Le contenu du jeu semble être un mélange entre Ninja Gaiden 2 et Sigma 2, reprenant les ajouts scénaristiques et le mode défi de Sigma 2, mais en supprimant certains boss et en réduisant considérablement le nombre d'énigmes, de puzzles et de phases de plateforme. Le résultat est une succession de combats exigeants, sanglants et difficiles, mais sans les petites pauses rythmantes des versions originales.
-
-Les énigmes qui utilisaient les équipements, les phases de plateforme qui mettaient en valeur l'agilité du ninja et la navigation entre les niveaux sont absentes. On regrette aussi le nombre excessif de checkpoints et la quantité de soins dispensés durant les combats (les boules de Ki bleu, absentes de la version originale, sont ici omniprésentes).
-
-### Pour Qui Ce Remaster ?
-
-Si vous êtes un nouveau venu dans la série Ninja Gaiden et que vous cherchez un beat'em all exigeant, ce remaster est fait pour vous. Cependant, si vous êtes un fan des versions originales, et que vous appréciez la difficulté progressive et le rythme plus serré des jeux d'origine, je vous conseille fortement de vous tourner vers Ninja Gaiden 2 sur Xbox 360, un véritable classique du genre. Ce remaster, malgré ses qualités visuelles, ne parvient pas à égaler l'expérience brute et intense de son prédécesseur.
-
-<!-- <hr/>
-
-Le jeu est un remaster de la version Ninja Gaiden Sigma 2, sortie sur PSVita, PS3 et dans la compile Ninja Gaiden Collection.
-A la différence que le jeu ne comporte pas la censure de ces versions, à savoir le démembrement et le sang.
-
-De plus, il garde les problèmes liés à la version Sigma par rapport à la version normal, sortie initialement sur Xbox 360. Le jeu à moins de vague d'enemie, moins d'armes, les ennemis ont plus de vie et il te fournie du soin beaucoup plus régulièrement.
-
-Malheureusement, les phases de plateforme sont imprecises, alors que dans mon souvenir le jeu était précis et bon sur ce point.
-
-En se qui concerne mon expérience, j'ai terminé le jeu dans sa difficulté Ninja.
-Point de vue sensation, c'est les mêmes que j'ai pu avoir sur la version PS3, mais avec des graphiques remises au gout du jour.
-
-Le jeu reste bon dans son ensemble mais je reste frustré sur l'impression que les équipements, founie au fil de l'aventure, n'arrive pas à donner leurs plein potentiel. Surement dû aux enemies qui ont trop de vie et le temps de tuer les ennemies sont relativement long.
-
-Si vous n'avez pas jouer à un Ninja Gaiden moderne (Pas les versions d'arcade et NES), je vous recommande ce jeu car il est beau, fluide et nerveux. C'est un bon équilibrage action plateforme que je classe comme un classic dans les jeux Beat'em all.
-
-Au contraire, si vous avez joué aux versions d'origines, malgré l'évolution graphiques, je ne vous le recommande pas. Le jeu semble me prendre par la main malgré la difficulté que j'ai pris. J'ai l'habitude des versions d'origine, impitouillable et où la précision -->
+Malheureusement, cette proposition propose moins d'exploration, moins des puzzles et moins de phases de plateformes. Je trouve que c'est la proposition la moins intéressante des trois. Il a le grand avantage d'être remis au goût du jour visuellement mais je recommande la version Ninja Gaiden Sigma 2, présente dans Ninja Gaiden Ultimate Collection, qui a le meilleur compromis d'équilibrage.
 
 >Ninja Gaiden Sigma 2 Remastered : du sang, des tripes... et de la frustration !
 >
