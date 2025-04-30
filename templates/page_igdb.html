@@ -1,0 +1,51 @@
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
+{%- set igdb_trans_data = load_data(path="templates/i18n.json", format="json") %}
+<!-- Page article with information from IGDB -->
+<article>
+  <!-- Page Start inject -->
+  {% include "injects/page_start.html" ignore missing %}
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">{{ page.title }}</h1>
+    {%- if page.extra.igdb %}
+    {% set igdb = page.extra.igdb -%}
+    <div class="text-md antialiased pb-1">
+      {{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}: {% for item in igdb_game_data.genres %}
+        <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.genres|length %},{% endif %}
+      {% endfor %}
+      |
+      {{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}: {% for item in igdb_game_data.involved_companies %}
+        <a href="https://www.igdb.com/companies/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.involved_companies|length %},{% endif %}
+      {% endfor %}
+    </div>
+    {%- endif %}
+    {% include "partials/page_info.html" %}
+  </header>
+  {%- if igdb_game_data.artworks %}
+  <figure class="mb-12 mt-0">
+    <img
+      class="h-auto w-full rounded-lg"
+      src="https://images.igdb.com/igdb/image/upload/t_720p/{{ igdb_game_data.artworks[0] }}.webp"
+      {% if page.extra.cover.alt is defined %}alt="{{ page.extra.cover.alt | escape_xml | safe }}"{% endif %}
+      {% if g_image_data.width is defined %}width="{{ g_image_data.width | int }}"{% endif %}
+      {% if g_image_data.height is defined %}height="{{ g_image_data.height | int }}"{% endif %}
+    />
+  </figure>
+  {%- endif %}
+  {%- set page_toc = true %}
+  {#- Table of contents #}
+  {% include "partials/toc.html" %}
+  {#- Content #}
+  <section>{{ page.content | safe }}</section>
+  <hr />
+  {#- Post Taxonomies #}
+  {% include "partials/post_taxonomies.html" %}
+  {#- Post Nav #}
+  {% include "partials/post_navigation.html" %}
+  {%- if page.extra.comment | default(value=config.extra.comment) %}
+  {#- Comment #}
+  {% include "partials/comment.html" %}
+  {%- endif %}
+  {#- Page End inject #}
+  {% include "injects/page_end.html" ignore missing %}
+</article>

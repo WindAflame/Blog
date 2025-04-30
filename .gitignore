@@ -30,3 +30,7 @@ shell.nix
 # vim temporary files
 **/.*.sw*
 .swp
+
+# python scripts
+scripts/python/**/.env
+scripts/python/**/.venv
