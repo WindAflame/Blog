@@ -1,8 +1,7 @@
 +++
 title = "Ninja Gaiden II Black"
 description = "I have finished the game and I ask you my review (IGDB: 329132)"
-date = 2025-03-27
-# updated = 2024-10-24
+date = 2025-05-11
 path = "329132"
 [extra]
 [extra.cover]
