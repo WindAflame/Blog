@@ -12,6 +12,7 @@
 			],
 		}
 	},
+	"postCreateCommand": "git submodule update --init && zola serve",
 	"forwardPorts": [
 		1111
 	],
