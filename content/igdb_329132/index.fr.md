@@ -26,9 +26,19 @@ authors = ["endyw"]
 
 ## Présentation du jeu
 
-Ninja Gaiden 2 Black plonge le joueur dans une aventure intense où il incarne Ryu Hayabusa, un ninja légendaire. Le gameplay met l'accent sur un combat rapproché exigeant, demandant rapidité et précision pour maîtriser les nombreuses techniques et armes à disposition. L'atmosphère sombre et stylisée du jeu, conjuguée à des environnements variés et des ennemis puissants, crée une expérience visuellement captivante et terriblement stimulante. La difficulté du jeu est réputée, poussant le joueur à perfectionner ses compétences et à explorer les subtilités du système de combat pour survivre. Chaque affrontement est une épreuve de réflexes et de stratégie, nécessitant une adaptation constante face à la diversité des créatures et des défis proposés. Au-delà de l'action pure, le jeu propose une exploration riche en secrets et en détails, invitant le joueur à une immersion complète dans l'univers impitoyable de Ryu Hayabusa.
+Incarnez Ryu Hayabusa, un ninja qui a hérité de la légendaire “Épée du dragon” et prend part à des conflits à travers le monde, dans cette version remastérisée du célèbre jeu d'action ninja ultra rapide, 15 ans après sa sortie initiale !
 
-*Cette présentation vous est proposé par ChatGPT*
+1. Le monde de “NINJA GAIDEN 2”, remastérisé avec des graphismes somptueux !
+Les décors, les personnages, les effets visuels et la lumière ont été complètement repensés et remastérisés afin d'offrir des graphismes réalistes. L'Unreal Engine 5 a permis de créer d'incroyables graphismes dignes de la génération technologique actuelle, ce qui permet aux joueurs de complètement s'immerger dans le monde du jeu et dans son histoire.
+
+2. L'action ultra rapide et violente du jeu évolue grâce aux dernières expressions graphiques !
+Les éléments d'extrême violence, tels que le démembrement et le sang, ont été remastérisés afin d'améliorer l'expérience de l'action. Les joueurs pourront profiter d'un jeu d'action aussi rapide que violent grâce à une grande variété d'armes et de techniques, dont des épées japonaises, des shurikens, des kusarigamas et des tonfas.
+Remarque : la fonctionnalité de démembrement peut être activée ou désactivée dans le menu Options.
+
+3. Des personnages supplémentaires, un mode pour les débutants et des éléments provenant des jeux suivants ont également été ajoutés !
+Ce remaster contient des éléments additionnels des jeux sortis après le jeu d'origine. Les joueurs peuvent incarner trois personnages supplémentaires : Momiji, Ayane et Rachel. Cette version propose également un "MODE HÉROS" qui apporte un soutien automatique lors des situations difficiles, rendant le jeu accessible pour les joueurs peu confiants en leurs compétences en matière d'action.
+
+Remarque : la 4K/120fps n'est disponible que sur Xbox Series X et PC. La 4K/120fps n'est pas disponible sur Xbox Series S.
 
 ## Mon avis
 
@@ -60,9 +70,9 @@ Malheureusement, cette version propose moins d'exploration, moins de puzzles et 
 
 >Ninja Gaiden 2 Black (2025)
 >
->Après 20 heures de jeu en difficulté Ninja, je ressors mitigé. Le jeu est toujours aussi beau, fluide et brutal, mais cette version semble calquée sur l'équilibrage de Ninja Gaiden Σ2 (PS3), et sur le contenu scénarisé de l'original Xbox 360. C'est dommage car on perds les phases de plateformes et aventure pour se contentrer essentiellement sur les combats...
+>Après 20 heures de jeu en difficulté Ninja, je ressors mitigé. Le jeu est toujours aussi beau, fluide et brutal, mais cette version semble calquée sur l'équilibrage de Ninja Gaiden Σ2 (PS3), et sur le contenu scénarisé de l'original Xbox 360. C'est dommage car on perds les phases de plateformes et aventure pour se concentrer essentiellement sur les combats...
 >
->Cette version propose peu de nouveautés par rapport aux versions citées précédement hormi une remise au gout du jour avec Unreal Engine 5, ce que rend le jeu très beau, fluide et ne dénature pas l'oeuvre original.
+>Cette version propose peu de nouveautés par rapport aux versions citées précédemment hormis une remise au gout du jour avec Unreal Engine 5, ce que rend le jeu très beau, fluide et ne dénature pas l'œuvre original.
 >
 >Pour les fans de la première heure, c'est un peu court : on sent un manque de contenu et une simplification qui dénature l'expérience. Pour les nouveaux venus, c'est un défouloir sans prise de tête... un peu trop peut-être ?
 >

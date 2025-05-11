@@ -26,11 +26,23 @@ authors = ["endyw"]
 
 ## Introduce
 
-Short description
+Take on the role of Ryu Hayabusa, a ninja who has inherited the legendary “Dragon Sword” and takes on battles across the world, in this graphic remaster of the popular high-speed ninja action title that returns after 15 years!
+
+1. The world of “NINJA GAIDEN 2” remastered with rich visuals!
+The stages, characters, effects, and lighting have been completely redesigned and remastered to provide realistic visuals. Unreal Engine 5 has been utilized to create stunning current-generation graphics, allowing players to immerse themselves more deeply in the story's world.
+
+2. High-speed x violent action further evolved with the latest graphic expressions!
+Gore elements such as dismemberment and blood have been remastered to enhance the action experience. Players can enjoy high-speed, violent action using a wide variety of weapons and techniques, including Japanese swords, shurikens, Kusari-gamas, and tonfas.
+Note: The dismemberment feature can be toggled on and off in the Options menu.
+
+3. Additional characters, mode for beginners, and elements from subsequent spin-off titles are also included!
+This remaster includes additional elements from spin-off titles released after the original. Players can control three additional characters: Momiji, Ayane, and Rachel. The game also includes "HERO PLAY STYLE" mode that provides automatic support in challenging situations, making it accessible for those who may not be confident in their action skills.
+
+Note: Only the Xbox Series X and the PC are available in 4K/120fps. 4K/120fps is not available for Xbox Series S.
 
 ## My review
 
-After completing the game on Ninja difficulty (the equivalent of hard mode in most games), after about twenty hours of gameplay, I am torn about my experience.
+After completing the game on Ninja difficulty (the equivalent of hard mode in most games), after around ten hours of play, I am torn about my experience.
 
 ### A Significant Episode
 
@@ -71,6 +83,7 @@ Unfortunately, this version offers less exploration, fewer puzzles, and fewer pl
 
 - [Ninja Gaiden II (2008)](https://www.igdb.com/games/ninja-gaiden-ii)
 - [Ninja Gaiden Σ2 (2009)](https://www.igdb.com/games/ninja-gaiden-sigma-2)
+- [Ninja Gaiden: Master Collection (2021)](https://www.igdb.com/games/ninja-gaiden-master-collection)
 - [Ninja Gaiden II Black (2025)](https://www.igdb.com/games/ninja-gaiden-ii-black)
 
 ## OST - Playlist
