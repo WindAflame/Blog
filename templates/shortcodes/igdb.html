@@ -1,0 +1,50 @@
+{% import "macros.html" as macros %}
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
+{%- set igdb_trans_data = load_data(path="templates/shortcodes/igdb.i18n.json", format="json") %}
+<div>
+    <ul>
+        <li>
+            <strong>{{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}:</strong>
+            {% for item in igdb_game_data.involved_companies %}
+                <a href="https://www.igdb.com/companies/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.involved_companies|length %},{% endif %}
+            {%- endfor %}
+        </li>
+        <li>
+            <strong>{{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}:</strong>
+            {% for item in igdb_game_data.genres %}
+                <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.genres|length %},{% endif %}
+            {%- endfor %}
+        </li>
+        <li>
+            <strong>{{ macros::tr(key="igdb_platform", lk=lang, td=igdb_trans_data) }}:</strong>
+            {% for item in igdb_game_data.platforms %}
+                <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.platforms|length %},{% endif %}
+            {%- endfor %}
+        </li>
+        {%- if igdb_game_data.game_type == "Remake"%}
+        <li><strong>{{ macros::tr(key="igdb_remake", lk=lang, td=igdb_trans_data) }}:</strong> 
+            <a href="https://www.igdb.com/games/{{igdb_game_data.parent_game.slug}}">{{igdb_game_data.parent_game.name}}</a>
+        </li>
+        {%- endif %}
+        <li><strong>{{ macros::tr(key="igdb_synopsis", lk=lang, td=igdb_trans_data) }}:</strong></li>
+    </ul>
+    <p>{{igdb_game_data.summary}}</p>
+    {%- if igdb_game_data.videos %}
+    <ul>
+        <li>
+            <strong>{{ macros::tr(key="igdb_trailer", lk=lang, td=igdb_trans_data) }}:</strong>
+        </li>
+    </ul>
+    {%- set id = igdb_game_data.videos[0] %}
+    {% include "shortcodes/youtube.html" %}
+    {%- endif %}
+    <ul>
+        <li><strong>{{ macros::tr(key="igdb_review", lk=lang, td=igdb_trans_data) }}:</strong> 
+            {{ macros::tr(key="igdb_review_critic", lk=lang, td=igdb_trans_data) }} : {{igdb_game_data.aggregated_rating}} 
+            | {{ macros::tr(key="igdb_review_user", lk=lang, td=igdb_trans_data) }} : {{igdb_game_data.rating}}
+        </li>
+    </ul>
+
+    <small style="font-style: italic;">{{ macros::tr(key="igdb_nfo", lk=lang, td=igdb_trans_data) }}<a
+            href="https://www.igdb.com/games/{{igdb_game_data.slug}}">IGDB</a></small>
+</div>

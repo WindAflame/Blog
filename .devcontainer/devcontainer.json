@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+	"name": "Zola Dev Container",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode-remote.remote-containers"
+			],
+		}
+	},
+	"postCreateCommand": "git submodule update --init && zola serve",
+	"forwardPorts": [
+		1111
+	],
+}

@@ -1,0 +1,72 @@
+2025-04-18 08:46:17,629 - INFO - Environment variable is loaded.
+2025-04-18 08:46:17,629 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:46:17,630 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:46:17,630 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:47:49,852 - INFO - Environment variable is loaded.
+2025-04-18 08:47:49,852 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:47:49,852 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:47:49,853 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:47:49,853 - INFO - Save in progress ...
+2025-04-18 08:47:49,853 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:47:49,866 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:48:19,420 - INFO - Environment variable is loaded.
+2025-04-18 08:48:19,421 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:48:19,422 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:48:19,422 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:48:19,423 - INFO - Save in progress ...
+2025-04-18 08:48:19,423 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:48:19,425 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:49:12,625 - INFO - Environment variable is loaded.
+2025-04-18 08:49:12,625 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:49:12,626 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:49:12,627 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:49:33,893 - INFO - Save in progress ...
+2025-04-18 08:49:33,894 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:49:33,897 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:49:48,911 - INFO - Environment variable is loaded.
+2025-04-18 08:49:48,911 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:49:48,912 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:49:48,912 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:49:49,402 - INFO - Save in progress ...
+2025-04-18 08:49:49,403 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:49:49,405 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:50:16,396 - INFO - Environment variable is loaded.
+2025-04-18 08:50:16,396 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:50:16,397 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:50:16,397 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:51:07,985 - INFO - Environment variable is loaded.
+2025-04-18 08:51:07,986 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:51:07,987 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:51:07,987 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:51:50,759 - INFO - Save in progress ...
+2025-04-18 08:51:50,760 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:51:50,761 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:52:20,490 - INFO - Environment variable is loaded.
+2025-04-18 08:52:20,490 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:52:20,490 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:52:20,491 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:52:36,279 - INFO - Environment variable is loaded.
+2025-04-18 08:52:36,280 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:52:36,280 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:52:36,280 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:54:21,502 - INFO - Environment variable is loaded.
+2025-04-18 08:54:21,502 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:54:21,503 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:54:21,503 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:54:21,724 - INFO - Save in progress ...
+2025-04-18 08:54:21,725 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:54:21,726 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:54:31,743 - INFO - Environment variable is loaded.
+2025-04-18 08:54:31,743 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:54:31,744 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:54:31,744 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:54:53,311 - INFO - Save in progress ...
+2025-04-18 08:54:53,312 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:54:53,315 - INFO - Game information of id=329132 is available in file at static\329132.json
+2025-04-18 08:55:00,908 - INFO - Environment variable is loaded.
+2025-04-18 08:55:00,908 - INFO - Search game 329132 on IGDB API.
+2025-04-18 08:55:00,909 - INFO - Game data finded at dest folder. Load it instead of request API.
+2025-04-18 08:55:00,909 - INFO - Process game information so that it can be processed by the application
+2025-04-18 08:55:22,424 - INFO - Save in progress ...
+2025-04-18 08:55:22,425 - WARNING - Override static\329132.json is planned !
+2025-04-18 08:55:22,428 - INFO - Game information of id=329132 is available in file at static\329132.json

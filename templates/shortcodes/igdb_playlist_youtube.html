@@ -1,0 +1,7 @@
+
+{% if page.extra.igdb.playlist %}
+{%- set id=page.extra.igdb.playlist.video_id %}
+{%- set playlist=page.extra.igdb.playlist.playlist_id %}
+{%- endif %}
+
+{% include "shortcodes/youtube.html" %}
