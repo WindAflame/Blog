@@ -44,7 +44,7 @@ L’utilisation répandue de services en ligne tels que Google Drive, OneDrive o
 
 Cependant, il est crucial d’aborder une approche réfléchie et de considérer les implications de cette dépendance croissante aux services en ligne. En effet, cette pratique peut nous priver de l’accès à nos données dans des situations imprévues, mettant en péril notre confidentialité et notre contrôle sur nos informations personnelles.
 
-![confidentialite](https://www.haenchen.fr/media/fr-23/logos-pictos/datenschutz-fr-new.png?m=1680197567)
+{{ center_img(name="confidentialite",url="https://www.atelier-des-nouveaux-entrepreneurs.com/wp-content/uploads/2020/05/politique-de-confidentialit%C3%A9.png.webp") }}
 
 Avant de céder à la commodité de ces services, il est essentiel de se familiariser avec leurs politiques de confidentialité. Comprendre comment ces plateformes collectent, utilisent et stockent nos données est essentiel pour prendre des décisions informées pour protéger notre vie privée en ligne.
 
@@ -66,7 +66,7 @@ Comme vous pouvez l’imaginer, nous ne traiterons pas d’un scénario où notr
 
 Notre solution nécessite deux appareils : un routeur et un serveur avec un espace de stockage adéquat.
 
-![schema](schema.png)
+{{ center_img(name="schema",url="schema.png") }}
 
 Dans notre schéma, le rôle du routeur est de rendre nos ressources accessibles dans le réseau local (et éventuellement sur Internet), tandis que le serveur agit comme un emplacement physique pour exécuter nos services et stocker nos données.
 
@@ -74,7 +74,7 @@ Le choix du serveur dépend de nos besoins. Pour ce scénario, nous avons fait l
 
 > C’est pour ces raisons que nous nous sommes portés vers un Raspberry Pi. Ce micro-ordinateur est à la fois abordable financièrement et possède une faible consommation de 15W. Il est modulaire pour faire de multiples projets et peu encombrant.
 
-![rpi](https://toppng.com/uploads/preview/i-raspberry-pi-logo-1156358478346otp1xmac.png)
+{{ center_img(name="rpi",url="https://toppng.com/uploads/preview/i-raspberry-pi-logo-1156358478346otp1xmac.png") }}
 
 Pour la suite de l’article, nous vous présenterons des alternatives possibles par rapport à 3 cas d’usages, tout s’inscrivant dans une démarche Low-Tech.
 
