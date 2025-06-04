@@ -9,4 +9,6 @@ Video games have evolved, and fewer and fewer offer the functionality of playing
 
 In this section, you'll find a list of games I've played in LAN (offline and online) that we've enjoyed immensely.
 
-{{ projects(path="data.toml", format="toml") }}
+<hr/>
+
+{{ list_games_list(path="data.toml", format="toml") }}

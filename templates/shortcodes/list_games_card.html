@@ -1,0 +1,59 @@
+<style>
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.mx-1.5 {
+  margin-left: 0.375rem;
+  margin-right: 0.375rem;
+}
+</style>
+
+{%- if url is defined %}
+	{%- set projects = load_data(url=url, format=format) %}
+{%- else %}
+	{%- set projects = load_data(path=page.colocated_path~path, format=format, required=false) %}
+	{%- if projects is not object %}
+		{%- set projects = load_data(path=data, format=format, required=true) %}
+	{% endif %}
+{%- endif %}
+{%- set base_url_lang = get_url(path="", lang=lang) %}
+<div class="flex flex-wrap" style="margin-left: 0.25rem; margin-right: 0.25rem">
+{%- for project in projects.project %}
+	<div class="block-bg rounded-lg mx-1.5" style="width: 170px; margin-bottom: 0.25rem; margin-left: 0.375rem; margin-right: 0.375rem;">
+		{%- set name = project.languages[lang].name | default(value=project.name) %}
+		{%- set cover_url = project.languages[lang].cover_url | default(value=project.cover_url) %}
+		{%- set genre = project.languages[lang].genre | default(value=project.genre) %}
+		<img class="my-0 rounded-none" src={{ cover_url }}>
+		<div class="px-2 py-2" style="padding-top: 8px">
+			<div class="tooltip">
+				<h6 style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{name}}</h6>
+				<span class="tooltiptext"><small>{{name}}</small></span>
+			</div>			
+			<small>{{genre}}</small>
+		</div>		
+	</div>
+{%- endfor %}
+</div>
+

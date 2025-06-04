@@ -1,27 +1,35 @@
 [[project]]
-name = "Power Bomberman"
+name = "Power Bomberman (2013)"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
 desc = "Power Bomberman est un jeu de Bomberman riche en fonctionnalités."
-tags = ["Windows", "Mac", "LAN", "Free"]
+genre = "Arcade"
 links = [
     { name = "Homepage", url = "https://www.bombermanboard.com/viewtopic.php?t=1925"},
 ]
+tags = ["Windows", "Mac", "LAN", "Free"]
 
 [[project]]
-name = "Dr. Robotnik's Ring Racers"
+name = "Dr. Robotnik's Ring Racers (2024)"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co85ae.webp"
 desc = """« Robotnik's Ring Racers » est un jeu de karting technique qui s'inspire des jeux de course “antigrav”, des jeux de combat et des courses de karting traditionnelles.
 
 Conçu pour minimiser le caractère aléatoire et mettre l'accent sur l'expression du joueur, Ring Racers n'est pas qu'une question de maniement précis : vous devrez maîtriser les combats tendus, la gestion des ressources et la prise de risques sous pression.
 
 Ring Racers n'est pas un jeu de type « pick-up-and-play ». Si vous n'êtes pas déjà un fanatique de course automobile, la courbe d'apprentissage sera assez raide."""
-tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
+genre = "Racing"
 links = [
     { name = "Homepage", url = "https://www.kartkrew.org" },
 ]
+tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
+
 
 [[project]]
 name = "Counter-Strike²"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co92du.webp"
 desc = "Counter-Strike, c'est l'expérience compétitive par excellence qui réunit des millions de personnes depuis plus de vingt ans. L'heure est venue d'écrire le prochain chapitre de l'histoire de Counter-Strike. Faites place à Counter-Strike 2."
-tags = ["Windows", "Linux", "Free"]
+genre = "Shooter"
 links = [
     { name = "Homepage", url = "https://store.steampowered.com/app/730/CounterStrike_2/" },
 ]
+tags = ["Windows", "Linux", "Free"]
+

@@ -5,6 +5,7 @@ tags = ["Windows", "Mac", "LAN", "Free"]
 links = [
     { name = "Homepage", url = "https://www.bombermanboard.com/viewtopic.php?t=1925"},
 ]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
 
 [[project]]
 name = "Dr. Robotnik's Ring Racers"
@@ -17,6 +18,7 @@ tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
 links = [
     { name = "Homepage", url = "https://www.kartkrew.org" },
 ]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
 
 [[project]]
 name = "Counter-Strike²"
@@ -25,3 +27,4 @@ tags = ["Windows", "Linux", "Free"]
 links = [
     { name = "Homepage", url = "https://store.steampowered.com/app/730/CounterStrike_2/" },
 ]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"

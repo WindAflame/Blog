@@ -9,4 +9,6 @@ Les jeux vidéo ont évolués et de moins en moins proposent les fonctionnalité
 
 Dans cette section, vous retrouverez une liste de jeu que j'ai joué en LAN (en Hors-ligne et En ligne) et que nous avons fortement apprécié.
 
-{{ projects(path="data.fr.toml", format="toml") }}
+<hr/>
+
+{{ list_games_card(path="data.fr.toml", format="toml") }}
