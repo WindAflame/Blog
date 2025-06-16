@@ -1,4 +1,14 @@
 [[project]]
+name = "Age of Empires IV"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co39tg.webp"
+desc = "One of the most beloved real-time strategy games returns to glory with Age of Empires IV, putting you at the center of epic historical battles that shaped the world. Featuring both familiar and innovative new ways to expand your empire in vast landscapes with stunning 4K visual fidelity, Age of Empires IV brings an evolved real-time strategy game to a new generation."
+genre = "Real Time Strategy (RTS)"
+links = [
+    { name = "Homepage", url = "https://www.xbox.com/games/age-of-empires-iv"},
+]
+tags = ["Windows"]
+
+[[project]]
 name = "Power Bomberman (2013)"
 cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
 desc = "Power Bomberman est un jeu de Bomberman riche en fonctionnalités."
@@ -22,7 +32,6 @@ links = [
 ]
 tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
 
-
 [[project]]
 name = "Counter-Strike²"
 cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co92du.webp"
@@ -33,3 +42,42 @@ links = [
 ]
 tags = ["Windows", "Linux", "Free"]
 
+[[project]]
+name = "Rocket League"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.webp"
+desc = "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations."
+genre = "Racing"
+links = [
+    { name = "Homepage", url = "https://www.rocketleague.com/fr/play" },
+]
+tags = ["Windows", "Playstation", "Xbox", "Nintendo Switch", "Linux", "Mac", "Free"]
+
+[[project]]
+name = "Blur"
+desc = "Made by the masters behind Project Gotham Racing and Metropolis Street Racer, Blur is a racing project by Bizarre Creations that aims to take arcade-style action and realistic driving physics to a whole new level. The game drops players into heart-pumping, electrified racing action with 20 cars on a track all targeting the finish line and battling each other as they trade paint and collect intense power-ups, including the ability to blast other cars out of the way with huge bursts of energy, boost their speed, and more.\nWhile controlling photo-realistic cars, gamers can use offensive and defensive attacks as they battle for the lead and careen through real-world track locations ranging from L.A. and San Francisco to the streets of Hackney, UK and the treacherous roads of Barcelona, Spain."
+tags = ["Windows", "LAN"]
+genre = "Racing"
+links = [
+    { name = "Homepage", url = "http://www.blurgame.com" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4azn.webp"
+
+[[project]]
+name = "Minecraft"
+desc = ""
+tags = ["Windows", "Linux", "Mac", "Console", "Phone", "LAN"]
+genre = "Sandbox"
+links = [
+    { name = "Homepage", url = "https://www.minecraft.net" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.webp"
+
+[[project]]
+name = "Worms Armagaddon"
+desc = 'Those intrepid invertebrates return with a vengeance in the much-loved Worms Armageddon. It’s a whole new can of worms! It’s hilarious fun that you can enjoy on your own or with all your friends.\nWorms Armageddon was originally developed as an expansion pack to Worms 2 and initially titled Wormageddon before it was released as a standalone game. Worms Armageddon was acclaimed by critics, who praised the refined gameplay and stylized graphics, and it has been featured in a number of "greatest games of all time" lists. Worms Armageddon is still updated periodically as of 2020, and was released on the Steam platform in 2013.'
+tags = ["Windows", "Console", "LAN"]
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "https://www.team17.com/games/worms-armageddon" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rkc.webp"

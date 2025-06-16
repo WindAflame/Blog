@@ -1,3 +1,4 @@
+<!-- Default -->
 {%- if url is defined %}
 	{%- set projects = load_data(url=url, format=format) %}
 {%- else %}
@@ -7,7 +8,7 @@
 	{% endif %}
 {%- endif %}
 {%- set base_url_lang = get_url(path="", lang=lang) %}
-
+<!-- List games with view list -->
 {%- for project in projects.project %}
 	{%- set name = project.languages[lang].name | default(value=project.name) %}
 	{%- set desc = project.languages[lang].desc | default(value=project.desc) %}
