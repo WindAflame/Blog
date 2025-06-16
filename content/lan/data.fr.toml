@@ -1,22 +1,42 @@
 [[project]]
-name = "Age of Empires IV"
-cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co39tg.webp"
-desc = "One of the most beloved real-time strategy games returns to glory with Age of Empires IV, putting you at the center of epic historical battles that shaped the world. Featuring both familiar and innovative new ways to expand your empire in vast landscapes with stunning 4K visual fidelity, Age of Empires IV brings an evolved real-time strategy game to a new generation."
+name = "Age of Empires II: Definitive Edition"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n24.webp"
+desc = "L'Âge des Empires II : Édition Définitive célèbre le 20e anniversaire de l'un des jeux de stratégie les plus populaires de tous les temps avec des graphismes époustouflants en 4K Ultra HD, une nouvelle bande-son entièrement remastérisée et un tout nouveau contenu, 'Les Derniers Khans' avec 3 nouvelles campagnes et 4 nouvelles civilisations."
 genre = "Real Time Strategy (RTS)"
 links = [
-    { name = "Homepage", url = "https://www.xbox.com/games/age-of-empires-iv"},
+    { name = "Homepage", url = "https://www.ageofempires.com/games/aoeiide/"},
+]
+tags = ["Windows", "LAN"]
+
+[[project]]
+name = "Call of Duty: Black Ops II"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkv.webp"
+desc = "Poussant les limites de ce que les fans en viennent à attendre de la franchise de divertissement record, Call of Duty : Black Ops II propulse les joueurs dans un avenir proche, une guerre froide du 21e siècle, où la technologie et les armes ont convergé pour créer une nouvelle génération de guerre entre anciens et nouveaux ennemis. Dans ce conflit, les créations mécanisées des hommes règnent en maître, s'affrontant les unes contre les autres tandis que leurs créateurs restent en sécurité et sans conflit, et dans le processus deviennent de plus en plus doux. Dans ce scénario, une question importante sera posée : Que se passe-t-il lorsqu'un ennemi vole les clés de votre guerre ? Pour comprendre un tel avenir possible, vous devez comprendre d'où vous venez."
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "https://www.callofduty.com/blackops2" },
 ]
 tags = ["Windows"]
 
 [[project]]
-name = "Power Bomberman (2013)"
-cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
-desc = "Power Bomberman est un jeu de Bomberman riche en fonctionnalités."
-genre = "Arcade"
+name = "Counter-Strike²"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co92du.webp"
+desc = "Counter-Strike, c'est l'expérience compétitive par excellence qui réunit des millions de personnes depuis plus de vingt ans. L'heure est venue d'écrire le prochain chapitre de l'histoire de Counter-Strike. Faites place à Counter-Strike 2."
+genre = "Shooter"
 links = [
-    { name = "Homepage", url = "https://www.bombermanboard.com/viewtopic.php?t=1925"},
+    { name = "Homepage", url = "https://store.steampowered.com/app/730/CounterStrike_2/" },
 ]
-tags = ["Windows", "Mac", "LAN", "Free"]
+tags = ["Windows", "Linux", "LAN", "Free"]
+
+[[project]]
+name = "Cube World"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qhl.webp"
+desc = "Cube World est un RPG d'action basé sur des voxels avec un accent sur l'exploration. Il se déroule dans un monde fantastique généré de manière procédurale, entièrement composé de cubes."
+genre = "Role-playing (RPG)"
+links = [
+    { name = "Homepage", url = "https://cubeworld.com/" },
+]
+tags = ["Windows", "LAN"]
 
 [[project]]
 name = "Dr. Robotnik's Ring Racers (2024)"
@@ -33,38 +53,18 @@ links = [
 tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
 
 [[project]]
-name = "Counter-Strike²"
-cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co92du.webp"
-desc = "Counter-Strike, c'est l'expérience compétitive par excellence qui réunit des millions de personnes depuis plus de vingt ans. L'heure est venue d'écrire le prochain chapitre de l'histoire de Counter-Strike. Faites place à Counter-Strike 2."
-genre = "Shooter"
-links = [
-    { name = "Homepage", url = "https://store.steampowered.com/app/730/CounterStrike_2/" },
-]
-tags = ["Windows", "Linux", "Free"]
-
-[[project]]
 name = "Rocket League"
 cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.webp"
-desc = "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations."
+desc = "Rocket League est un hybride puissant de football de style arcade et de chaos véhiculaire avec des contrôles faciles à comprendre et une compétition fluide, guidée par la physique. Rocket League comprend des matchs en ligne décontractés et compétitifs, un mode saison hors ligne entièrement fonctionnel, des 'Mutateurs' spéciaux qui vous permettent de changer complètement les règles, des modes supplémentaires inspirés du hockey et du basketball, et plus de 500 trillions de combinaisons possibles de personnalisation cosmétique."
 genre = "Racing"
 links = [
     { name = "Homepage", url = "https://www.rocketleague.com/fr/play" },
 ]
-tags = ["Windows", "Playstation", "Xbox", "Nintendo Switch", "Linux", "Mac", "Free"]
-
-[[project]]
-name = "Blur"
-desc = "Made by the masters behind Project Gotham Racing and Metropolis Street Racer, Blur is a racing project by Bizarre Creations that aims to take arcade-style action and realistic driving physics to a whole new level. The game drops players into heart-pumping, electrified racing action with 20 cars on a track all targeting the finish line and battling each other as they trade paint and collect intense power-ups, including the ability to blast other cars out of the way with huge bursts of energy, boost their speed, and more.\nWhile controlling photo-realistic cars, gamers can use offensive and defensive attacks as they battle for the lead and careen through real-world track locations ranging from L.A. and San Francisco to the streets of Hackney, UK and the treacherous roads of Barcelona, Spain."
-tags = ["Windows", "LAN"]
-genre = "Racing"
-links = [
-    { name = "Homepage", url = "http://www.blurgame.com" },
-]
-cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co4azn.webp"
+tags = ["Windows", "Playstation", "Xbox", "Nintendo Switch", "Linux", "LAN", "Mac", "Free"]
 
 [[project]]
 name = "Minecraft"
-desc = ""
+desc = "Minecraft se concentre sur la possibilité pour le joueur d'explorer, d'interagir avec et de modifier une carte générée dynamiquement composée de blocs de un mètre cube. En plus des blocs, l'environnement comprend des plantes, des créatures et des objets. Certaines activités dans le jeu incluent l'extraction de minerai, le combat contre des créatures hostiles et la fabrication de nouveaux blocs et outils en rassemblant diverses ressources trouvées dans le jeu. Le modèle ouvert du jeu permet aux joueurs de créer des structures, des créations et des œuvres d'art sur divers serveurs multijoueurs ou sur leurs cartes en solo. D'autres fonctionnalités incluent des circuits en redstone pour des calculs logiques et des actions à distance, des wagonnets et des rails, ainsi qu'un monde mystérieux appelé le Nether. Un objectif désigné mais complètement optionnel du jeu est de voyager vers une dimension appelée l'End et de vaincre le dragon de l'End."
 tags = ["Windows", "Linux", "Mac", "Console", "Phone", "LAN"]
 genre = "Sandbox"
 links = [
@@ -73,11 +73,52 @@ links = [
 cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.webp"
 
 [[project]]
+name = "Power Bomberman (2013)"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
+desc = "Power Bomberman est un jeu de Bomberman riche en fonctionnalités."
+genre = "Arcade"
+links = [
+    { name = "Homepage", url = "https://www.bombermanboard.com/viewtopic.php?t=1925"},
+]
+tags = ["Windows", "Mac", "LAN", "Free"]
+
+[[project]]
+name = "Star Wars: Jedi Knight - Jedi Academy"
+desc = "Star Wars : Jedi Knight : Jedi Academy, de la très acclamée série Jedi Knight, permet aux joueurs d'incarner un nouvel élève désireux d'apprendre les voies de la Force auprès du Maître Jedi Luke Skywalker. Interagissez avec des personnages célèbres de Star Wars dans de nombreux lieux classiques de Star Wars alors que vous faites le choix ultime : lutter pour le bien et la liberté du côté lumineux, ou suivre le chemin du pouvoir et du mal vers le côté obscur."
+tags = ["Linux", "Mac", "Windows", "LAN"]
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "http://www.lucasarts.com/" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5c44.webp"
+
+[[project]]
+name = "Trackmania"
+desc = "Trackmania, la franchise de course d'Ubisoft Nadeo, est de retour avec le remake le plus captivant de Trackmania Nations."
+tags = ["Windows", "LAN", "Free"]
+genre = "Racing"
+links = [
+    { name = "Homepage", url = "https://trackmania.com/" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fe9.webp"
+
+[[project]]
 name = "Worms Armagaddon"
-desc = 'Those intrepid invertebrates return with a vengeance in the much-loved Worms Armageddon. It’s a whole new can of worms! It’s hilarious fun that you can enjoy on your own or with all your friends.\nWorms Armageddon was originally developed as an expansion pack to Worms 2 and initially titled Wormageddon before it was released as a standalone game. Worms Armageddon was acclaimed by critics, who praised the refined gameplay and stylized graphics, and it has been featured in a number of "greatest games of all time" lists. Worms Armageddon is still updated periodically as of 2020, and was released on the Steam platform in 2013.'
+desc = """Ces invertébrés intrépides reviennent avec une vengeance dans le très apprécié Worms Armageddon. C'est une toute nouvelle boîte de vers ! C'est un amusement hilarant que vous pouvez apprécier seul ou avec tous vos amis.  
+Worms Armageddon a été initialement développé comme une extension de Worms 2 et s'intitulait à l'origine Wormageddon avant d'être publié en tant que jeu autonome. Worms Armageddon a été acclamé par les critiques, qui ont loué le gameplay raffiné et les graphismes stylisés, et il a été présenté dans plusieurs listes des "meilleurs jeux de tous les temps". Worms Armageddon est toujours mis à jour périodiquement depuis 2020 et a été publié sur la plateforme Steam en 2013."""
 tags = ["Windows", "Console", "LAN"]
 genre = "Shooter"
 links = [
     { name = "Homepage", url = "https://www.team17.com/games/worms-armageddon" },
 ]
 cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rkc.webp"
+
+[[project]]
+name = "Warcraft III: Reforged"
+desc = "Warcraft III : Reforged est une réinvention époustouflante du jeu de stratégie en temps réel révolutionnaire qui a posé les bases des histoires les plus épiques d'Azeroth. C'est un remake au sens propre, avec une refonte visuelle complète, une suite de fonctionnalités sociales et de matchmaking contemporaines, et plus encore. Commandez les Elfes de la nuit, les Morts-vivants, les Orcs et les Humains alors que les alliances changent et que les armées s'affrontent dans ce jeu de stratégie en temps réel intemporel."
+tags = ["Linux", "Mac", "Windows", "LAN"]
+genre = "Real Time Strategy (RTS)"
+links = [
+    { name = "Homepage", url = "https://playwarcraft3.com/" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rrv.webp"
