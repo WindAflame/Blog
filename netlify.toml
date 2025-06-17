@@ -1,9 +1,9 @@
 [build]
 publish = "public"
-command = "cd themes/linkita && npm i && npmx tailwindcss -i ./src/app.css -o ../../static/main.min.css --minify && rm -rf node_modules && cd ../.. && zola build --base-url $URL"
+command = "cd themes/linkita && npm i && npx tailwindcss -i ./src/app.css -o ../../static/main.min.css --minify && rm -rf node_modules && cd ../.. && zola build --base-url $URL"
 
 [build.environment]
 ZOLA_VERSION = "0.20.0"
 
 [context.deploy-preview]
-command = "cd themes/linkita && npm i && npmx tailwindcss -i ./src/app.css -o ../../static/main.min.css --minify && rm -rf node_modules && cd ../.. && zola build --base-url $DEPLOY_PRIME_URL"
+command = "cd themes/linkita && npm i && npx tailwindcss -i ./src/app.css -o ../../static/main.min.css --minify && rm -rf node_modules && cd ../.. && zola build --base-url $DEPLOY_PRIME_URL"
