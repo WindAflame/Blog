@@ -10,11 +10,11 @@
     {%- if page.extra.igdb %}
     {% set igdb = page.extra.igdb -%}
     <div class="text-md antialiased pb-1">
-      {{ macros::tr(key="igdb_genre", lk=lang, td=igdb_trans_data) }}: {% for item in igdb_game_data.genres %}
+      {{ m_i18n::tr(key="igdb_genre", lk=lang, d=igdb_trans_data) }}: {% for item in igdb_game_data.genres %}
         <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.genres|length %},{% endif %}
       {% endfor %}
       |
-      {{ macros::tr(key="igdb_company", lk=lang, td=igdb_trans_data) }}: {% for item in igdb_game_data.involved_companies %}
+      {{ m_i18n::tr(key="igdb_company", lk=lang, d=igdb_trans_data) }}: {% for item in igdb_game_data.involved_companies %}
         <a href="https://www.igdb.com/companies/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.involved_companies|length %},{% endif %}
       {% endfor %}
     </div>
