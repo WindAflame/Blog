@@ -1,0 +1,123 @@
+[[project]]
+name = "Age of Empires II: Definitive Edition"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n24.webp"
+desc = "Age of Empires II: Definitive Edition celebrates the 20th anniversary of one of the most popular strategy games ever with stunning 4K Ultra HD graphics, a new and fully remastered soundtrack, and brand-new content, “The Last Khans” with 3 new campaigns and 4 new civilizations."
+genre = "Real Time Strategy (RTS)"
+links = [
+    { name = "Homepage", url = "https://www.ageofempires.com/games/aoeiide/"},
+]
+tags = ["Windows", "LAN"]
+
+[[project]]
+name = "Call of Duty: Black Ops II"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkv.webp"
+desc = "Pushing the boundaries of what fans have come to expect from the record-setting entertainment franchise, Call of Duty: Black Ops II propels players into a near future, 21st Century Cold War, where technology and weapons have converged to create a new generation of warfare between old and new foes. In this conflict, the mechanized creations of men reign supreme, facing off against each other as their creators stay safe and unconflicted, and in the process grow ever softer. In this scenario an important question will be asked: What happens when an enemy steals the keys to your war? To understand such a possible future, you must understand where you have been."
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "https://www.callofduty.com/blackops2" },
+]
+tags = ["Windows"]
+
+[[project]]
+name = "Counter-Strike²"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co92du.webp"
+desc = "Counter-Strike is the ultimate competitive experience, bringing millions of people together for over twenty years. Now it's time to write the next chapter in Counter-Strike history. Make way for Counter-Strike 2."
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "https://store.steampowered.com/app/730/CounterStrike_2/" },
+]
+tags = ["Windows", "Linux", "LAN", "Free"]
+
+[[project]]
+name = "Cube World"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qhl.webp"
+desc = "Cube World is a voxel-based action RPG with a focus on exploration. It takes place in a procedurally generated fantasy world made up of entirely of cubes."
+genre = "Role-playing (RPG)"
+links = [
+    { name = "Homepage", url = "https://cubeworld.com/" },
+]
+tags = ["Windows", "LAN"]
+
+[[project]]
+name = "Dr. Robotnik's Ring Racers (2024)"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co85ae.webp"
+desc = """“Dr. Robotnik’s Ring Racers” is a Technical Kart Racer, drawing inspiration from “antigrav” racers, fighting games, and traditional-style kart racing.
+
+Designed to minimize randomness and emphasize player expression, Ring Racers isn’t just about precise handling—you’ll need to master tense combat, resource management, and taking risks under pressure.
+
+Ring Racers is not a “pick-up-and-play” experience. If you aren’t already a racing fanatic, the learning curve will be quite steep."""
+genre = "Racing"
+links = [
+    { name = "Homepage", url = "https://www.kartkrew.org" },
+]
+tags = ["Windows", "Mac", "Linux", "LAN", "Free"]
+
+[[project]]
+name = "Rocket League"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w0w.webp"
+desc = "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations."
+genre = "Racing"
+links = [
+    { name = "Homepage", url = "https://www.rocketleague.com/fr/play" },
+]
+tags = ["Windows", "Playstation", "Xbox", "Nintendo Switch", "Linux", "LAN", "Mac", "Free"]
+
+[[project]]
+name = "Minecraft"
+desc = "Minecraft focuses on allowing the player to explore, interact with, and modify a dynamically-generated map made of one-cubic-meter-sized blocks. In addition to blocks, the environment features plants, mobs, and items. Some activities in the game include mining for ore, fighting hostile mobs, and crafting new blocks and tools by gathering various resources found in the game. The game's open-ended model allows players to create structures, creations, and artwork on various multiplayer servers or their single-player maps. Other features include redstone circuits for logic computations and remote actions, minecarts and tracks, and a mysterious underworld called the Nether. A designated but completely optional goal of the game is to travel to a dimension called the End, and defeat the ender dragon."
+tags = ["Windows", "Linux", "Mac", "Console", "Phone", "LAN"]
+genre = "Sandbox"
+links = [
+    { name = "Homepage", url = "https://www.minecraft.net" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu7.webp"
+
+[[project]]
+name = "Power Bomberman (2013)"
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2klw.webp"
+desc = "Power Bomberman is a feature-rich Bomberman fangame."
+genre = "Arcade"
+links = [
+    { name = "Homepage", url = "https://www.bombermanboard.com/viewtopic.php?t=1925"},
+]
+tags = ["Windows", "Mac", "LAN", "Free"]
+
+[[project]]
+name = "Star Wars: Jedi Knight - Jedi Academy"
+desc = "Star Wars: Jedi Knight: Jedi Academy, of the highly acclaimed Jedi Knight series, allows players to take on the role of a new student eager to learn the ways of the Force from Jedi Master Luke Skywalker. Interact with famous Star Wars characters in many classic Star Wars locations as you face the ultimate choice: fight for good and freedom on the light side, or follow the path of power and evil to the dark side"
+tags = ["Linux", "Mac", "Windows", "LAN"]
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "http://www.lucasarts.com/" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co5c44.webp"
+
+[[project]]
+name = "Trackmania"
+desc = "Trackmania, the racing franchise from Ubisoft Nadeo, is back with the most compelling remake of Trackmania Nations."
+tags = ["Windows", "LAN", "Free"]
+genre = "Racing"
+links = [
+    { name = "Homepage", url = "https://trackmania.com/" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fe9.webp"
+
+[[project]]
+name = "Worms Armagaddon"
+desc = 'Those intrepid invertebrates return with a vengeance in the much-loved Worms Armageddon. It’s a whole new can of worms! It’s hilarious fun that you can enjoy on your own or with all your friends.\nWorms Armageddon was originally developed as an expansion pack to Worms 2 and initially titled Wormageddon before it was released as a standalone game. Worms Armageddon was acclaimed by critics, who praised the refined gameplay and stylized graphics, and it has been featured in a number of "greatest games of all time" lists. Worms Armageddon is still updated periodically as of 2020, and was released on the Steam platform in 2013.'
+tags = ["Windows", "Console", "LAN"]
+genre = "Shooter"
+links = [
+    { name = "Homepage", url = "https://www.team17.com/games/worms-armageddon" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rkc.webp"
+
+[[project]]
+name = "Warcraft III: Reforged"
+desc = "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth's most epic stories. It is a remake in the truest sense, featuring a thorough visual overhaul, a suite of contemporary social and matchmaking features, and more. Command the Night Elves, Undead, Orcs, and Humans as alliances shift and armies clash in this timeless real-time strategy game."
+tags = ["Linux", "Mac", "Windows", "LAN"]
+genre = "Real Time Strategy (RTS)"
+links = [
+    { name = "Homepage", url = "https://playwarcraft3.com/" },
+]
+cover_url = "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rrv.webp"
