@@ -12,8 +12,8 @@ height = 620
 [extra.igdb]
 id = "329132"
 [extra.igdb.playlist]
-video_id = "OaOsehXy-c8"
-playlist_id = "PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
+video_id = "XvliGVueh8M"
+playlist_id = "PLiWZck14FCSwAlrPPis2mzBVBRaTmzcKo"
 [taxonomies]
 tags = ["game", "review", "329132"]
 authors = ["endyw"]

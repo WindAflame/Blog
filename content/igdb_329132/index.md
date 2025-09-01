@@ -12,8 +12,8 @@ height = 620
 [extra.igdb]
 id = "329132"
 [extra.igdb.playlist]
-video_id = "OaOsehXy-c8"
-playlist_id = "PLlHY6e7WCV6PZyqlgbtFqY_KQvPLz4g2H"
+video_id = "XvliGVueh8M"
+playlist_id = "PLiWZck14FCSwAlrPPis2mzBVBRaTmzcKo"
 [taxonomies]
 tags = ["game", "review", "329132"]
 authors = ["endyw"]
@@ -77,6 +77,10 @@ Unfortunately, this version offers less exploration, fewer puzzles, and fewer pl
 >For long-time fans, it's a bit short: there's a sense of lack of content and a simplification that detracts from the experience. For newcomers, it's a stress reliever without any hassle... perhaps a bit too much?
 >
 >**Verdict**: If you've already explored the other versions, move along. If you're just starting out, you will enjoy it.
+
+## Comparaison Original vs. Remake
+
+{{ youtube(id="g2fUEUk1Sm0") }}
 
 ## Useful links to better understand my opinion
 
