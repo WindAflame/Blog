@@ -1,0 +1,18 @@
+[submodule "sources/zola-linkita"]
+	path = sources/zola-linkita
+	url = git@github.com:WindAflame/Blog.git
+[submodule "sources/hugo-initio"]
+	path = sources/hugo-initio
+	url = git@github.com:WindAflame/Blog.git
+[submodule "sources/hugo-plate"]
+	path = sources/hugo-plate
+	url = git@github.com:WindAflame/Blog.git
+[submodule "sources/hugo-resume"]
+	path = sources/hugo-resume
+	url = git@github.com:WindAflame/Blog.git
+[submodule "sources/hugo-stack"]
+	path = sources/hugo-stack
+	url = git@github.com:WindAflame/Blog.git
+[submodule "scripts/igdb-data-py"]
+	path = scripts/igdb-data-py
+	url = git@github.com:WindAflame/Blog.git
