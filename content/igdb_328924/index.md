@@ -4,6 +4,7 @@ description = "Review of Genshin Impact Updates (12/02/2025)"
 date = 2025-03-27
 # updated = 2024-10-24
 path = "328924"
+draft = true
 [extra]
 [extra.cover]
 image_url = "https://fastcdn.hoyoverse.com/mi18n/hk4e_global/m20250113hy6b9f6sjk/upload/64db2fb289c45c98f8d70e5b42bac439_1451768469779009281.jpg?x-oss-process=image/format,webp/quality,Q_90"

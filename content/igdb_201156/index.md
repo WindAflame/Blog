@@ -3,6 +3,7 @@ title = "STAR WARS: Jedi Survivor"
 description = "I have finished the game and I ask you my review (IGDB: 201156)"
 date = 2025-03-27
 path = "201156"
+draft = true
 [extra]
 [extra.cover]
 image_url = "https://www.starwarsnewsnet.com/wp-content/uploads/2022/12/Jedi_Survivor_new-banner.jpg"
