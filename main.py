@@ -79,6 +79,7 @@ def __transform_attribut_from_data(
             if index != 0:
                 ids = list(map(lambda i: i[key_name[index]], ids))
     else:
+        if key_name not in game_data: return
         ids = game_data[key_name]
     if isinstance(ids, list):
         if not all(isinstance(id, int) for id in ids):
