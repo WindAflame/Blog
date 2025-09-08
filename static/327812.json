@@ -1,0 +1,68 @@
+{
+    "id": 327812,
+    "genres": [
+        {
+            "name": "Fighting",
+            "slug": "fighting"
+        },
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Hack and slash/Beat 'em up",
+            "slug": "hack-and-slash-beat-em-up"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "miHoYo",
+            "slug": "mihoyo"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        },
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Zenless Zone Zero: Update 1.5 - Astra-nomical Moment",
+    "parent_game": {
+        "name": "Zenless Zone Zero",
+        "slug": "zenless-zone-zero"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        },
+        {
+            "name": "Mac",
+            "slug": "mac"
+        }
+    ],
+    "slug": "zenless-zone-zero-update-1-dot-5-astra-nomical-moment",
+    "summary": "Version 1.5 of Zenless Zone Zero, which includes:\n\n\u2022 New Characters: Astra and Evelyn\n\u2022 New Outfits for Ellen, Nicole and Astra\n\u2022 New Events\n\u2022 ...and more!",
+    "videos": [
+        "TJCES9aILrI"
+    ],
+    "game_type": "Update"
+}

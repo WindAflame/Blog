@@ -1,0 +1,52 @@
+{
+    "id": 331635,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Turn-based strategy (TBS)",
+            "slug": "turn-based-strategy-tbs"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Honkai: Star Rail - Light Slips the Gate, Shadow Greets the Throne",
+    "parent_game": {
+        "name": "Honkai: Star Rail",
+        "slug": "honkai-star-rail"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "honkai-star-rail-light-slips-the-gate-shadow-greets-the-throne",
+    "summary": "Version 3.1 of Honkai: Star Rail, which includes:\n\u2022 New characters: Tribbie and Mydei\n\u2022 New Trailblaze Mission: \"Light Slips the Gate, Shadow Greets the Throne\"\n\u2022 New areas: Grove of Epiphany and Janusopolis\n\u2022 New Divergent Universe phase: Protean Hero\n\u2022 \u2026and more!",
+    "videos": [
+        "8DNFByA5fdY"
+    ],
+    "game_type": "Update"
+}

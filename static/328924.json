@@ -1,0 +1,61 @@
+{
+    "id": 328924,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        },
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Genshin Impact: Moonlight Amidst Dreams",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-moonlight-amidst-dreams",
+    "summary": "Version 5.4 of Genshin Impact, which includes:\n\u2022 New character: Yumemizuki Mizuki\n\u2022 New story quest for Yumemizuki Mizuki\n\u2022 New main event: Enchanted Tales of the Mikawa Festival\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "fNQ-0ToEGNc",
+        "vITyIMn8rww"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,61 @@
+{
+    "id": 335597,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        },
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Genshin Impact: Day of the Flame's Return",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-day-of-the-flames-return",
+    "summary": "Version 5.5 of Genshin Impact, which includes:\n\u2022 New characters: Varesa and Iansan\n\u2022 New Tribal Chronicles quest for the Collective of the Plenty\n\u2022 New areas: Atocpan and Ancient Sacred Mountain\n\u2022 New main event: Tournament of Glory in Bloom\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "VW7lkG8b74Q",
+        "l9DaGlnmYdY"
+    ],
+    "game_type": "Update"
+}

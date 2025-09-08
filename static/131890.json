@@ -1,0 +1,70 @@
+{
+    "id": 131890,
+    "aggregated_rating": 89.125,
+    "artworks": [
+        "ar6px",
+        "ar6py"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Turn-based strategy (TBS)",
+            "slug": "turn-based-strategy-tbs"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        },
+        {
+            "name": "Indie",
+            "slug": "indie"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Sabotage",
+            "slug": "sabotage"
+        }
+    ],
+    "name": "Sea of Stars",
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Xbox One",
+            "slug": "xboxone"
+        },
+        {
+            "name": "Nintendo Switch",
+            "slug": "switch"
+        }
+    ],
+    "rating": 83.37415518905539,
+    "slug": "sea-of-stars",
+    "summary": "Sea of Stars is a turn-based RPG inspired by the classics. Promising the Sabotage touch in every system, Sea of Stars aims to modernize the classic RPG in terms of turn-based combat, storytelling, exploration and interactions with the environment, while still offering a hearty slice of nostalgia and good old, simple fun.",
+    "videos": [
+        "AhU_K3DVIN4",
+        "GZVLA08lcR0",
+        "1cBBRM4POBI",
+        "uRwB7RH1lVE",
+        "XkAsMAFj_LM"
+    ],
+    "game_type": "Main Game"
+}

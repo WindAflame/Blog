@@ -1,0 +1,61 @@
+{
+    "id": 326604,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Incandescent Ode of Resurrection",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-incandescent-ode-of-resurrection",
+    "summary": "Version 5.3 of Genshin Impact, which includes:\n\u2022 New characters: Mavuika, Citlali, Lan Yan, and the Pyro version of the Traveler\n\u2022 New outfits for Hu Tao and Xiangling\n\u2022 New main story quest: Archon Quest, Chapter V - Act V \"Incandescent Ode of Resurrection\"\n\u2022 New Tribal Chronicles quest for the Masters of the Night-Wind, and new story quest for Mavuika\n\u2022 New permanent game mode: Repertoire of Myriad Melodies\n\u2022 New main event: Springtime Charms\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "69pCMtt4udE",
+        "Uh3JVQWe16w"
+    ],
+    "game_type": "Update"
+}

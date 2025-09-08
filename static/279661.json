@@ -1,0 +1,58 @@
+{
+    "id": 279661,
+    "aggregated_rating": 86.66666666666667,
+    "artworks": [
+        "ar2q59"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Hack and slash/Beat 'em up",
+            "slug": "hack-and-slash-beat-em-up"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Capcom",
+            "slug": "capcom"
+        }
+    ],
+    "name": "Monster Hunter Wilds",
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        }
+    ],
+    "rating": 85.8309503788073,
+    "slug": "monster-hunter-wilds",
+    "summary": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality.",
+    "videos": [
+        "O3syM4tV8Xw",
+        "URG75CDX_rg",
+        "qsw5lB5n7Qw",
+        "qp4gR1QEvVA",
+        "0dJpKRWYNkE",
+        "jxSlVspp1cI",
+        "XPdu9Q9Kxbk",
+        "HEtlYynnj5Y",
+        "H7BBgOKA4O0",
+        "v6EzFIWkiEI"
+    ],
+    "game_type": "Main Game"
+}

@@ -1,0 +1,48 @@
+{
+    "id": 53387,
+    "aggregated_rating": 83.75,
+    "artworks": [
+        "d3nhefcsmhxxkmjbovkl",
+        "lofweopzptcixswqvqaq",
+        "v26qncrkgq1bi2bek8rr",
+        "gewautmu9wmsl4w7tsza",
+        "jhuzwykfedwbu3tyjkt5",
+        "d7qgegqlmt4dnxjbdxoe",
+        "haap8ksmkkoiykce1dwb"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "ArenaNet",
+            "slug": "arenanet"
+        }
+    ],
+    "name": "Guild Wars 2: Path of Fire",
+    "parent_game": {
+        "name": "Guild Wars 2",
+        "slug": "guild-wars-2"
+    },
+    "platforms": [
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Mac",
+            "slug": "mac"
+        }
+    ],
+    "rating": 87.28465255628322,
+    "slug": "guild-wars-2-path-of-fire",
+    "summary": "Guild Wars 2: Path of Fire is the second expansion for the award-winning game, Guild Wars 2. As the balance of magic comes undone, lead your allies in the hunt for the rogue god Balthazar, whose scorched-earth campaign threatens the very existence of Tyria.\n\nIntroducing mounts, mounts are far more than a speed boost\u2014they're a whole new way to explore the world of Tyria. Unlock and train your new companions using the max-level Mastery character progression system, and explore freely by leaping across canyons, bounding up high cliffs, and skimming over quicksand.\n\nContinue to evolve and customize your level-80 character with a new elite specialization for each profession. With a new variety of playstyles, weapon choices, and traits to choose from, there are more options than ever to play your way.\n\nDiscover and earn treasures as you journey through the Crystal Desert. Outfit your character with new armor sets, skins, and weapons inspired by Elonian culture and the heritage of the desert.",
+    "videos": [
+        "iaY9rTnssuw",
+        "cGZ4X7cER8k"
+    ],
+    "game_type": "Expansion"
+}

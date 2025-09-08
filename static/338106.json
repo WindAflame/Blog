@@ -1,0 +1,58 @@
+{
+    "id": 338106,
+    "aggregated_rating": 90.33333333333333,
+    "artworks": [
+        "ar3eyj",
+        "ar3eyk",
+        "ar3eyl",
+        "ar3p7p",
+        "ar3p81"
+    ],
+    "genres": [
+        {
+            "name": "Platform",
+            "slug": "platform"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Nintendo EPD",
+            "slug": "nintendo-epd"
+        },
+        {
+            "name": "Nintendo",
+            "slug": "nintendo"
+        },
+        {
+            "name": "Nintendo EPD Production Group No. 8",
+            "slug": "nintendo-epd-production-group-no-8"
+        }
+    ],
+    "name": "Donkey Kong Bananza",
+    "platforms": [
+        {
+            "name": "Nintendo Switch 2",
+            "slug": "switch-2"
+        },
+        {
+            "name": "Nintendo Switch",
+            "slug": "switch"
+        }
+    ],
+    "rating": 99.77300572278119,
+    "slug": "donkey-kong-bananza",
+    "summary": "Donkey Kong Bananza is coming exclusively to Nintendo Switch 2! Explore a vast underground world\u2014by smashing your way through it! Bash, throw, and climb through just about anything in DK\u2019s brand-new 3D platforming action-adventure game!",
+    "videos": [
+        "mIddsPkdX9U",
+        "LOvkfpenFtg",
+        "bG2u334HfFc",
+        "Z6faq_QW_U8",
+        "YVUidGTR8xg",
+        "JaQSLGiEd3U"
+    ],
+    "game_type": "Main Game"
+}

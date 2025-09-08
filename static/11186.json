@@ -1,0 +1,47 @@
+{
+    "id": 11186,
+    "aggregated_rating": 83.11111111111111,
+    "artworks": [
+        "ar6iu"
+    ],
+    "genres": [
+        {
+            "name": "Shooter",
+            "slug": "shooter"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Microsoft Studios",
+            "slug": "microsoft-studios"
+        },
+        {
+            "name": "The Coalition",
+            "slug": "the-coalition"
+        },
+        {
+            "name": "Splash Damage",
+            "slug": "splash-damage"
+        }
+    ],
+    "name": "Gears of War 4",
+    "platforms": [
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox One",
+            "slug": "xboxone"
+        }
+    ],
+    "rating": 77.15984965834355,
+    "slug": "gears-of-war-4",
+    "summary": "A new saga begins for one of the most acclaimed video game franchises in history. After narrowly escaping an attack on their village, JD Fenix and his friends, Kait and Del, must rescue the ones they love and discover the source of a monstrous new enemy.",
+    "videos": [
+        "FL_3cUx1pjw",
+        "a6ei96Mm_bs",
+        "nk5oGeaeePY"
+    ],
+    "game_type": "Main Game"
+}

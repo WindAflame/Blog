@@ -1,0 +1,83 @@
+{
+    "id": 1887,
+    "aggregated_rating": 87.9375,
+    "artworks": [
+        "ifvmnouyvxsq7hdwb9ec",
+        "evay7zekyrsiagfamafd",
+        "ofl3cyawcsjvy6mh5obd",
+        "rynthzue6yv7isvi8bkm",
+        "gjjvmgiqwgyvov77usij",
+        "cbgi2a23yyzpzfhry3ez",
+        "jojdj7whxnmsdocgazga",
+        "k5f2dopeerizhqeheng5",
+        "ota6vp7bj4mi00rp2qrs",
+        "hxsgzjry5l2p0ocmzvy6"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Tactical",
+            "slug": "tactical"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Electronic Arts",
+            "slug": "electronic-arts"
+        },
+        {
+            "name": "BioWare",
+            "slug": "bioware"
+        },
+        {
+            "name": "BioWare Edmonton",
+            "slug": "bioware-edmonton"
+        }
+    ],
+    "name": "Dragon Age: Inquisition",
+    "platforms": [
+        {
+            "name": "Xbox 360",
+            "slug": "xbox360"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "PlayStation 3",
+            "slug": "ps3"
+        },
+        {
+            "name": "Xbox One",
+            "slug": "xboxone"
+        }
+    ],
+    "rating": 82.68161151629059,
+    "slug": "dragon-age-inquisition",
+    "summary": "Dragon Age: Inquisition is a role-playing game and the third main game in the Dragon Age series. It is set in the Thedas continent, the same fantasy world as the two previous games. It consist of two large countries: Ferelden (from Dragon Age: Origins) and Orlais, as well as the land inbetween.\n\nTrue to the spirit of the series the character can be customized for appearance, sex, class and race. The available races are dwarf, elf, human, and Qunari and the classes are mage, rogue, and warrior with three specializations each. To grow the Inquisition experience needs to be earned by completing quests, which allows the player to further define allegiances and pursue romances.\n\nA custom party can be defined and each member benefits from experience as it opens up access to better weapons and more abilities. Power points open up new areas and Inquisition points define the influence over the region; each new level provides a perk that benefits the entire Inquisition.",
+    "videos": [
+        "KUVwqbhEEGE",
+        "lAcAtXiiYqs",
+        "9g9KLoARD6Y",
+        "yGV-2h_pI-E",
+        "QoMeqE4DC-I",
+        "65hjqMm5wpg",
+        "WBB5XEyK1vg",
+        "H7rRIKWetyw",
+        "rh8v3Et4tGE",
+        "vF0NN_xbJcI"
+    ],
+    "game_type": "Main Game"
+}

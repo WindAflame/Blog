@@ -1,0 +1,58 @@
+{
+    "id": 326609,
+    "artworks": [
+        "ar38w1",
+        "ar38w2",
+        "ar38w3"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Turn-based strategy (TBS)",
+            "slug": "turn-based-strategy-tbs"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Honkai: Star Rail - Paean of Era Nova",
+    "parent_game": {
+        "name": "Honkai: Star Rail",
+        "slug": "honkai-star-rail"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "honkai-star-rail-paean-of-era-nova",
+    "summary": "Version 3.0 of Honkai: Star Rail is the game's second major post-release update, and it includes:\n\u2022 New characters: The Herta, Aglaea, and the Remembrance path for the Trailblazer\n\u2022 New character path: Remembrance\n\u2022 New Trailblaze mission\n\u2022 New planet: Amphoreus\n\u2022 New quality of life updates\n\u2022 \u2026and more!",
+    "videos": [
+        "61miUNnFKpo",
+        "TqKwoSk6708"
+    ],
+    "game_type": "Update"
+}
