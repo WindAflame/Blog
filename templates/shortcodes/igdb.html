@@ -38,12 +38,14 @@
     {%- set id = igdb_game_data.videos[0] %}
     {% include "shortcodes/youtube.html" %}
     {%- endif %}
+    {%- if igdb_game_data.aggregated_rating and igdb_game_data.rating %}
     <ul>
         <li><strong>{{ m_i18n::tr(key="igdb_review", lk=lang, d=igdb_trans_data) }}:</strong> 
             {{ m_i18n::tr(key="igdb_review_critic", lk=lang, d=igdb_trans_data) }} : {{igdb_game_data.aggregated_rating}} 
             | {{ m_i18n::tr(key="igdb_review_user", lk=lang, d=igdb_trans_data) }} : {{igdb_game_data.rating}}
         </li>
     </ul>
+    {%- endif %}
 
     <small style="font-style: italic;">{{ m_i18n::tr(key="igdb_nfo", lk=lang, d=igdb_trans_data) }}<a
             href="https://www.igdb.com/games/{{igdb_game_data.slug}}">IGDB</a></small>
