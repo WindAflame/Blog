@@ -1,0 +1,2 @@
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
+<a href="https://www.igdb.com/games/{{ igdb_game_data.slug }}">{{ igdb_game_data.name }}</a>
