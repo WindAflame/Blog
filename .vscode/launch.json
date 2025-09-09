@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "name": "Serve blog with drafts",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "Zola: Serve with drafts",
+            "program": "${workspaceFolder}",
+            "outFiles": ["${workspaceFolder}/public"]
+        }],
+    "compounds": []
+}

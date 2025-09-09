@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Zola: Serve with drafts",
+            "command": "zola",
+            "type": "shell",
+            "args": ["serve", "--drafts"],
+            "problemMatcher": [
+            ],
+            "presentation": {
+            },
+            "group": "build"
+        }
+    ]
+}
