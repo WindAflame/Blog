@@ -35,7 +35,7 @@ Does my review matter to you?
 
 ## Useful links to better understand my opinion
 
-- [Sea of Stars (2023)](https://www.igdb.com/games/sea-of-stars)
+- {{ igdb_url() }}
 
 ## OST - Playlist
 

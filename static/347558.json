@@ -1,0 +1,61 @@
+{
+    "id": 347558,
+    "artworks": [
+        "ar3ocx",
+        "ar3ocy"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: A Space and Time for You",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-space-and-time-for-you",
+    "summary": "Version 5.6 of Genshin Impact, which includes:\n\u2022 New characters: Skirk and Dahlia\n\u2022 New main story quest: \"A Space and Time for You\"\n\u2022 New story quest for Skirk\n\u2022 New endgame mode: Stygian Onslaught\n\u2022 New main event: Battle of Imagined Arrays\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "S0xt6uUWSlw",
+        "TINtC35Eeeg"
+    ],
+    "game_type": "Update"
+}

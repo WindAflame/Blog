@@ -1,0 +1,72 @@
+{
+    "id": 356546,
+    "artworks": [
+        "ar43kk",
+        "ar43kl",
+        "ar43km"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: A Dance of Snowy Tides and Hoarfrost Groves",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-dance-of-snowy-tides-and-hoarfrost-groves",
+    "summary": "The fifth major update of Genshin Impact, also known as Version \"Luna I\" and \"Song of the Welkin Moon: Segue\". This update includes:\n\u2022 New characters: Lauma, Flins and Aino\n\u2022 New region, Nod Krai\n\u2022 New main story quests: \"A Dance of Snowy Tides and Hoarfrost Groves\" and \"Elegy of Dust and Lamplight\"\n\u2022 New main event: Clink Clank Clash\n\u2022 5th anniversary celebrations, new QoL, and more!",
+    "videos": [
+        "QWDyxSo-oq0",
+        "k1U2LnXd5GE",
+        "29lHlxxtaZg",
+        "NbDXwuUWxhY",
+        "7ggMwb5tXJQ",
+        "Qhna7jrTQs8",
+        "-agCKpv7pXc",
+        "fTN-FaXZKkQ"
+    ],
+    "game_type": "Update"
+}

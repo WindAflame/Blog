@@ -86,7 +86,7 @@ Malheureusement, cette version propose moins d'exploration, moins de puzzles et 
 - [Ninja Gaiden II (2008)](https://www.igdb.com/games/ninja-gaiden-ii)
 - [Ninja Gaiden Σ2 (2009)](https://www.igdb.com/games/ninja-gaiden-sigma-2)
 - [Ninja Gaiden: Master Collection (2021)](https://www.igdb.com/games/ninja-gaiden-master-collection)
-- [Ninja Gaiden II Black (2025)](https://www.igdb.com/games/ninja-gaiden-ii-black)
+- {{ igdb_url() }}
 
 ## OST - Playlist
 

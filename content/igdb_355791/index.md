@@ -3,7 +3,7 @@ title = "Genshin Impact: Moonlight Amidst Dreams"
 description = "Review of Genshin Impact Updates (12/02/2025)"
 date = 2025-03-27
 # updated = 2024-10-24
-path = "328924"
+path = "355791"
 draft = true
 [extra]
 [extra.cover]
@@ -12,7 +12,7 @@ alt = "A Markdown logo"
 width = 1920
 height = 620
 [extra.igdb]
-id = "328924"
+id = "355791"
 [taxonomies]
 tags = ["game", "review"]
 authors = ["endyw"]

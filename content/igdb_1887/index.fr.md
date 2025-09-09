@@ -1,5 +1,5 @@
 +++
-title = "?"
+title = "Dragon Age: Inquisition"
 description = "J'ai fini le jeu et je vous donne mon avis (IGDB: 1887)"
 date = 2025-03-27
 # updated = 2024-10-24
@@ -39,8 +39,6 @@ Qu'est ce que vous voulez avec mon avis ?
 
 ## Liens utile pour mieux comprendre mon avis
 
-<!-- Au moins montrer celui du jeu -->
-<!-- [igdb_data.name (?)](https://www.igdb.com/games/<igdb_data.slug>) -->
-- [Gears of War 4 (2016)](https://www.igdb.com/games/gears-of-war-4)
+- {{ igdb_url() }}
 
 ## OST - Playlist

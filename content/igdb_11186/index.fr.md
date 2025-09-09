@@ -48,8 +48,7 @@ Les jeux Gears of war ont toujours été beau. Celui-ci est beau même au moment
 
 ## Liens utile pour mieux comprendre mon avis
 
-<!-- Au moins montrer celui du jeu -->
-- [Gears of War 4 (2016)](https://www.igdb.com/games/gears-of-war-4)
+- {{ igdb_url() }}
 
 ## OST - Playlist
 

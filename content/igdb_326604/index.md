@@ -27,9 +27,9 @@ authors = ["endyw"]
 
 ## Update Details
 
-[![Incandescent Ode of Resurrection" Version 5.3 Update Details](https://fastcdn.hoyoverse.com/content-v2/hk4e/127791/cf271c43ebff6921c5f5943073b5e55e_7899698363562796309.jpg)](https://genshin.hoyoverse.com/en/news/detail/127791)
+[!["Incandescent Ode of Resurrection" Version 5.3 Update Details](https://fastcdn.hoyoverse.com/content-v2/hk4e/127791/cf271c43ebff6921c5f5943073b5e55e_7899698363562796309.jpg)](https://genshin.hoyoverse.com/en/news/detail/127791)
 
 ## Useful links to better understand my opinion
 
-- [Genshin Impact: Incandescent Ode of Resurrection](https://www.igdb.com/games/genshin-impact-incandescent-ode-of-resurrection)
-- [Incandescent Ode of Resurrection" Version 5.3 Update Details](https://genshin.hoyoverse.com/en/news/detail/127791)
+- {{ igdb_url() }}
+- [Genshin Impact Version 5.4 Update Details](https://genshin.hoyoverse.com/en/news/detail/127791)

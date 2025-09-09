@@ -1,5 +1,5 @@
 +++
-title = "Genshin Impact: Incandescent Ode of Resurrection"
+title = "Genshin Impact: Ode à la résurrection incandescente"
 description = "J'ai fini le jeu et je vous donne mon avis (IGDB: 326604)"
 date = 2025-03-27
 path = "fr/326604"
@@ -31,5 +31,5 @@ authors = ["endyw"]
 
 ## Liens utile pour mieux comprendre mon avis
 
-- [Genshin Impact: Incandescent Ode of Resurrection](https://www.igdb.com/games/genshin-impact-incandescent-ode-of-resurrection)
-- [Détails de la mise à jour de version 5.3 « Ode à la résurrection incandescente »](https://genshin.hoyoverse.com/fr/news/detail/127791)
+- {{ igdb_url() }}
+- [Détails de la mise à jour de version 5.3](https://genshin.hoyoverse.com/fr/news/detail/127791)

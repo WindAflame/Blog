@@ -30,7 +30,7 @@ authors = ["endyw"]
 
 ## Useful links to better understand my opinion
 
-- [Monster Hunter Wilds](https://www.igdb.com/games/monster-hunter-wilds)
+- {{ igdb_url() }}
 
 ## OST - Playlist
 

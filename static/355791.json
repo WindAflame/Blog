@@ -1,0 +1,64 @@
+{
+    "id": 355791,
+    "artworks": [
+        "ar3v6z"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Sunspray Summer Resort",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-sunspray-summer-resort",
+    "summary": "Version 5.8 of Genshin Impact, which includes:\n\u2022 New character: Ineffa\n\u2022 New main story quest: Song of the Welkin Moon Prelude, \"The Journey Home\"\n\u2022 New outfits for Yelan and Bennett\n\u2022 New main event: Sunspray Summer Resort\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "I8N9D61dmHg",
+        "SFslaIBzPA4"
+    ],
+    "game_type": "Update"
+}

@@ -35,8 +35,6 @@ Does my review matter to you?
 
 ## Useful links to better understand my opinion
 
-<!-- At least show this game -->
-<!-- [igdb_data.name (?)](https://www.igdb.com/games/<igdb_data.slug>) -->
-- [Gears of War 4 (2016)](https://www.igdb.com/games/gears-of-war-4)
+- {{ igdb_url() }}
 
 ## OST - Playlist

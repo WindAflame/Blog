@@ -35,9 +35,10 @@ TODO
 >STAR WARS: Jedi Survivor (2023)
 >
 >**Verdict** : TODO
+
 ## Liens utile pour mieux comprendre mon avis
 
-- [STAR WARS: Jedi Survivor (2023)](https://www.igdb.com/games/star-wars-jedi-survivor)
+- {{ igdb_url() }}
 
 ## OST - Playlist
 

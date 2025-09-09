@@ -1,5 +1,5 @@
 +++
-title = "Genshin Impact: Moonlight Amidst Dreams"
+title = "Genshin Impact: Clair de lune en rêve"
 description = "Mon avis sur la MAJ 5.4 de Genshin Impact"
 date = 2025-03-27
 # updated = 2024-10-24
@@ -11,6 +11,8 @@ image_url = "https://fastcdn.hoyoverse.com/mi18n/hk4e_global/m20250113hy6b9f6sjk
 alt = "A Markdown logo"
 width = 1920
 height = 620
+[extra.igdb]
+id = "328924"
 [taxonomies]
 tags = ["game", "review"]
 authors = ["endyw"]
@@ -41,10 +43,9 @@ Est-ce que mon avis vous importe ?
 
 ## Source
 
-[![Texte alternatif de l'image](https://fastcdn.hoyoverse.com/content-v2/hk4e/154285/404cceac14c06f2313567228845f053f_7745778737931454883.jpg?x-oss-process=image/format,webp/quality,Q_90)](https://genshin.hoyoverse.com/fr/news/detail/154285)
+[![Détails de la mise à jour de version 5.4 « Clair de lune en rêve »](https://fastcdn.hoyoverse.com/content-v2/hk4e/154285/404cceac14c06f2313567228845f053f_7745778737931454883.jpg?x-oss-process=image/format,webp/quality,Q_90)](https://genshin.hoyoverse.com/fr/news/detail/154285)
 
 ## Liens
 
-- [Accéder au Site Web](https://genshin.hoyoverse.com/)
-- [Accéder à la page IGDB](https://www.igdb.com/games/genshin-impact-moonlight-amidst-dreams)
-- [Accéder au détail de la MAJ 5.4](https://genshin.hoyoverse.com/fr/news/detail/154285)
+- {{ igdb_url() }}
+- [Détails de la mise à jour de version 5.4](https://genshin.hoyoverse.com/fr/news/detail/154285)

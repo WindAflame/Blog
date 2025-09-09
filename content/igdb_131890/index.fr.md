@@ -39,8 +39,7 @@ Qu'est ce que vous voulez avec mon avis ?
 
 ## Liens utile pour mieux comprendre mon avis
 
-<!-- Au moins montrer celui du jeu -->
-- [Sea of Stars (2023)](https://www.igdb.com/games/sea-of-stars)
+- {{ igdb_url() }}
 
 ## OST - Playlist
 

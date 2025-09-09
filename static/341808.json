@@ -1,0 +1,61 @@
+{
+    "id": 341808,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Paralogism",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-paralogism",
+    "summary": "Version 5.6 of Genshin Impact, which includes:\n\u2022 New characters: Escoffier and Ifa\n\u2022 New main story quest: \"Interlude Chapter: Act IV - Paralogism\"\n\u2022 New story quest for Escoffier\n\u2022 New main event: Whirling Waltz\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "_VneeYsGT9I",
+        "epkERm3Q_xw"
+    ],
+    "game_type": "Update"
+}
