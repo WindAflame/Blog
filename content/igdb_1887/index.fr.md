@@ -6,11 +6,11 @@ date = 2025-03-27
 path = "fr/1887"
 draft = true
 [extra]
-# [extra.cover]
-# image_url = ""
-# alt = "alternative name of cover"
-# width = 1920
-# height = 620
+[extra.cover]
+image_url = "https://cdn2.steamgriddb.com/hero_thumb/f2b93a9dcd1d961d041832f689e82ed2.jpg"
+alt = "alternative name of cover"
+width = 1920
+height = 620
 [extra.igdb]
 id = "1887"
 # [extra.igdb.playlist]

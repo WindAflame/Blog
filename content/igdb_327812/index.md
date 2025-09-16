@@ -6,11 +6,11 @@ date = 2025-03-27
 path = "327812"
 draft = true
 [extra]
-# [extra.cover]
-# image_url = ""
-# alt = "alternative name of cover"
-# width = 1920
-# height = 620
+[extra.cover]
+image_url = "https://fastcdn.hoyoverse.com/content-v2/nap/129572/77c069c09495c3cf3d80e2f1d5778c39_4945151298755256570.jpg"
+alt = "alternative name of cover"
+width = 1920
+height = 620
 [extra.igdb]
 id = "327812"
 [taxonomies]
@@ -33,5 +33,6 @@ Does my review matter to you?
 ## Useful links to better understand my opinion
 
 - {{ igdb_url() }}
+- [Détails de la mise à jour de version 1.5](https://zenless.hoyoverse.com/en-us/news/129572)
 
 ## OST - Playlist
