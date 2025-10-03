@@ -34,3 +34,6 @@ shell.nix
 # python scripts
 scripts/python/**/.env
 scripts/python/**/.venv
+
+# app
+app.log
