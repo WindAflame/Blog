@@ -1,12 +1,15 @@
 [build]
-publish = "public"
+publish = "sources/zola-linkita/public"
 command = "bash scripts/ci/production.sh"
 
 [build.environment]
 ZOLA_VERSION = "0.20.0"
 
+[context.production]
+command = "bash scripts/ci/production.sh"
+
+[context.develop]
+command = "bash scripts/ci/develop.sh"
+
 [context.deploy-preview]
 command = "bash scripts/ci/preview.sh"
-
-[dev]
-command = "bash scripts/ci/develop.sh"
