@@ -1,9 +1,6 @@
 #!/bin/bash
-ACTIVE_PROJECT=sources/zola-linkita
 
-echo "Updating submodule $ACTIVE_PROJECT..."
-git submodule update --init --recursive
+set -e
 
-echo "Building the project in production mode..."
-cd $ACTIVE_PROJECT
-zola build --base-url $URL
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+bash "$SCRIPT_DIR/builder.sh" production "$URL"
