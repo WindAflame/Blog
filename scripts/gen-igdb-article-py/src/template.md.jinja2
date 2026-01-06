@@ -1,0 +1,36 @@
++++
+title = "{{ game_name }}: {{ update_title }}"
+description = "Review of {{ game_name }} Updates ({{ date }})"
+date = {{ date }}
+# updated = {{ date }}
+path = "{{ igdb_id }}"
+draft = true
+[extra]
+[extra.cover]
+image_url = "{{ banner_url }}"
+alt = "A Markdown logo"
+width = 1920
+height = 620
+[extra.igdb]
+id = "{{ igdb_id }}"
+[taxonomies]
+tags = ["game", "review"]
+authors = ["{{ author }}"]
++++
+
+## About this game
+
+{% raw %}{{ igdb() }}{% endraw %}
+
+## Introduce
+
+## My review
+
+## Update Details
+
+[![{{ update_title }}]({{ banner_url }})]({{ update_url }})
+
+## Links
+
+- {% raw %}{{ igdb_url() }}{% endraw %}
+- [{{ update_title }}]({{ update_url }})
