@@ -1,0 +1,43 @@
+{
+  "name": "Blog Development",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "ZOLA_VERSION": "0.20.0",
+      "NODE_VERSION": "20",
+      "PYTHON_VERSION": "3.13"
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "forwardPorts": [1111],
+  "portsAttributes": {
+    "1111": {
+      "label": "Zola Dev Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tamasfe.even-better-toml",
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.defaultInterpreterPath": "/usr/bin/python3",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteUser": "vscode",
+  "containerEnv": {
+    "ZOLA_VERSION": "0.20.0"
+  }
+}
