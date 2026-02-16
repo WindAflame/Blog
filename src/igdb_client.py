@@ -98,21 +98,6 @@ class IGDBClient:
                 if version_match:
                     keywords.append(version_match.group(0))
 
-                # Remove base game name and extract remaining part
-                cleaned_name = alt_name
-                for base in ["Genshin Impact", "Honkai: Star Rail", "Zenless Zone Zero",
-                           "Genshin", "Honkai", "Zenless"]:
-                    cleaned_name = cleaned_name.replace(base, "").strip()
-
-                # Remove leading/trailing dashes and spaces
-                cleaned_name = cleaned_name.strip(" -")
-
-                # If something remains, not too generic, and not too short, add it
-                if (cleaned_name and
-                    len(cleaned_name) > 5 and
-                    cleaned_name.lower() not in avoid_generic):
-                    keywords.append(cleaned_name)
-
         # Remove duplicates while preserving order
         seen = set()
         unique_keywords = []

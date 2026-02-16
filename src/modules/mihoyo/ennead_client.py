@@ -1,6 +1,6 @@
 import requests
 from typing import Optional
-from .models.news_article import NewsArticle
+from ...models.news_article import NewsArticle
 
 
 class EnneadAPIClient:
