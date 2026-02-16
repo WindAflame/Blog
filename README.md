@@ -29,12 +29,12 @@ token=YOUR_IGDB_ACCESS_TOKEN
 author=your_name          # optional, default: unknown_writer
 output_dir=path/to/output # optional, default: output/
 
-| Variable     | Description                                |
-| ------------ | ------------------------------------------ |
-| `client`     | IGDB API Client ID (required)              |
-| `token`      | IGDB API Bearer Token (required)           |
+| Variable     | Description                                    |
+| ------------ | ---------------------------------------------- |
+| `client`     | IGDB API Client ID (required)                  |
+| `token`      | IGDB API Bearer Token (required)               |
 | `author`     | Your name (optional, default `unknown_writer`) |
-| `output_dir` | Output directory (optional, default `output`) |
+| `output_dir` | Output directory (optional, default `output`)  |
 
 ## Usage
 
@@ -66,7 +66,7 @@ uv run python -m src.main --module mihoyo zzz 654321
 ### Options
 
 | Option | Short | Description |
-|---|---|---|
+| --- | --- | --- |
 | `--module` | `-m` | Module to use (e.g. `mihoyo`) |
 | `--output` | `-o` | Output directory (overrides `.env`) |
 | `--help` | `-h` | Show help |
@@ -86,7 +86,7 @@ For HoYoverse games (Genshin Impact, Honkai: Star Rail, Zenless Zone Zero).
 Fetches update news articles from the Ennead API, adds banners and game-specific links.
 
 | Game key | Game |
-|---|---|
+| --- | --- |
 | `genshin` | Genshin Impact |
 | `starrail` | Honkai: Star Rail |
 | `zzz` | Zenless Zone Zero |
