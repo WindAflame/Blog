@@ -16,3 +16,6 @@
 [submodule "scripts/igdb-data-py"]
 	path = scripts/igdb-data-py
 	url = https://github.com/WindAflame/Blog.git
+[submodule "scripts/gen-igdb-article-py"]
+	path = scripts/gen-igdb-article-py
+	url = https://github.com/WindAflame/Blog.git
