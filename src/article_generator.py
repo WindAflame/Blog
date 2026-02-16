@@ -10,10 +10,10 @@ from .models.game_config import GameConfig
 class ArticleGenerator:
     """Generator for creating IGDB game articles with Jinja2 templates"""
 
-    def __init__(self, module: BaseModule):
+    def __init__(self, module: BaseModule, output_dir: str | None = None):
         self.module = module
         self.igdb_client = IGDBClient()
-        self.output_dir = CONTENT_OUTPUT_DIR
+        self.output_dir = Path(output_dir) if output_dir else CONTENT_OUTPUT_DIR
 
         # Set up Jinja2 environment
         template_dir = os.path.join(os.path.dirname(__file__), "template")

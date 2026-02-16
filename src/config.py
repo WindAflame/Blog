@@ -13,5 +13,5 @@ if not IGDB_CLIENT_ID or not IGDB_ACCESS_TOKEN:
     raise ValueError("IGDB credentials (client, token) not found in .env file")
 
 # Default configuration
-DEFAULT_AUTHOR = "endyw"
-CONTENT_OUTPUT_DIR = Path("../../sources/zola-linkita/content")
+DEFAULT_AUTHOR = os.getenv("author", "unknown_writer")
+CONTENT_OUTPUT_DIR = Path(os.getenv("output_dir", "output"))

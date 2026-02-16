@@ -29,6 +29,12 @@ Available modules: %(modules)s
         help="Module to use (e.g., mihoyo). Without a module, works generically with any IGDB game.",
     )
     parser.add_argument(
+        "--output", "-o",
+        type=str,
+        default=None,
+        help="Output directory (overrides .env output_dir). Default: output/",
+    )
+    parser.add_argument(
         "args",
         nargs="+",
         help="Without --module: <update_igdb_id>. With --module: <game_key> <update_igdb_id>",
@@ -64,7 +70,7 @@ Available modules: %(modules)s
         print(f"Generating article for {game_label}update (IGDB ID: {update_igdb_id})...")
         print()
 
-        generator = ArticleGenerator(module)
+        generator = ArticleGenerator(module, output_dir=parsed.output)
         generator.generate_article(update_igdb_id, game_key=game_key)
 
         print()
