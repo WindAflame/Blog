@@ -39,7 +39,7 @@ uv run python -m src.main
 uv run python -m src.main 1942
 
 # Custom output directory
-uv run python -m src.main 1942 -o static
+uv run python -m src.main 1942 -o /path/to/dir
 ```
 
 The generated JSON file is saved in the `output/` directory by default.
