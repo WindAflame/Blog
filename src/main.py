@@ -1,13 +1,14 @@
 import logging
 
-from src.config import load_config
+from src.config import load_config, parse_args
 from src.igdb_client import IGDBClient
 
 logger = logging.getLogger(__name__)
 
 
 def main():
-    config = load_config()
+    args = parse_args()
+    config = load_config(game_id_override=args.game_id)
     client = IGDBClient(config["client_id"], config["access_token"])
     game_id = config["game_id"]
 

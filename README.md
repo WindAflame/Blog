@@ -22,22 +22,20 @@ Copy the `.env.template` file and fill in your credentials:
 cp .env.template .env
 ```
 
-| Variable | Description            |
-| -------- | ---------------------- |
-| `client` | IGDB API Client ID     |
-| `token`  | IGDB API Bearer Token  |
-| `game`   | IGDB Game ID to fetch  |
+| Variable | Description                       |
+| -------- | --------------------------------- |
+| `client` | IGDB API Client ID (required)     |
+| `token`  | IGDB API Bearer Token (required)  |
+| `game`   | IGDB Game ID (optional)           |
 
 ## Usage
 
 ```bash
+# Game ID from .env
 uv run python -m src.main
-```
 
-Or via the entry point:
-
-```bash
-uv run igdb-data
+# Game ID as argument (overrides .env)
+uv run python -m src.main 1942
 ```
 
 The generated JSON file is saved in the `static/` directory.
