@@ -5,14 +5,13 @@ from typing import Any, Callable
 
 from igdb.wrapper import IGDBWrapper
 
-from src.config import DESTINATION_DIRECTORY
-
 logger = logging.getLogger(__name__)
 
 
 class IGDBClient:
-    def __init__(self, client_id: str, access_token: str):
+    def __init__(self, client_id: str, access_token: str, output_dir: str):
         self._wrapper = IGDBWrapper(client_id, access_token)
+        self._output_dir = output_dir
 
     def request(self, url_name: str, key_name: str | None, ids: any) -> list[dict]:
         if key_name is None:
@@ -107,20 +106,18 @@ class IGDBClient:
     def _transform_to_video_list(self, datas: list[dict]) -> list[str]:
         return list(map(lambda i: i["video_id"], datas))
 
-    @staticmethod
-    def _read_game_json(game_id: str) -> Any | None:
-        filepath = os.path.join(DESTINATION_DIRECTORY, game_id + ".json")
+    def _read_game_json(self, game_id: str) -> Any | None:
+        filepath = os.path.join(self._output_dir, game_id + ".json")
         if not os.path.exists(filepath):
             return None
         with open(filepath, "r") as f:
             data = json.load(f)
         return data
 
-    @staticmethod
-    def write_game_json(game_id: str, game_data: dict) -> str:
-        if not os.path.isdir(DESTINATION_DIRECTORY):
-            os.makedirs(DESTINATION_DIRECTORY)
-        filepath = os.path.join(DESTINATION_DIRECTORY, game_id + ".json")
+    def write_game_json(self, game_id: str, game_data: dict) -> str:
+        if not os.path.isdir(self._output_dir):
+            os.makedirs(self._output_dir)
+        filepath = os.path.join(self._output_dir, game_id + ".json")
         if os.path.exists(filepath):
             logger.warning("Override %s is planned !", filepath)
         with open(filepath, "w") as f:

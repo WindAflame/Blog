@@ -4,7 +4,7 @@ import logging
 
 from dotenv import load_dotenv
 
-DESTINATION_DIRECTORY = "static"
+DEFAULT_OUTPUT_DIR = "output"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -18,16 +18,18 @@ logger = logging.getLogger(__name__)
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Fetch game data from IGDB API")
     parser.add_argument("game_id", nargs="?", default=None, help="IGDB Game ID (overrides .env)")
+    parser.add_argument("-o", "--output", default=None, help="Output directory (overrides .env)")
     return parser.parse_args()
 
 
-def load_config(game_id_override: str | None = None) -> dict:
+def load_config(game_id_override: str | None = None, output_dir_override: str | None = None) -> dict:
     load_dotenv()
     logger.info("Environment variable is loaded.")
 
     client_id = os.getenv("client")
     access_token = os.getenv("token")
     game_id = game_id_override or os.getenv("game")
+    output_dir = output_dir_override or os.getenv("output_dir") or DEFAULT_OUTPUT_DIR
 
     if not client_id or not access_token:
         raise Exception("The environment file does not contain the required fields (client, token)")
@@ -39,4 +41,5 @@ def load_config(game_id_override: str | None = None) -> dict:
         "client_id": client_id,
         "access_token": access_token,
         "game_id": game_id,
+        "output_dir": output_dir,
     }
