@@ -30,6 +30,12 @@ GAME_WEBSITES = {
     "Zenless Zone Zero": "https://zenless.hoyoverse.com/",
 }
 
+# HoYoLab language codes
+HOYOLAB_LANG_CODES = {
+    "en": "en-us",
+    "fr": "fr-fr",
+}
+
 # Base game names to filter from alternative names
 MIHOYO_BASE_NAMES = [
     "Genshin Impact", "Honkai: Star Rail", "Zenless Zone Zero",

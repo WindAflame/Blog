@@ -67,72 +67,60 @@ class ArticleGenerator:
 
         # Extract version keywords from update name and alternative names
         version_keywords = self.igdb_client.extract_version_keywords(update_game)
-        version_keywords = self.module.filter_version_keywords(version_keywords)
+        version_keywords = self.module.enrich_version_keywords(version_keywords, update_game.alternative_names)
         print(f"  Version keywords: {', '.join(version_keywords)}")
 
-        # Fetch news article via module
-        print(f"Searching for news article...")
-        news_article = self.module.fetch_news_article(game_config, version_keywords)
+        # Fetch news articles per language
+        articles_by_lang = {}
+        for lang in ["en", "fr"]:
+            print(f"Searching for news article ({lang})...")
+            article = self.module.fetch_news_article(game_config, version_keywords, lang=lang)
+            if article:
+                print(f"  Found: {article.title}")
+            else:
+                print(f"  No news article found")
+            articles_by_lang[lang] = article
 
-        if news_article:
-            print(f"  Found news article: {news_article.title}")
-        else:
-            print(f"  No news article found (continuing without)")
+        # Generate articles per language
+        base_context = self._prepare_context(game_config, update_game, update_igdb_id)
+        article_dir = self.output_dir / f"igdb_{update_igdb_id}"
+        article_dir.mkdir(parents=True, exist_ok=True)
 
-        # Prepare base template context
-        context = self._prepare_context(game_config, update_game, news_article, update_igdb_id)
+        for lang, template_name, filename in [
+            ("en", "article.md.jinja2", "index.md"),
+            ("fr", "article.fr.md.jinja2", "index.fr.md"),
+        ]:
+            context = {**base_context}
+            news_article = articles_by_lang[lang]
+            extra = self.module.prepare_extra_context(game_config, news_article, lang=lang)
+            context.update(extra)
 
-        # Merge extra context from module
-        extra_context = self.module.prepare_extra_context(game_config, news_article)
-        context.update(extra_context)
+            template = self.jinja_env.get_template(template_name)
+            content = template.render(context)
 
-        # Generate articles
-        self._generate_article_files(update_igdb_id, context)
+            with open(article_dir / filename, "w", encoding="utf-8") as f:
+                f.write(content)
+
+            print(f"  Generated {article_dir / filename}")
 
         print(f"  Articles generated in {article_dir}")
 
-    def _prepare_context(self, game_config: GameConfig, update_game, news_article, update_igdb_id: str):
-        """Prepare base Jinja2 template context"""
+    def _prepare_context(self, game_config: GameConfig, update_game, update_igdb_id: str):
+        """Prepare base Jinja2 template context (language-independent)"""
         today = datetime.now().strftime("%Y-%m-%d")
 
         # Generate game slug for IGDB URL (use update name)
         game_slug = update_game.name.lower().replace(" ", "-").replace(":", "")
 
-        context = {
+        return {
             "igdb_id": update_igdb_id,
             "game_name": game_config.game_name,
             "date": today,
             "author": DEFAULT_AUTHOR,
             "game_slug": game_slug,
-            # Defaults that modules can override
+            # Defaults that modules can override per language
             "update_title": update_game.name,
             "banner_url": "",
             "update_url": "",
             "game_website": "",
         }
-
-        return context
-
-    def _generate_article_files(self, igdb_id: str, context: dict):
-        """Generate article files for English and French"""
-        # Create output directory
-        article_dir = self.output_dir / f"igdb_{igdb_id}"
-        article_dir.mkdir(parents=True, exist_ok=True)
-
-        # Generate English article
-        template_en = self.jinja_env.get_template("article.md.jinja2")
-        content_en = template_en.render(context)
-
-        with open(article_dir / "index.md", "w", encoding="utf-8") as f:
-            f.write(content_en)
-
-        print(f"  Generated English article: {article_dir / 'index.md'}")
-
-        # Generate French article
-        template_fr = self.jinja_env.get_template("article.fr.md.jinja2")
-        content_fr = template_fr.render(context)
-
-        with open(article_dir / "index.fr.md", "w", encoding="utf-8") as f:
-            f.write(content_fr)
-
-        print(f"  Generated French article: {article_dir / 'index.fr.md'}")

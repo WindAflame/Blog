@@ -18,14 +18,14 @@ class BaseModule:
         """Resolve a game_key to a GameConfig. Returns None by default."""
         return None
 
-    def fetch_news_article(self, game_config: GameConfig, version_keywords: list) -> Optional[NewsArticle]:
+    def fetch_news_article(self, game_config: GameConfig, version_keywords: list, lang: str = "en") -> Optional[NewsArticle]:
         """Fetch a news article for the given game and version. Returns None by default."""
         return None
 
-    def filter_version_keywords(self, keywords: list) -> list:
-        """Filter version keywords. Pass-through by default."""
+    def enrich_version_keywords(self, keywords: list, alternative_names: list | None) -> list:
+        """Enrich version keywords using alternative names. Pass-through by default."""
         return keywords
 
-    def prepare_extra_context(self, game_config: GameConfig, news_article: Optional[NewsArticle]) -> dict:
+    def prepare_extra_context(self, game_config: GameConfig, news_article: Optional[NewsArticle], lang: str = "en") -> dict:
         """Return extra template context. Empty by default."""
         return {}
