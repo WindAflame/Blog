@@ -73,23 +73,28 @@ class ArticleGenerator:
         version_keywords = self.module.enrich_version_keywords(version_keywords, update_game.alternative_names)
         logger.info("Version keywords: %s", ", ".join(version_keywords))
 
-        # Fetch news articles per language
-        articles_by_lang = {}
-        fallback_article = None
-        for lang in ["en", "fr"]:
-            logger.info("Searching for news article (%s)...", lang)
-            article = self.module.fetch_news_article(game_config, version_keywords, lang=lang)
-            if article:
-                logger.info("Found: %s", article.title)
-                if fallback_article is None:
-                    fallback_article = article
-            else:
-                if fallback_article:
-                    logger.info("No news article found, using fallback from previous language")
-                    article = fallback_article
+        # Fetch news article in English (search by version keywords)
+        logger.info("Searching for news article (en)...")
+        en_article = self.module.fetch_news_article(game_config, version_keywords, lang="en")
+        if en_article:
+            logger.info("Found: %s", en_article.title)
+        else:
+            logger.warning("No news article found")
+
+        # Fetch the same article in other languages by ID
+        articles_by_lang = {"en": en_article}
+        if en_article:
+            for lang in ["fr"]:
+                logger.info("Fetching news article in '%s' (id: %s)...", lang, en_article.id)
+                localized = self.module.fetch_news_article_by_id(game_config, en_article.id, lang=lang)
+                if localized:
+                    logger.info("Found: %s", localized.title)
                 else:
-                    logger.warning("No news article found")
-            articles_by_lang[lang] = article
+                    logger.warning("Article not found in '%s', using English version", lang)
+                    localized = en_article
+                articles_by_lang[lang] = localized
+        else:
+            articles_by_lang["fr"] = None
 
         # Generate articles per language
         base_context = self._prepare_context(game_config, update_game, update_igdb_id)
@@ -101,8 +106,7 @@ class ArticleGenerator:
             ("fr", "article.fr.md.jinja2", "index.fr.md"),
         ]:
             context = {**base_context}
-            news_article = articles_by_lang[lang]
-            extra = self.module.prepare_extra_context(game_config, news_article, lang=lang)
+            extra = self.module.prepare_extra_context(game_config, articles_by_lang[lang], lang=lang)
             context.update(extra)
 
             template = self.jinja_env.get_template(template_name)

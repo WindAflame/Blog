@@ -203,3 +203,32 @@ class EnneadAPIClient:
         except (requests.RequestException, KeyError, IndexError) as e:
             logger.error("Error fetching news from Ennead API: %s", e)
             return None
+
+    def get_article_by_id(self, article_id: str) -> Optional[NewsArticle]:
+        """
+        Fetch a specific article by its ID.
+
+        Args:
+            article_id: The article ID to look for
+
+        Returns:
+            NewsArticle instance or None if not found
+        """
+        try:
+            response = requests.get(self.api_url, timeout=10)
+            response.raise_for_status()
+
+            articles = response.json()
+
+            if not articles or not isinstance(articles, list):
+                return None
+
+            for article_data in articles:
+                if article_data.get("id") == article_id:
+                    return NewsArticle.from_api_response(article_data)
+
+            return None
+
+        except (requests.RequestException, KeyError, IndexError) as e:
+            logger.error("Error fetching article by ID from Ennead API: %s", e)
+            return None

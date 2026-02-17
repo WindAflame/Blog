@@ -22,6 +22,10 @@ class BaseModule:
         """Fetch a news article for the given game and version. Returns None by default."""
         return None
 
+    def fetch_news_article_by_id(self, game_config: GameConfig, article_id: str, lang: str = "en") -> Optional[NewsArticle]:
+        """Fetch a news article by its ID in a specific language. Returns None by default."""
+        return None
+
     def enrich_version_keywords(self, keywords: list, alternative_names: list | None) -> list:
         """Enrich version keywords using alternative names. Pass-through by default."""
         return keywords

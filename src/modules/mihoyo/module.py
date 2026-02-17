@@ -30,6 +30,20 @@ class MihoyoModule(BaseModule):
         ennead_client = EnneadAPIClient(api_url)
         return ennead_client.get_update_news_by_version(version_keywords)
 
+    def fetch_news_article_by_id(self, game_config: GameConfig, article_id: str, lang: str = "en") -> Optional[NewsArticle]:
+        game_key = None
+        for key, config in MIHOYO_GAMES.items():
+            if config.game_name == game_config.game_name:
+                game_key = key
+                break
+
+        if game_key is None or game_key not in ENNEAD_API_URLS:
+            return None
+
+        api_url = f"{ENNEAD_API_URLS[game_key]}?lang={lang}"
+        ennead_client = EnneadAPIClient(api_url)
+        return ennead_client.get_article_by_id(article_id)
+
     def enrich_version_keywords(self, keywords: list, alternative_names: list | None) -> list:
         """Extract extra keywords by removing Mihoyo base game names from alt names."""
         if not alternative_names:
