@@ -75,13 +75,20 @@ class ArticleGenerator:
 
         # Fetch news articles per language
         articles_by_lang = {}
+        fallback_article = None
         for lang in ["en", "fr"]:
             logger.info("Searching for news article (%s)...", lang)
             article = self.module.fetch_news_article(game_config, version_keywords, lang=lang)
             if article:
                 logger.info("Found: %s", article.title)
+                if fallback_article is None:
+                    fallback_article = article
             else:
-                logger.info("No news article found")
+                if fallback_article:
+                    logger.info("No news article found, using fallback from previous language")
+                    article = fallback_article
+                else:
+                    logger.warning("No news article found")
             articles_by_lang[lang] = article
 
         # Generate articles per language
