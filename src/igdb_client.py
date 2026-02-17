@@ -1,8 +1,11 @@
+import json
+import logging
+import re
 from igdb.wrapper import IGDBWrapper
 from .config import IGDB_CLIENT_ID, IGDB_ACCESS_TOKEN
 from .models.igdb_game import IGDBGame
-import json
-import re
+
+logger = logging.getLogger(__name__)
 
 
 class IGDBClient:

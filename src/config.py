@@ -1,9 +1,19 @@
 import os
+import logging
 from pathlib import Path
 from dotenv import load_dotenv
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler("app.log"), logging.StreamHandler()],
+)
+
+logger = logging.getLogger(__name__)
+
 # Load environment variables
 load_dotenv()
+logger.info("Environment variable is loaded.")
 
 # IGDB Configuration
 IGDB_CLIENT_ID = os.getenv("client")

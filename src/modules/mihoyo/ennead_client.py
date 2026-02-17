@@ -1,6 +1,9 @@
+import logging
 import requests
 from typing import Optional
 from ...models.news_article import NewsArticle
+
+logger = logging.getLogger(__name__)
 
 
 class EnneadAPIClient:
@@ -35,7 +38,7 @@ class EnneadAPIClient:
             return NewsArticle.from_api_response(articles[0])
 
         except (requests.RequestException, KeyError, IndexError) as e:
-            print(f"Error fetching news from Ennead API: {e}")
+            logger.error("Error fetching news from Ennead API: %s", e)
             return None
 
     def get_news_by_title_keyword(self, keyword: str) -> Optional[NewsArticle]:
@@ -66,7 +69,7 @@ class EnneadAPIClient:
             return NewsArticle.from_api_response(articles[0])
 
         except (requests.RequestException, KeyError, IndexError) as e:
-            print(f"Error fetching news from Ennead API: {e}")
+            logger.error("Error fetching news from Ennead API: %s", e)
             return None
 
     def get_update_news_by_version(self, version_keywords) -> Optional[NewsArticle]:
@@ -194,9 +197,9 @@ class EnneadAPIClient:
                     return NewsArticle.from_api_response(article_data)
 
             # If no match found, return None (don't fall back to latest)
-            print(f"Warning: No news article found for versions {version_keywords}")
+            logger.warning("No news article found for versions %s", version_keywords)
             return None
 
         except (requests.RequestException, KeyError, IndexError) as e:
-            print(f"Error fetching news from Ennead API: {e}")
+            logger.error("Error fetching news from Ennead API: %s", e)
             return None

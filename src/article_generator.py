@@ -1,4 +1,5 @@
 import os
+import logging
 from pathlib import Path
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
@@ -6,6 +7,8 @@ from .config import CONTENT_OUTPUT_DIR, DEFAULT_AUTHOR
 from .igdb_client import IGDBClient
 from .modules.base import BaseModule
 from .models.game_config import GameConfig
+
+logger = logging.getLogger(__name__)
 
 
 class ArticleGenerator:
@@ -49,12 +52,12 @@ class ArticleGenerator:
             )
 
         # Fetch update details from IGDB
-        print(f"Fetching update details from IGDB (ID: {update_igdb_id})...")
+        logger.info("Fetching update details from IGDB (ID: %s)...", update_igdb_id)
         update_game = self.igdb_client.get_game_by_id(update_igdb_id)
 
-        print(f"  Found update: {update_game.name}")
+        logger.info("Found update: %s", update_game.name)
         if update_game.alternative_names:
-            print(f"  Alternative names: {', '.join(update_game.alternative_names)}")
+            logger.info("Alternative names: %s", ", ".join(update_game.alternative_names))
 
         # If no game_config from module, derive from IGDB data
         if not game_config:
@@ -68,17 +71,17 @@ class ArticleGenerator:
         # Extract version keywords from update name and alternative names
         version_keywords = self.igdb_client.extract_version_keywords(update_game)
         version_keywords = self.module.enrich_version_keywords(version_keywords, update_game.alternative_names)
-        print(f"  Version keywords: {', '.join(version_keywords)}")
+        logger.info("Version keywords: %s", ", ".join(version_keywords))
 
         # Fetch news articles per language
         articles_by_lang = {}
         for lang in ["en", "fr"]:
-            print(f"Searching for news article ({lang})...")
+            logger.info("Searching for news article (%s)...", lang)
             article = self.module.fetch_news_article(game_config, version_keywords, lang=lang)
             if article:
-                print(f"  Found: {article.title}")
+                logger.info("Found: %s", article.title)
             else:
-                print(f"  No news article found")
+                logger.info("No news article found")
             articles_by_lang[lang] = article
 
         # Generate articles per language
@@ -101,9 +104,9 @@ class ArticleGenerator:
             with open(article_dir / filename, "w", encoding="utf-8") as f:
                 f.write(content)
 
-            print(f"  Generated {article_dir / filename}")
+            logger.info("Generated %s", article_dir / filename)
 
-        print(f"  Articles generated in {article_dir}")
+        logger.info("Articles generated in %s", article_dir)
 
     def _prepare_context(self, game_config: GameConfig, update_game, update_igdb_id: str):
         """Prepare base Jinja2 template context (language-independent)"""

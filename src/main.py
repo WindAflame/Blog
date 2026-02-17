@@ -1,7 +1,10 @@
 import argparse
+import logging
 import sys
 from .article_generator import ArticleGenerator
 from .modules import get_module, MODULES
+
+logger = logging.getLogger(__name__)
 
 
 def main():
@@ -46,17 +49,17 @@ Available modules: %(modules)s
     try:
         module = get_module(parsed.module)
     except ValueError as e:
-        print(f"Error: {e}")
+        logger.error("%s", e)
         sys.exit(1)
 
     # Parse positional args based on whether a module is used
     if parsed.module:
         # With module: expect <game_key> <update_igdb_id>
         if len(parsed.args) < 2:
-            print(f"Error: With --module {parsed.module}, expected: <game_key> <update_igdb_id>")
+            logger.error("With --module %s, expected: <game_key> <update_igdb_id>", parsed.module)
             available = module.get_available_games()
             if available:
-                print(f"Available games: {', '.join(available.keys())}")
+                logger.info("Available games: %s", ", ".join(available.keys()))
             sys.exit(1)
         game_key = parsed.args[0]
         update_igdb_id = parsed.args[1]
@@ -67,17 +70,15 @@ Available modules: %(modules)s
 
     try:
         game_label = f"{game_key} " if game_key else ""
-        print(f"Generating article for {game_label}update (IGDB ID: {update_igdb_id})...")
-        print()
+        logger.info("Generating article for %supdate (IGDB ID: %s)...", game_label, update_igdb_id)
 
         generator = ArticleGenerator(module, output_dir=parsed.output)
         generator.generate_article(update_igdb_id, game_key=game_key)
 
-        print()
-        print("Done!")
+        logger.info("Done!")
 
     except Exception as e:
-        print(f"Error: {e}")
+        logger.error("%s", e)
         sys.exit(1)
 
 
