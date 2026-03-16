@@ -126,6 +126,12 @@ class ArticleGenerator:
         # Generate game slug for IGDB URL (use update name)
         game_slug = update_game.name.lower().replace(" ", "-").replace(":", "")
 
+        # Build IGDB artwork image URL
+        if update_game.artwork_image_id:
+            banner_url = f"https://images.igdb.com/igdb/image/upload/t_720p/{update_game.artwork_image_id}.webp"
+        else:
+            banner_url = ""
+
         return {
             "igdb_id": update_igdb_id,
             "game_name": game_config.game_name,
@@ -134,7 +140,7 @@ class ArticleGenerator:
             "game_slug": game_slug,
             # Defaults that modules can override per language
             "update_title": update_game.name,
-            "banner_url": "",
+            "banner_url": banner_url,
             "update_url": "",
             "game_website": "",
         }

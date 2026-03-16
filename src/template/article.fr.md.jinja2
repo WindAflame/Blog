@@ -1,6 +1,6 @@
 +++
-title = "{{ game_name }}: {{ update_title }}"
-description = "Mon avis sur la MAJ ({{ date }}) de {{ game_name }}"
+title = "{{ game_name }}"
+description = "Mon avis sur {{ game_name }} (IGDB: {{ igdb_id }})"
 date = {{ date }}
 # updated = {{ date }}
 path = "fr/{{ igdb_id }}"
@@ -8,13 +8,13 @@ draft = true
 [extra]
 [extra.cover]
 image_url = "{{ banner_url }}"
-alt = "A Markdown logo"
+alt = "{{ game_name }} - Banner"
 width = 1920
 height = 620
 [extra.igdb]
 id = "{{ igdb_id }}"
 [taxonomies]
-tags = ["game", "review"]
+tags = ["game", "review", "{{ igdb_id }}"]
 authors = ["{{ author }}"]
 +++
 
@@ -31,12 +31,16 @@ Est-ce que mon avis vous importe ?
 >Title
 >
 >Résumé synthétique
+{%- if update_url %}
 
 ## Détails de la mise à jour
 
 [![{{ update_title }}]({{ banner_url }})]({{ update_url }})
+{%- endif %}
 
 ## Liens
 
 - {% raw %}{{ igdb_url() }}{% endraw %}
+{%- if update_url %}
 - [{{ update_title }}]({{ update_url }})
+{%- endif %}

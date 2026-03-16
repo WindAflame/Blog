@@ -27,7 +27,7 @@ class IGDBClient:
         Raises:
             ValueError: If game not found
         """
-        query = f"fields name, alternative_names.name; where id = {game_id};"
+        query = f"fields name, alternative_names.name, artworks.image_id; where id = {game_id};"
 
         try:
             response = self.wrapper.api_request("games", query)
