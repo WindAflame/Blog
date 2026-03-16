@@ -1,0 +1,78 @@
+{
+    "id": 194558,
+    "artworks": [
+        "ar1j43",
+        "ar1j8l",
+        "ar1j8m",
+        "ar4rja",
+        "ar54r9",
+        "ar54ra",
+        "ar56y6",
+        "ar5fu1",
+        "ar5fu2",
+        "ar5jeu"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Strategy",
+            "slug": "strategy"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Gryphline",
+            "slug": "gryphline"
+        },
+        {
+            "name": "Mountain Contour",
+            "slug": "mountain-contour"
+        },
+        {
+            "name": "Hypergryph",
+            "slug": "hypergryph"
+        }
+    ],
+    "name": "Arknights: Endfield",
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "rating": 71.36737186962075,
+    "slug": "arknights-endfield",
+    "summary": "Arknights: Endfield is a 3D real-time strategy RPG developed by HYPERGRYPH. You will take on the role of the Endministrator of Endfield Industries, set out across Talos-II to uncover its secrets, and defend and expand the frontiers of human civilization.",
+    "videos": [
+        "oo0deb64GNw",
+        "So84QFZWYOQ",
+        "2h85NtIwduY",
+        "JcsOm6WSBDA",
+        "iWUkSZyjUyM",
+        "ntao9yWJcbo",
+        "Yt7eUS1X0Ec",
+        "gDXP3Jr02BA",
+        "1XpQz8k1NwE",
+        "PpyzMnjSuZo"
+    ],
+    "game_type": "Main Game"
+}

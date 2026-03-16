@@ -1,0 +1,73 @@
+{
+    "id": 116416,
+    "aggregated_rating": 85.33333333333333,
+    "artworks": [
+        "arb0f",
+        "ar4bdh",
+        "ar4bdi",
+        "ar4n8h",
+        "ar4n8i",
+        "ar4n8j",
+        "ar4n8k",
+        "ar4n8l"
+    ],
+    "genres": [
+        {
+            "name": "Platform",
+            "slug": "platform"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        },
+        {
+            "name": "Indie",
+            "slug": "indie"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "SUNSOFT",
+            "slug": "sunsoft"
+        },
+        {
+            "name": "Inti Creates",
+            "slug": "inti-creates"
+        }
+    ],
+    "name": "Blaster Master Zero II",
+    "platforms": [
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Xbox One",
+            "slug": "xboxone"
+        },
+        {
+            "name": "Nintendo Switch",
+            "slug": "switch"
+        }
+    ],
+    "rating": 82.54694477044796,
+    "slug": "blaster-master-zero-ii",
+    "summary": "The side-scrolling/top-down hybrid action adventure gameplay returns with a brand new sequel to Blaster Master Zero!",
+    "videos": [
+        "PtWSusxCHr0",
+        "2pnBHvM46zE",
+        "25BquRvjWHQ",
+        "DkTvmlBDTAI",
+        "ONJ7I2p3Ukg",
+        "AvudFvGbB2I"
+    ],
+    "game_type": "Main Game"
+}

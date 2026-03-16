@@ -1,0 +1,64 @@
+{
+    "id": 389652,
+    "artworks": [
+        "ar5bj7"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Homeward, He Who Caught the Wind",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-homeward-he-who-caught-the-wind",
+    "summary": "Version \"Luna V\" of Genshin Impact, also known as \"Song of the Welkin Moon: Variation\". This update includes:\n\u2022 New character: Varka\n\u2022 New story quests for Varka\n\u2022 New main event: Homeward, He Who Caught the Wind\n\u2022 New updates for Miliastra Wonderland\n\u2022 New QoL, and more!",
+    "videos": [
+        "p02WXZZ84M4",
+        "OBH8AB80DDM"
+    ],
+    "game_type": "Update"
+}

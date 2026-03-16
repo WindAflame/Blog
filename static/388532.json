@@ -1,0 +1,63 @@
+{
+    "id": 388532,
+    "artworks": [
+        "ar58es"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Hack and slash/Beat 'em up",
+            "slug": "hack-and-slash-beat-em-up"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Zenless Zone Zero: Update 2.6 - Encore for an Old Dream",
+    "parent_game": {
+        "name": "Zenless Zone Zero",
+        "slug": "zenless-zone-zero"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "zenless-zone-zero-update-2-dot-6-encore-for-an-old-dream",
+    "summary": "Version 2.6 of Zenless Zone Zero, which includes:\n\u2022 New Characters: Sunna and Aria\n\u2022 New Main Story Quest\n\u2022 New events\n\u2022 New skins for Sunna, Aria and Pan Yinhu\n\u2022 ...and more!",
+    "videos": [
+        "pMchTj9qzQY"
+    ],
+    "game_type": "Update"
+}

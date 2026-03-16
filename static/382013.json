@@ -1,0 +1,60 @@
+{
+    "id": 382013,
+    "artworks": [
+        "ar50j7"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Genshin Impact: A Traveler on a Winter's Night",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-traveler-on-a-winters-night",
+    "summary": "Version \"Luna IV\" of Genshin Impact, also known as \"Song of the Welkin Moon: Postlude\". This update includes:\n\u2022 New characters: Columbina, Zibai, and Illuga\n\u2022 New area: The Lament of the Cliff-Shadowed Hollow\n\u2022 New main story quests: \"A Traveler on a Winter's Night\" and \"True Moon\"\n\u2022 New outfits for the Travelers, Neuvillette, and Yaoyao\n\u2022 New main event: A Lanternlit Ode to the Silver Moon\n\u2022 New updates for Miliastra Wonderland\n\u2022 New QoL, and more!",
+    "videos": [
+        "_yuHIzPJGHA",
+        "ja4jJXYyiqU"
+    ],
+    "game_type": "Update"
+}

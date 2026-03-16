@@ -1,0 +1,66 @@
+{
+    "id": 381220,
+    "artworks": [
+        "ar4xck",
+        "ar4xcl",
+        "ar57cd"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Hack and slash/Beat 'em up",
+            "slug": "hack-and-slash-beat-em-up"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Zenless Zone Zero: Update 2.5 - To Be Fuel for the Night",
+    "parent_game": {
+        "name": "Zenless Zone Zero",
+        "slug": "zenless-zone-zero"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "zenless-zone-zero-update-2-dot-5-to-be-fuel-for-the-night",
+    "summary": "Version 2.5 of Zenless Zone Zero, which includes:\n\u2022 New Characters: Ye Shunguang and Zhao\n\u2022 New Main Story Quest\n\u2022 New events\n\u2022 New skins for Jane and Ye Shunguang\n\u2022 ...and more!",
+    "videos": [
+        "V8iNHiWSQF4",
+        "X-g1N9mNjzs"
+    ],
+    "game_type": "Update"
+}

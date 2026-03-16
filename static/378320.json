@@ -1,0 +1,65 @@
+{
+    "id": 378320,
+    "artworks": [
+        "ar4pqi"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: A Nocturne of the Far North",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-nocturne-of-the-far-north",
+    "summary": "Version \"Luna III\" of Genshin Impact, also known as \"Song of the Welkin Moon: Interlude\". This update includes:\n\u2022 New characters: Durin and Jahoda\n\u2022 New main story quests: \"A Nocturne of the Far North\" and \"Melting Moonlight in the Morning Mist\"\n\u2022 New story quest for Durin\n\u2022 New main event: Soulblazers' Snowbound Journey\n\u2022 New system: Witch's Homework\n\u2022 New updates for Miliastra Wonderland\n\u2022 New QoL, and more!",
+    "videos": [
+        "fU6nElrxNRs",
+        "wpOPfcqbuk4",
+        "rHugfOnLc_s"
+    ],
+    "game_type": "Update"
+}
