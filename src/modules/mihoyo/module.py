@@ -15,32 +15,32 @@ class MihoyoModule(BaseModule):
     def get_game_config(self, game_key: str) -> Optional[GameConfig]:
         return MIHOYO_GAMES.get(game_key)
 
-    def fetch_news_article(self, game_config: GameConfig, version_keywords: list, lang: str = "en") -> Optional[NewsArticle]:
-        # Find the game key from config to get the API URL
-        game_key = None
+    def _find_game_key(self, game_config: GameConfig) -> Optional[str]:
+        """Find game key by exact match or prefix (e.g. 'Genshin Impact: ...' → 'genshin')."""
         for key, config in MIHOYO_GAMES.items():
-            if config.game_name == game_config.game_name:
-                game_key = key
-                break
+            if config.game_name == game_config.game_name or game_config.game_name.startswith(config.game_name):
+                return key
+        return None
+
+    def fetch_news_article(self, game_config: GameConfig, version_keywords: list, lang: str = "en") -> Optional[NewsArticle]:
+        game_key = self._find_game_key(game_config)
 
         if game_key is None or game_key not in ENNEAD_API_URLS:
             return None
 
-        api_url = f"{ENNEAD_API_URLS[game_key]}?lang={lang}"
+        hoyolab_lang = HOYOLAB_LANG_CODES.get(lang, lang)
+        api_url = f"{ENNEAD_API_URLS[game_key]}?lang={hoyolab_lang}"
         ennead_client = EnneadAPIClient(api_url)
         return ennead_client.get_update_news_by_version(version_keywords)
 
     def fetch_news_article_by_id(self, game_config: GameConfig, article_id: str, lang: str = "en") -> Optional[NewsArticle]:
-        game_key = None
-        for key, config in MIHOYO_GAMES.items():
-            if config.game_name == game_config.game_name:
-                game_key = key
-                break
+        game_key = self._find_game_key(game_config)
 
         if game_key is None or game_key not in ENNEAD_API_URLS:
             return None
 
-        api_url = f"{ENNEAD_API_URLS[game_key]}?lang={lang}"
+        hoyolab_lang = HOYOLAB_LANG_CODES.get(lang, lang)
+        api_url = f"{ENNEAD_API_URLS[game_key]}?lang={hoyolab_lang}"
         ennead_client = EnneadAPIClient(api_url)
         return ennead_client.get_article_by_id(article_id)
 
@@ -61,7 +61,9 @@ class MihoyoModule(BaseModule):
         return keywords + extra
 
     def prepare_extra_context(self, game_config: GameConfig, news_article: Optional[NewsArticle], lang: str = "en") -> dict:
-        game_website = GAME_WEBSITES.get(game_config.game_name, "https://www.hoyoverse.com/")
+        game_key = self._find_game_key(game_config)
+        base_game_name = MIHOYO_GAMES[game_key].game_name if game_key else game_config.game_name
+        game_website = GAME_WEBSITES.get(base_game_name, "https://www.hoyoverse.com/")
 
         context = {
             "game_website": game_website,
