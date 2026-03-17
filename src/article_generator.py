@@ -129,7 +129,7 @@ class ArticleGenerator:
 
         return {
             "igdb_id": update_igdb_id,
-            "game_name": game_config.game_name,
+            "game_name": update_game.name,
             "date": today,
             "author": DEFAULT_AUTHOR,
             "game_slug": game_slug,
