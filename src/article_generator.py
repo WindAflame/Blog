@@ -61,12 +61,7 @@ class ArticleGenerator:
 
         # If no game_config from module, derive from IGDB data
         if not game_config:
-            # Use the part before ":" as game name, or the full name
-            if ":" in update_game.name:
-                game_name = update_game.name.split(":", 1)[0].strip()
-            else:
-                game_name = update_game.name
-            game_config = GameConfig(igdb_id=update_igdb_id, game_name=game_name)
+            game_config = GameConfig(igdb_id=update_igdb_id, game_name=update_game.name)
 
         # Extract version keywords from update name and alternative names
         version_keywords = self.igdb_client.extract_version_keywords(update_game)
