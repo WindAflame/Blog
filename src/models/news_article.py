@@ -22,7 +22,7 @@ class NewsArticle:
             title=data["title"],
             description=data["description"],
             url=data["url"],
-            banner=data.get("banner", []),
+            banner=data.get("banner", []) if isinstance(data.get("banner"), list) else ([data["banner"]] if data.get("banner") else []),
             created_at=data.get("createdAt", 0),
             article_type=data.get("type", "notice"),
         )
