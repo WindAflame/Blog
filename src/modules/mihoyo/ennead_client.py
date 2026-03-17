@@ -119,6 +119,9 @@ class EnneadAPIClient:
                 "preview",
                 "version details",  # Avoid "Version Details", we want "Update Details"
                 "what's new",       # Avoid "What's New"
+                "known issues",     # Avoid "Known Issues & Game Optimizations"
+                "game optimizations",
+                "limited-time",     # Avoid event channel listings
             ]
 
             version_keywords_lower = [kw.lower() for kw in version_keywords]

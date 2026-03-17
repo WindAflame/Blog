@@ -28,8 +28,7 @@ class MihoyoModule(BaseModule):
         if game_key is None or game_key not in ENNEAD_API_URLS:
             return None
 
-        hoyolab_lang = HOYOLAB_LANG_CODES.get(lang, lang)
-        api_url = f"{ENNEAD_API_URLS[game_key]}?lang={hoyolab_lang}"
+        api_url = ENNEAD_API_URLS[game_key]
         ennead_client = EnneadAPIClient(api_url)
         return ennead_client.get_update_news_by_version(version_keywords)
 
