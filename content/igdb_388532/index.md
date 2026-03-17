@@ -15,7 +15,7 @@ height = 620
 id = "388532"
 [taxonomies]
 tags = ["game", "review"]
-authors = ["Endy WindAflame"]
+authors = ["endyw"]
 +++
 
 ## About this game
