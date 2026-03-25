@@ -25,7 +25,8 @@ authors = ["endyw"]
 - **Platformes:** [Android](https://www.igdb.com/platforms/android), [iOS](https://www.igdb.com/platforms/ios), [PC (Microsoft Windows)](https://www.igdb.com/platforms/win), [PlayStation 4](https://www.igdb.com/platforms/ps4--1), [PlayStation 5](https://www.igdb.com/platforms/ps5), [Xbox Series X|S](https://www.igdb.com/platforms/series-x-s)
 - **Synopsis:**
 
-```Version 5.4 of Genshin Impact, which includes:
+```
+Version 5.4 of Genshin Impact, which includes:
 - New character: Yumemizuki Mizuki
 - New story quest for Yumemizuki Mizuki
 - New main event: Enchanted Tales of the Mikawa Festival

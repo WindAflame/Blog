@@ -1,0 +1,12 @@
+{
+    "igdb_genre": {"value": "Genre"},
+    "igdb_company": {"value": "Company"},
+    "igdb_platform": {"value": "Platform"},
+    "igdb_remake": {"value": "Remake"},
+    "igdb_synopsis": {"value": "Synopsis"},
+    "igdb_trailer": {"value": "Trailer"},
+    "igdb_review": {"value": "Review"},
+    "igdb_review_critic": {"value": "Critic"},
+    "igdb_review_user": {"value": "User"},
+    "igdb_nfo": {"value": "All this information is provided by "}
+}

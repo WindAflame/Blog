@@ -1,0 +1,12 @@
+{
+    "igdb_genre": {"value": "Genre"},
+    "igdb_company": {"value": "Editeur"},
+    "igdb_platform": {"value": "Plateforme"},
+    "igdb_remake": {"value": "Remake"},
+    "igdb_synopsis": {"value": "Synopsis"},
+    "igdb_trailer": {"value": "Trailer"},
+    "igdb_review": {"value": "Note"},
+    "igdb_review_critic": {"value": "Média"},
+    "igdb_review_user": {"value": "Utilisateur"},
+    "igdb_nfo": {"value": "Toutes ces informations sont fournies par "}
+}

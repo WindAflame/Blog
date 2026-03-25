@@ -1,20 +1,23 @@
 {%- set igdb_game_data = load_data(path=`static/` ~ page.extra.igdb.id ~ `.json`, format=`json`) %}
-{%- set igdb_trans_data = load_data(path=`templates/i18n.json`, format=`json`) %}
+{%- set igdb_trans_data = load_data(path="templates/shortcodes/igdb."~lang~".json", format="json", required=false) %}
+{%- if not igdb_trans_data %}
+  {%- set igdb_trans_data = load_data(path="templates/shortcodes/igdb.en.json", format="json") %}
+{%- endif %}
 <!-- Page article with information from IGDB -->
 <article>
   <!-- Page Start inject -->
   {% include "injects/page_start.html" ignore missing %}
 
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">{{ page.title }}</h1>
+    <h1 class="my-0! pb-2.5">{{ page.title }}</h1>
     {%- if page.extra.igdb %}
     {% set igdb = page.extra.igdb -%}
     <div class="text-md antialiased pb-1">
-      {{ m_i18n::tr(key="igdb_genre", lk=lang, d=igdb_trans_data) }}: {% for item in igdb_game_data.genres %}
+      {{ _str::tr(key="igdb_genre", d=igdb_trans_data) }}: {% for item in igdb_game_data.genres %}
         <a href="https://www.igdb.com/genres/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.genres|length %},{% endif %}
       {% endfor %}
       |
-      {{ m_i18n::tr(key="igdb_company", lk=lang, d=igdb_trans_data) }}: {% for item in igdb_game_data.involved_companies %}
+      {{ _str::tr(key="igdb_company", d=igdb_trans_data) }}: {% for item in igdb_game_data.involved_companies %}
         <a href="https://www.igdb.com/companies/{{item.slug}}">{{item.name}}</a>{% if loop.index < igdb_game_data.involved_companies|length %},{% endif %}
       {% endfor %}
     </div>
