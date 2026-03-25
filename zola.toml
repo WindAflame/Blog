@@ -43,7 +43,7 @@ dark_theme = "github-dark-default"
 [extra]
 math = false
 mermaid = false
-comment = false
+comment = true
 title_separator = " | "
 header_menu_name = "menu_header"
 use_cdn = false
@@ -65,6 +65,12 @@ date_format_archive = "%m-%d"
 locale = "fr_FR"
 date_format = "%F"
 date_format_archive = "%d-%m"
+
+[extra.giscus]
+repo = "WindAflame/Blog"
+repo_id = "MDEwOlJlcG9zaXRvcnk5OTIxNTI1OQ=="
+category = "Comments"
+category_id = "DIC_kwDOBennm84C5QVW"
 
 # Endy's profile
 [extra.profiles.endyw]
