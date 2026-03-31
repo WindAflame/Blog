@@ -1,0 +1,78 @@
+name: Update IGDB Data
+
+on:
+  pull_request:
+    paths:
+      - 'sources/zola-linkita/content/**/*.md'
+
+jobs:
+  update-igdb-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install igdb-data-py dependencies
+        run: uv sync
+        working-directory: scripts/igdb-data-py
+
+      - name: Detect IGDB IDs from changed articles
+        id: detect
+        run: |
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+
+          # IDs from igdb_<id> directory names
+          DIR_IDS=$(echo "$CHANGED" \
+            | grep -oP 'sources/zola-linkita/content/igdb_\K[^/]+' \
+            | sort -u)
+
+          # IDs from changed markdown files containing [extra.igdb]
+          TAG_IDS=$(echo "$CHANGED" \
+            | grep '\.md$' \
+            | while read -r f; do
+                if [ -f "$f" ] && grep -q '\[extra\.igdb\]' "$f"; then
+                  grep -oP '(?<=^id = ")[^"]+' "$f"
+                fi
+              done \
+            | sort -u)
+
+          ALL_IDS=$(printf '%s\n%s' "$DIR_IDS" "$TAG_IDS" | sort -u | tr '\n' ' ' | xargs)
+
+          echo "igdb_ids=$ALL_IDS" >> $GITHUB_OUTPUT
+          echo "Detected IGDB IDs: $ALL_IDS"
+
+      - name: Fetch IGDB data
+        if: steps.detect.outputs.igdb_ids != ''
+        env:
+          client: ${{ secrets.IGDB_CLIENT_ID }}
+          token: ${{ secrets.IGDB_ACCESS_TOKEN }}
+        working-directory: scripts/igdb-data-py
+        run: |
+          for id in ${{ steps.detect.outputs.igdb_ids }}; do
+            echo "Fetching IGDB data for game ID: $id"
+            uv run igdb-data "$id" -o ../../sources/zola-linkita/static
+          done
+
+      - name: Commit and push IGDB data
+        if: steps.detect.outputs.igdb_ids != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sources/zola-linkita/static/*.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update IGDB data for PR articles"
+            git push
+          else
+            echo "No new IGDB data to commit"
+          fi
