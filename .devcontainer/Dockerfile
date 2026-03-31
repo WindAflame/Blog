@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV ZOLA_VERSION=0.20.0
+ENV ZOLA_VERSION=0.22.1
 
 # Install all dependancies
 RUN apt-get update && apt-get install -y \
