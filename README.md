@@ -1,6 +1,6 @@
 # EWA's Blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/87ef41a4-3045-4100-9af9-124420068872/deploy-status)](https://app.netlify.com/sites/ewa-share/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3121d731-fd3e-4d7e-8eaf-49f5a834613f/deploy-status)](https://app.netlify.com/projects/ewa-blog/deploys)
 
 ## Welcome to my blog's source project
 
