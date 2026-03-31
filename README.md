@@ -22,7 +22,7 @@ _I'm currently working on centralizing the articles so that they are compatible 
 ### Prerequisites
 
 - **Git** with submodule support
-- **Zola** v0.20.0 - [Installation guide](https://www.getzola.org/documentation/getting-started/installation/)
+- **Zola** v0.22.1 - [Installation guide](https://www.getzola.org/documentation/getting-started/installation/)
 
 ### Setup
 

@@ -3,7 +3,7 @@ publish = "sources/zola-linkita/public"
 command = "bash scripts/ci/production.sh"
 
 [build.environment]
-ZOLA_VERSION = "0.20.0"
+ZOLA_VERSION = "0.22.1"
 
 [context.production]
 command = "bash scripts/ci/production.sh"

@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
-      "ZOLA_VERSION": "0.20.0",
+      "ZOLA_VERSION": "0.22.1",
       "NODE_VERSION": "20",
       "PYTHON_VERSION": "3.13"
     }
@@ -38,6 +38,6 @@
   },
   "remoteUser": "vscode",
   "containerEnv": {
-    "ZOLA_VERSION": "0.20.0"
+    "ZOLA_VERSION": "0.22.1"
   }
 }

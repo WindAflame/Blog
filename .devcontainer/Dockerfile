@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
 
-ARG ZOLA_VERSION=0.20.0
+ARG ZOLA_VERSION=0.22.1
 ARG NODE_VERSION=20
 ARG PYTHON_VERSION=3.13
 
