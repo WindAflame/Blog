@@ -1,0 +1,50 @@
+{
+    "id": 400709,
+    "aggregated_rating": 82.0,
+    "artworks": [
+        "ar5tt6",
+        "ar5ttl",
+        "ar5ttm",
+        "ar5ttn"
+    ],
+    "genres": [
+        {
+            "name": "Shooter",
+            "slug": "shooter"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Nintendo",
+            "slug": "nintendo"
+        },
+        {
+            "name": "Velan Studios",
+            "slug": "velan-studios"
+        }
+    ],
+    "name": "Star Fox",
+    "parent_game": {
+        "name": "Star Fox 64",
+        "slug": "star-fox-64"
+    },
+    "platforms": [
+        {
+            "name": "Nintendo Switch 2",
+            "slug": "switch-2"
+        }
+    ],
+    "rating": 82.44566974714262,
+    "slug": "star-fox--5",
+    "summary": "Star Fox is an action-packed adventure based on Star Fox 64, featuring newly overhauled character designs, freshly revamped looks for each stage, plus detailed cutscenes, fully voiced dialogue and a sweeping orchestral soundtrack. The game also includes Joy-Con 2 mouse controls and a brand-new GameChat feature that puts you in the cockpit as your favorite characters from the Star Fox universe.",
+    "videos": [
+        "ePZeyh5q9R8",
+        "cWJR_d9gBZ4",
+        "gL6e98lg644"
+    ],
+    "game_type": "Remake"
+}

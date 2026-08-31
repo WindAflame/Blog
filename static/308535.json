@@ -1,0 +1,69 @@
+{
+    "id": 308535,
+    "artworks": [
+        "ar5gqk",
+        "ar5r0a",
+        "ar5sk7",
+        "ar5sk8",
+        "ar5sk9",
+        "ar5ska",
+        "ar5skb",
+        "ar5skc"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Hotta Studio",
+            "slug": "hotta-studio"
+        },
+        {
+            "name": "Iwplay World Interactive Entertainment",
+            "slug": "iwplay-world-interactive-entertainment"
+        },
+        {
+            "name": "Perfect World Games",
+            "slug": "perfect-world-games"
+        }
+    ],
+    "name": "NTE: Neverness to Everness",
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        },
+        {
+            "name": "Mac",
+            "slug": "mac"
+        }
+    ],
+    "rating": 55.71782954840596,
+    "slug": "nte-neverness-to-everness",
+    "summary": "NTE: Neverness to Everness is a supernatural open-world RPG developed by Hotta Studio. The story begins in the city of Hethereau, where you play as its first \"unlicensed\" Anomaly Hunter. You'll join the crew at Eibon, a rundown antique shop that keeps the lights on by taking Anomaly commissions from anyone willing to pay. Alongside a diverse cast of extraordinary companions, you'll unravel urban mysteries, ride out adventures full of laughs and heartbreak, and write your own stories in the neon-lit streets.",
+    "videos": [
+        "tdZN6H1N3PU",
+        "eguKZyaDyQM",
+        "Qd7oui9YCUM"
+    ],
+    "game_type": "Main Game"
+}

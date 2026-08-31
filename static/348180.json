@@ -1,0 +1,60 @@
+{
+    "id": 348180,
+    "aggregated_rating": 77.25,
+    "artworks": [
+        "ar3ouz",
+        "ar558h",
+        "ar558i",
+        "ar558j",
+        "ar68te",
+        "ar68tf",
+        "ar6cma",
+        "ar6cmb"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Game Freak",
+            "slug": "game-freak"
+        },
+        {
+            "name": "Fictions",
+            "slug": "fictions"
+        }
+    ],
+    "name": "Beast of Reincarnation",
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        }
+    ],
+    "rating": 85.58284256891291,
+    "slug": "beast-of-reincarnation",
+    "summary": "In post-apocalyptic Japan, humanity\u2019s last hope may rest with Emma and her loyal canine companion, Koo. Explore what it means to be human in Beast of Reincarnation, an expansive one-person, one-dog action RPG built around demanding, technical combat. What awaits at journey\u2019s end?",
+    "videos": [
+        "ysyYwLbDByU",
+        "ilAwYJaLSKQ",
+        "zqxdVtJ24ms",
+        "j8alvtOCRk0",
+        "mhMVMTWDAWU"
+    ],
+    "game_type": "Main Game"
+}

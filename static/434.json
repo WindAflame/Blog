@@ -1,0 +1,65 @@
+{
+    "id": 434,
+    "aggregated_rating": 91.8,
+    "artworks": [
+        "ar3qmq",
+        "ar3qmr"
+    ],
+    "genres": [
+        {
+            "name": "Shooter",
+            "slug": "shooter"
+        },
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Rockstar Games",
+            "slug": "rockstar-games"
+        },
+        {
+            "name": "Rockstar North",
+            "slug": "rockstar-north"
+        },
+        {
+            "name": "Rockstar San Diego",
+            "slug": "rockstar-san-diego"
+        },
+        {
+            "name": "Take-Two Interactive",
+            "slug": "take-two-interactive"
+        }
+    ],
+    "name": "Red Dead Redemption",
+    "platforms": [
+        {
+            "name": "Xbox 360",
+            "slug": "xbox360"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "PlayStation 3",
+            "slug": "ps3"
+        }
+    ],
+    "rating": 89.39258945766551,
+    "slug": "red-dead-redemption",
+    "summary": "A modern-day Western epic, Red Dead Redemption takes John Marston, a relic from the fast-closing time of the gunslinger, through an open world filled with wildlife, mini-games, and shootouts. Marston sets out to hunt down his old gang mates for the government, who have taken away his family. Along his journey, he meets many characters emblematic of the Wild West, heroism, and the new civilization.",
+    "videos": [
+        "aOpKJ6hjPIM",
+        "PD24MkbHQrc",
+        "-o7rES_3ymA",
+        "aqk5DN_DO_o"
+    ],
+    "game_type": "Main Game"
+}

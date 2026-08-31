@@ -1,0 +1,42 @@
+{
+    "id": 2140,
+    "aggregated_rating": 93.75,
+    "genres": [
+        {
+            "name": "Platform",
+            "slug": "platform"
+        },
+        {
+            "name": "Puzzle",
+            "slug": "puzzle"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Media Molecule",
+            "slug": "media-molecule"
+        },
+        {
+            "name": "Sony Computer Entertainment",
+            "slug": "sony-computer-entertainment"
+        }
+    ],
+    "name": "LittleBigPlanet 2",
+    "platforms": [
+        {
+            "name": "PlayStation 3",
+            "slug": "ps3"
+        }
+    ],
+    "rating": 82.44163282710605,
+    "slug": "littlebigplanet-2",
+    "summary": "LittleBigPlanet 2 is a puzzle platformer video game centered around user-generated content, first announced on May 8th, 2010 in the June 2010 issue of gaming magazine Game Informer. The game was developed by Media Molecule and published by Sony Computer Entertainment Europe for the PlayStation 3 console, and is the last major Little Big Planet game in the series to be produced by Media Molecule, as the sequel, Little Big Planet 3 would be produced by Sumo Digital, Tarsier Studios, and The Station.\n\nUnlike the original LittleBigPlanet which was marketed as a \"Platform game\", LittleBigPlanet 2 was marketed as a \"Platform for Games\". The game is 100% backwards compatible with all user-created content (including personal profiles) from the first game. It is a direct sequel to LittleBigPlanet, and the third game in the series. The disc also features Sackboy's Prehistoric Moves, a ModNation Racers demo, as well as a PlayStation Network tutorial video.",
+    "videos": [
+        "Ky-JUL0SDDs"
+    ],
+    "game_type": "Main Game"
+}
