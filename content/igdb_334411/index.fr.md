@@ -14,7 +14,7 @@ draft = true
 [extra.igdb]
 id = "334411"
 [taxonomies]
-tags = ["game", "review", "334411"]
+tags = ["game", "review", "Zenless Zone Zero", "334411"]
 authors = ["endyw"]
 +++
 

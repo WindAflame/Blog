@@ -14,7 +14,7 @@ height = 620
 [extra.igdb]
 id = "194558"
 [taxonomies]
-tags = ["game", "review", "194558"]
+tags = ["game", "review", "Arknights: Endfield", "194558"]
 authors = ["endyw"]
 +++
 

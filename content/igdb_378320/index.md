@@ -14,7 +14,7 @@ height = 620
 [extra.igdb]
 id = "378320"
 [taxonomies]
-tags = ["game", "review"]
+tags = ["game", "review", "Genshin Impact"]
 authors = ["unknown_writer"]
 +++
 

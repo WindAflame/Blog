@@ -14,7 +14,7 @@ height = 620
 [extra.igdb]
 id = "326609"
 [taxonomies]
-tags = ["game", "review", "326609"]
+tags = ["game", "review", "Honkai Star Rail", "326609"]
 authors = ["endyw"]
 +++
 

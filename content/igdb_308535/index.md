@@ -14,7 +14,7 @@ height = 620
 [extra.igdb]
 id = "308535"
 [taxonomies]
-tags = ["game", "review", "308535"]
+tags = ["game", "review", "NTE: Neverness to Everness", "308535"]
 authors = ["endyw"]
 +++
 

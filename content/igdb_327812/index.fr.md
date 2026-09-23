@@ -14,7 +14,7 @@ height = 620
 [extra.igdb]
 id = "327812"
 [taxonomies]
-tags = ["game", "review", "327812"]
+tags = ["game", "review", "Zenless Zone Zero", "327812"]
 authors = ["endyw"]
 +++
 

@@ -14,7 +14,7 @@ draft = true
 [extra.igdb]
 id = "331635"
 [taxonomies]
-tags = ["game", "review", "331635"]
+tags = ["game", "review", "Honkai Star Rail", "331635"]
 authors = ["endyw"]
 +++
 

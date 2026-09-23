@@ -14,7 +14,7 @@ height = 620
 [extra.igdb]
 id = "335597"
 [taxonomies]
-tags = ["game", "review", "335597"]
+tags = ["game", "review", "Genshin Impact", "335597"]
 authors = ["endyw"]
 +++
 
