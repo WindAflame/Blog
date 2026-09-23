@@ -1,0 +1,63 @@
+{
+    "id": 398426,
+    "artworks": [
+        "ar5poy",
+        "ar5poz"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Augured Homecoming",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-augured-homecoming--1",
+    "summary": "Version \"Luna VI\" of Genshin Impact, also known as \"Song of the Welkin Moon: Rondo\". This update includes:\n\u2022 New character: Linnea\n\u2022 New areas: Windrest Peak and Temple of Space\n\u2022 New story quests for Linnea\n\u2022 New main event: Where Waves Meet the Reef\n\u2022 New updates for Miliastra Wonderland\n\u2022 New QoL, and more!",
+    "videos": [
+        "mVWLSzkpGzA",
+        "K1HrwZe52UI",
+        "6YiuyqftA8U",
+        "G3VvCIa-jB0"
+    ],
+    "game_type": "Update"
+}

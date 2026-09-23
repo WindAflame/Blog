@@ -1,0 +1,66 @@
+{
+    "id": 279333,
+    "artworks": [
+        "ar2o9y",
+        "ar2o9z",
+        "ar2oa0",
+        "ar2oa1",
+        "ar2p34"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Roses and Muskets",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-roses-and-muskets",
+    "summary": "Version 4.3 of Genshin Impact, which includes:\n\u2022 New characters: Navia and Chevreuse\n\u2022 New main event: Roses and Muskets\n\u2022 New story quest for Navia\n\u2022 Major update for Genius Invokation TCG\n\u2022 Major update for the Serenitea Pot housing system\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "Z1SK-G1B6rY",
+        "o1EEvbQXe6Y",
+        "J7gnFCdZNmU",
+        "vcJ6l5z9GHk"
+    ],
+    "game_type": "Update"
+}

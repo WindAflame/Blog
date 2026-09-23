@@ -1,0 +1,66 @@
+{
+    "id": 257465,
+    "artworks": [
+        "ar2j79",
+        "ar2j7a",
+        "ar2j7b",
+        "ar2j7c",
+        "ar2j7d"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: All Senses Clear, All Existence Void",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-all-senses-clear-all-existence-void",
+    "summary": "Version 3.3 of Genshin Impact, which included:\n\u2022 New characters: Wanderer and Faruzan\n\u2022 New gameplay system: Genius Inokation TCG\n\u2022 New main story quests: Interlude Chapter, Act III - Inversion of Genesis\n\u2022 New story quests for Wanderer\n\u2022 New main event: Akitsu Kimodameshi\n\u2022 \u2026and more!",
+    "videos": [
+        "oTIHLsa0bj0",
+        "NHEE_-87mNE",
+        "0grd767X4Jg",
+        "AR2n2TsJuNE"
+    ],
+    "game_type": "Update"
+}

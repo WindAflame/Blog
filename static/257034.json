@@ -1,0 +1,62 @@
+{
+    "id": 257034,
+    "artworks": [
+        "ar2hs0",
+        "ar2hs1",
+        "ar2hs2"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Into the Perilous Labyrinth of Fog",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-into-the-perilous-labyrinth-of-fog",
+    "summary": "Version 2.2 of Genshin Impact, which included:\n\u2022 New character: Thoma\n\u2022 New area: Tsurumi Island\n\u2022 New hangout events: Thoma and Sayu\n\u2022 New main event: Labyrinth Warriors\n\u2022 \u2026and more!",
+    "videos": [
+        "PukB9J1Mih8",
+        "HPoeE5PRWTw"
+    ],
+    "game_type": "Update"
+}

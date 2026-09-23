@@ -1,0 +1,57 @@
+{
+    "id": 316892,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: The Rainbow Destined to Burn",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-the-rainbow-destined-to-burn",
+    "summary": "Version 5.1 of Genshin Impact, which includes:\n\u2022 New character: Xilonen\n\u2022 New main story quests: Archon Quest, Chapter V - Acts III & IV\n\u2022 New Tribal Chronicles quest: Children of Echoes - Act III\n\u2022 New main event: Chromatic Ode of Candies and Roses\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "lW0ey8UH0Os",
+        "yJ-tllvBvmI"
+    ],
+    "game_type": "Update"
+}

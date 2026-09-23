@@ -1,0 +1,61 @@
+{
+    "id": 321597,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        },
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Genshin Impact: Tapestry of Spirit and Flame",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-tapestry-of-spirit-and-flame",
+    "summary": "Version 5.2 of Genshin Impact, which includes:\n\u2022 New characters: Chasca and Ororon\n\u2022 New areas: Tezcatepetonco Range, Quahuacan Cliff, and Ochkanatlan\n\u2022 New main story quest: Archon Quest, Chapter V - Interlude\n\u2022 New Tribal Chronicles quests for the Flower-Feather Clan and the Masters of the Night-Wind\n\u2022 New main event: Itkomi Spiritseeking Scrolls\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "10FbK4TSEZw",
+        "-23o3IuAels"
+    ],
+    "game_type": "Update"
+}

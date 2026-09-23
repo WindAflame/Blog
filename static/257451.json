@@ -1,0 +1,70 @@
+{
+    "id": 257451,
+    "artworks": [
+        "ar2j6x",
+        "ar2j6y",
+        "ar2j6z",
+        "ar2j70",
+        "ar2j71",
+        "ar2j72"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: King Deshret and the Three Magi",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-king-deshret-and-the-three-magi",
+    "summary": "Version 3.1 of Genshin Impact, which included:\n\u2022 New characters: Cyno, Nilou and Candace\n\u2022 New areas: Hypostyle Desert, Land of Lower Setekh and Land of Upper Setekh\n\u2022 New main story quests: Chapter III, Acts III & IV\n\u2022 New story quests for Cyno and Nilou\n\u2022 New main event: Of Ballads and Brews\n\u2022 \u2026and more!",
+    "videos": [
+        "-2-WKyGTUrM",
+        "J9WuPBOC_S8",
+        "-n5ZlOtLzKU",
+        "P5DeAD_uXE0",
+        "2bNgDa4nApQ",
+        "rhvEIQj92w0",
+        "vkAdpWohH1o"
+    ],
+    "game_type": "Update"
+}

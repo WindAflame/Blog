@@ -1,0 +1,64 @@
+{
+    "id": 257481,
+    "artworks": [
+        "ar2j80",
+        "ar2j81",
+        "ar2j82",
+        "ar2j83",
+        "ar2j84"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Secret Summer Paradise",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-secret-summer-paradise",
+    "summary": "Version 3.8 of Genshin Impact, which included:\n\u2022 New outfits for Kaeya and Klee\n\u2022 New limited-time area: Veluriyam Mirage\n\u2022 New hangout events for Kaeya\n\u2022 New main event: Secret Summer Paradise\n\u2022 \u2026and more!",
+    "videos": [
+        "UHQ3u2TLkAg",
+        "KlKcxzwqG4c"
+    ],
+    "game_type": "Update"
+}

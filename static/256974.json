@@ -1,0 +1,65 @@
+{
+    "id": 256974,
+    "artworks": [
+        "ar2hsi",
+        "ar2hsj",
+        "ar2hsk",
+        "ar2hsl"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Beneath the Light of Jadeite",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-beneath-the-light-of-jadeite",
+    "summary": "Version 1.5 of Genshin Impact, which included:\n\u2022 New characters: Eula and Yanfei\n\u2022 New story quests for Zhongli and Eula\n\u2022 New hangout events: Noelle (Act II) and Diona\n\u2022 New main event: Energy Amplifier Initiation\n\u2022 New housing system: Serenitea Pot\n\u2022 \u2026and more!",
+    "videos": [
+        "4Z6P_2Gyv98",
+        "Go7SeJ-yOL4",
+        "y43rmAQ-l_M",
+        "fFHfbH8UrFE"
+    ],
+    "game_type": "Update"
+}

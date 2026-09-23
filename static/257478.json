@@ -1,0 +1,66 @@
+{
+    "id": 257478,
+    "artworks": [
+        "ar2j7m",
+        "ar2j7n",
+        "ar2j7o",
+        "ar2j7p",
+        "ar2j7q"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Windblume's Breath",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-windblumes-breath",
+    "summary": "Version 3.5 of Genshin Impact, which included:\n\u2022 New characters: Dehya and Mika\n\u2022 New main story quests: Chapter III, Act VI - Caribert\n\u2022 New story quest for Dehya\n\u2022 New hangout events for Faruzan\n\u2022 New main event: Windblume's Breath\n\u2022 \u2026and more!",
+    "videos": [
+        "AcTUi59vw_E",
+        "AKDz1h2871E",
+        "U8EWojkDwPc",
+        "fmYko2bWjnI"
+    ],
+    "game_type": "Update"
+}

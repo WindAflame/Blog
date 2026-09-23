@@ -1,0 +1,66 @@
+{
+    "id": 257479,
+    "artworks": [
+        "ar2j7r",
+        "ar2j7s",
+        "ar2j7t",
+        "ar2j7u",
+        "ar2j7v"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: A Parade of Providence",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-parade-of-providence",
+    "summary": "Version 3.6 of Genshin Impact, which included:\n\u2022 New characters: Baizhu and Kaveh\n\u2022 New areas: Gavireh Lajavard and Realm of Farakhkert\n\u2022 New hangout events for Layla\n\u2022 New story quests for Baizhu and Nahida\n\u2022 New main event: A Parade of Providence\n\u2022 \u2026and more!",
+    "videos": [
+        "__RT5pXQbaM",
+        "MciOgsEOHZM",
+        "HtiJkMsNtHg",
+        "8cZSZksffhk"
+    ],
+    "game_type": "Update"
+}

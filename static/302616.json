@@ -1,0 +1,68 @@
+{
+    "id": 302616,
+    "artworks": [
+        "ar2y8f",
+        "ar2y8g",
+        "ar2y8h",
+        "ar2y8i"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: An Everlasting Dream Intertwined",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-an-everlasting-dream-intertwined",
+    "summary": "Version 4.7 of Genshin Impact, which includes:\n\u2022 New character: Clorinde, Sigewinne and Sethos\n\u2022 New main story quest: Chapter IV: Act VI - Bedtime Story\n\u2022 New story quests for Clorinde and Sigewinne\n\u2022 New gameplay mode: Imaginarium Theater\n\u2022 New quality of life features\n\u2022 New main event: Mutual Security Enhancing Simulation\n\u2022 \u2026and more!",
+    "videos": [
+        "qqnEjmnitgc",
+        "btAgDq44a74",
+        "xDpA6x0KMSI",
+        "XmmoxwtnERU",
+        "_QusNJbJK7I",
+        "lXcn3yr7VQ4",
+        "T5-YMslEmxw"
+    ],
+    "game_type": "Update"
+}

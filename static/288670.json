@@ -1,0 +1,61 @@
+{
+    "id": 288670,
+    "artworks": [
+        "ar2s3x",
+        "ar2s3y",
+        "ar2s3z"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        },
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Genshin Impact: Blades Weaving Betwixt Brocade",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-blades-weaving-betwixt-brocade",
+    "summary": "Version 4.5 of Genshin Impact, which includes:\n\u2022 New character: Chiori\n\u2022 New banner type: Chronicled Wish\n\u2022 New character quest for Chiori\n\u2022 New hangout event for Lynette\n\u2022 New main event: Alchemical Ascension\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "P6xGgOI3GWY"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,66 @@
+{
+    "id": 256978,
+    "artworks": [
+        "ar2hsd",
+        "ar2hse",
+        "ar2hsf",
+        "ar2hsg",
+        "ar2hsh"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Midsummer Island Adventure",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-midsummer-island-adventure",
+    "summary": "Version 1.6 of Genshin Impact, which included:\n\u2022 New characters: Kaedehara Kazuha\n\u2022 New main story quest: Chapter II, Prologue - \"Autumn Winds, Scarlet Leaves\"\n\u2022 New character outfits for Jean and Barbara\n\u2022 New limited-time area: Golden Apple Archipelago\n\u2022 New main event: Midsummer Island Adventure\n\u2022 \u2026and more!",
+    "videos": [
+        "OrZ8RbXwoK4",
+        "zif0Lmhrivc",
+        "fAjw23j3P-4",
+        "ST5v7-C3iDk"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,73 @@
+{
+    "id": 259867,
+    "artworks": [
+        "ar2fxm",
+        "ar2ivp",
+        "ar2ivq",
+        "ar2ivr",
+        "ar2ivs",
+        "ar2ivt",
+        "ar2ivu"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: As Light Rain Falls Without Reason",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "rating": 84.0,
+    "slug": "genshin-impact-as-light-rain-falls-without-reason",
+    "summary": "The third major update (Version 4.0) of Genshin Impact, which included:\n\u2022 New characters: Lyney, Lynette and Freminet\n\u2022 New region, Fontaine, with new areas: Belleau Region, Beryl Region and Court of Fontaine Region\n\u2022 New gameplay mechanics: Underwater Exploration\n\u2022 New combat mechanics: Arkhe (Ousia and Pneuma energy)\n\u2022 New main story quests: Chapter IV, Acts I & II\n\u2022 New story quest for Lyney\n\u2022 New main event: Mega Meka Melee\n\u2022 \u2026and more!",
+    "videos": [
+        "9SbgmM3mSps",
+        "1hJ5J5QiyIY",
+        "hiduzCMM1Zw",
+        "pC5D2KEincU",
+        "InFM4OvLbxk",
+        "0b_9wOmgiIA",
+        "mdFtOZNcj9Y",
+        "oJps5VwACJk"
+    ],
+    "game_type": "Update"
+}

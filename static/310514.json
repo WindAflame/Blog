@@ -1,0 +1,61 @@
+{
+    "id": 310514,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Flowers Resplendent on the Sun-Scorched Sojourn",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-flowers-resplendent-on-the-sun-scorched-sojourn",
+    "summary": "The fourth major update of Genshin Impact, known as Version 5.0, which includes:\n\u2022 New characters: Mualani, Kinich, and Kachina\n\u2022 New region, Natlan\n\u2022 New gameplay mechanics: Saurian Indwelling and Nightsoul\u2019s Blessing\n\u2022 New main story quests: Archon Quest, Chapter V - Act I & II\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "74e8YSME9zI",
+        "XOK1F9TLEH8",
+        "O2ATH__rtQo",
+        "GAqgl1ONcbE",
+        "WE5emhmgP78",
+        "w1BaF4fd1UM"
+    ],
+    "game_type": "Update"
+}

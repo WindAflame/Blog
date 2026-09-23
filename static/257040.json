@@ -1,0 +1,65 @@
+{
+    "id": 257040,
+    "artworks": [
+        "ar2hrm",
+        "ar2hrn",
+        "ar2hro",
+        "ar2hrp"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: When the Sakura Bloom",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-when-the-sakura-bloom",
+    "summary": "Version 2.5 of Genshin Impact, which included:\n\u2022 New character: Yae Miko\n\u2022 New story quests for Raiden Shogun and Yae Miko\n\u2022 New main event: Three Realms Gateway Offering\n\u2022 \u2026and more!",
+    "videos": [
+        "S71sh48SaHc",
+        "4yFiBhNIWYo",
+        "tV2QOX9fXEE",
+        "nU0MnCpsUD4"
+    ],
+    "game_type": "Update"
+}

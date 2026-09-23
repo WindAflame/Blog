@@ -1,0 +1,65 @@
+{
+    "id": 257453,
+    "artworks": [
+        "ar2j73",
+        "ar2j74",
+        "ar2j75",
+        "ar2j76"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Akasha Pulses, the Kalpa Flame Rises",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-akasha-pulses-the-kalpa-flame-rises",
+    "summary": "Version 3.2 of Genshin Impact, which included:\n\u2022 New characters: Nahida and Layla\n\u2022 New main story quests: Chapter III, Act V - Akasha Pulses, the Kalpa Flame Rises\n\u2022 New story quests for Nahida\n\u2022 New main event: Fabulous Fungus Frenzy\n\u2022 \u2026and more!",
+    "videos": [
+        "bT3qW-Zgtow",
+        "dpZhGzZ3hNc",
+        "mXFg0bsuvcs",
+        "DWlWuVU4ZiI"
+    ],
+    "game_type": "Update"
+}

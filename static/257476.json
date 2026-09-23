@@ -1,0 +1,72 @@
+{
+    "id": 257476,
+    "artworks": [
+        "ar2j7e",
+        "ar2j7f",
+        "ar2j7g",
+        "ar2j7h",
+        "ar2j7i",
+        "ar2j7j",
+        "ar2j7k",
+        "ar2j7l"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: The Exquisite Night Chimes",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-the-exquisite-night-chimes",
+    "summary": "Version 3.4 of Genshin Impact, which included:\n\u2022 New characters: Alhaitham and Yaoyao\n\u2022 New area: Desert of Hadramaveth\n\u2022 New outfits for Lisa and Kamisato Ayaka\n\u2022 New story quest for Alhaitham\n\u2022 New main event: The Exquisite Night Chimes\n\u2022 \u2026and more!",
+    "videos": [
+        "FiEuMkRNQ7A",
+        "6XbHqN8Cs60",
+        "JTVQdw8jDp0",
+        "JeOJi3tNIDs",
+        "co59abJjokc",
+        "2kY4raFWXtM",
+        "3RLhCbVtjEg"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,57 @@
+{
+    "id": 308003,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Summertide Scales and Tales",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-summertide-scales-and-tales",
+    "summary": "Version 4.8 of Genshin Impact, which includes:\n\u2022 New character: Emilie\n\u2022 New limited-time area: Simulanka\n\u2022 New story quest for Emilie\n\u2022 New outfits for Nilou and Kirara\n\u2022 New quality of life features\n\u2022 New main event: Summertide Scales and Tales\n\u2022 \u2026and more!",
+    "videos": [
+        "m53wPdOoP48",
+        "2ynAC8ZYVpU"
+    ],
+    "game_type": "Update"
+}

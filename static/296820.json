@@ -1,0 +1,59 @@
+{
+    "id": 296820,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Two Worlds Aflame, the Crimson Night Fades",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-two-worlds-aflame-the-crimson-night-fades",
+    "summary": "Version 4.6 of Genshin Impact, which includes:\n\u2022 New character: Arlecchino\n\u2022 New story quests for Arlecchino and Cyno\n\u2022 New areas: Sea of Bygone Eras and Nostoi Region\n\u2022 New quality of life features\n\u2022 New main event: Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness\n\u2022 \u2026and more!",
+    "videos": [
+        "5WLAUxb8AUk",
+        "tN5JACOEJFM",
+        "TnYFVP3c_bs",
+        "lDVeNoQ0LxI"
+    ],
+    "game_type": "Update"
+}

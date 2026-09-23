@@ -1,0 +1,65 @@
+{
+    "id": 257035,
+    "artworks": [
+        "ar2hrw",
+        "ar2hrx",
+        "ar2hry",
+        "ar2hrz"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Shadows Amidst Snowstorms",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-shadows-amidst-snowstorms",
+    "summary": "Version 2.3 of Genshin Impact, which included:\n\u2022 New characters: Arataki Itto and Gorou\n\u2022 New story quests for Arataki Itto\n\u2022 New main event: Shadows Amidst Snowstorms\n\u2022 \u2026and more!",
+    "videos": [
+        "CXYGOpcNNSQ",
+        "iXeJ94AFZDw",
+        "O9Z96Mg-pk0",
+        "KGjnRThxe7k"
+    ],
+    "game_type": "Update"
+}

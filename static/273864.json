@@ -1,0 +1,69 @@
+{
+    "id": 273864,
+    "artworks": [
+        "ar2mcy",
+        "ar2mcz",
+        "ar2md0",
+        "ar2md1",
+        "ar2md2",
+        "ar2oa2"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Masquerade of the Guilty",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "rating": 76.66666666666667,
+    "slug": "genshin-impact-masquerade-of-the-guilty",
+    "summary": "Version 4.2 of Genshin Impact, which includes:\n\u2022 New characters: Furina and Charlotte\n\u2022 New areas: Erinnyes Forest and Morte Region\n\u2022 New main story quests: Chapter IV, Act V - \"Masquerade of the Guilty\"\n\u2022 New story quest for Furina\n\u2022 New main event: Thelxie's Fantastic Adventures\n\u2022 \u2026and more!",
+    "videos": [
+        "1Ip43DfbkUw",
+        "EN79SfbcvIE",
+        "MDgHVVPqVmU",
+        "aau-c8l5z9c",
+        "cP_PnRxK-nc"
+    ],
+    "game_type": "Update"
+}

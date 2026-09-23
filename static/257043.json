@@ -1,0 +1,64 @@
+{
+    "id": 257043,
+    "artworks": [
+        "ar2i4t",
+        "ar2i4u",
+        "ar2i4v",
+        "ar2i4w"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Summer Fantasia",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-summer-fantasia",
+    "summary": "Version 2.8 of Genshin Impact, which included:\n\u2022 New character: Shikanoin Heizou\n\u2022 Returning limited-time area: Golden Apple Archipelago\n\u2022 New outfits for Diluc and Fischl\n\u2022 New story quest for Kaedehara Kazuha\n\u2022 New hangout events for Shikanoin Heizou\n\u2022 New main event: Summertime Odyssey\n\u2022 \u2026and more!",
+    "videos": [
+        "JU1KtScrt1A",
+        "mp-u0LmUikU",
+        "lm6SmdoMB1g"
+    ],
+    "game_type": "Update"
+}

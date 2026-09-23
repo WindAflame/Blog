@@ -1,0 +1,63 @@
+{
+    "id": 257480,
+    "artworks": [
+        "ar2j7w",
+        "ar2j7x",
+        "ar2j7y",
+        "ar2j7z"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Duel! The Summoners' Summit!",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-duel-the-summoners-summit",
+    "summary": "Version 3.7 of Genshin Impact, which included:\n\u2022 New character: Kirara\n\u2022 New major update for Genius Invokation TCG\n\u2022 New hangout events for Kaveh\n\u2022 New story quest for Yoimiya\n\u2022 New main event: Duel! The Summoners' Summit!\n\u2022 \u2026and more!",
+    "videos": [
+        "0fEtfzr0fpY",
+        "hkUFz8n4rUU"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,67 @@
+{
+    "id": 257027,
+    "artworks": [
+        "ar2hs9",
+        "ar2hsa",
+        "ar2hsb",
+        "ar2hsc"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: The Immovable God and the Eternal Euthymia",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-the-immovable-god-and-the-eternal-euthymia",
+    "summary": "Version 2.0 of Genshin Impact, which included:\n\u2022 New characters: Kamisato Ayaka, Yoimiya and Sayu\n\u2022 New region, Inazuma, with the following areas: Narukami Island, Kannazuka and Yashiori Island\n\u2022 New main story quests: Chapter II, Acts I & II\n\u2022 New story quests for Kamisato Ayaka and Yoimiya\n\u2022 New main event: Thunder Sojourn\n\u2022 \u2026and more!",
+    "videos": [
+        "gEOI-Ae_aaU",
+        "5RCsr1Y8UZA",
+        "dn8etqEPtFg",
+        "PXp8qKZeHeY",
+        "vsCO7C416bs",
+        "AtqToYEE5r4"
+    ],
+    "game_type": "Update"
+}

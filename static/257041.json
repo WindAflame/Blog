@@ -1,0 +1,63 @@
+{
+    "id": 257041,
+    "artworks": [
+        "ar2hrl",
+        "ar2i5g"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Zephyr of the Violet Garden",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-zephyr-of-the-violet-garden",
+    "summary": "Version 2.6 of Genshin Impact, which included:\n\u2022 New character: Kamisato Ayato\n\u2022 New area: The Chasm\n\u2022 New main story quest: Chapter II, Act IV - \"Requiem of the Echoing Depths\"\n\u2022 New story quests for Kamisato Ayato\n\u2022 New main event: Hues of the Violet Garden\n\u2022 \u2026and more!",
+    "videos": [
+        "LqCwQicfMuc",
+        "KxMs7IsSTgs",
+        "s3ok84NeMdU",
+        "rAlymhPyKhQ"
+    ],
+    "game_type": "Update"
+}

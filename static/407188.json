@@ -1,0 +1,61 @@
+{
+    "id": 407188,
+    "artworks": [
+        "ar6477",
+        "ar6488"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Sunny Summer Fontinalia",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-sunny-summer-fontinalia",
+    "summary": "Version \"Luna VIII\" of Genshin Impact, also known as \"Song of the Welkin Moon: Scherzo\". This update includes:\n\u2022 New character: Sandrone\n\u2022 New area: Frost Moon\n\u2022 New main event: Sunny Summer Fontinalia\n\u2022 New elemental reaction: Stellar-Conduct\n\u2022 New updates for Miliastra Wonderland\n\u2022 New QoL, and more!",
+    "videos": [
+        "ou_LXniASyY",
+        "XVzVpC4YgmU"
+    ],
+    "game_type": "Update"
+}

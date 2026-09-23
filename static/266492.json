@@ -1,0 +1,67 @@
+{
+    "id": 266492,
+    "artworks": [
+        "ar2j1b",
+        "ar2j1c",
+        "ar2j1d",
+        "ar2j1g",
+        "ar2jrn"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: To the Stars Shining in the Depths",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-to-the-stars-shining-in-the-depths",
+    "summary": "Version 4.1 of Genshin Impact, which includes:\n\u2022 New characters: Wriothesley and Neuvillette\n\u2022 New areas: Liffey Region and Fontaine Research Institute\n\u2022 New main story quests: Chapter IV, Acts III & IV\n\u2022 New story quests for Wriothesley and Neuvillette\n\u2022 New main event: Waterborne Poetry\n\u2022 \u2026and more!",
+    "videos": [
+        "i7wgl1v1_5M",
+        "v2QSNQXRSkE",
+        "kdQOis0VRoo",
+        "be1_VYIKpFI",
+        "Pafx-AAYA_w"
+    ],
+    "game_type": "Update"
+}

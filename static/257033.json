@@ -1,0 +1,70 @@
+{
+    "id": 257033,
+    "artworks": [
+        "ar2hs3",
+        "ar2hs4",
+        "ar2hs5",
+        "ar2hs6",
+        "ar2hs7",
+        "ar2hs8"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Floating World Under the Moonlight",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-floating-world-under-the-moonlight",
+    "summary": "Version 2.1 of Genshin Impact, which included:\n\u2022 New characters: Raiden Shogun, Sangonomiya Kokomi, Kujou Sara and Aloy\n\u2022 New areas: Watatsumi Island and Seirai Island\n\u2022 New main story quests: Chapter II, Act III - Omnipresence Over Mortals\n\u2022 New story quests for Raiden Shogun and Sangonomiya Kokomi\n\u2022 New main event: Moonlight Merriment\n\u2022 \u2026and more!",
+    "videos": [
+        "f_5-i0ZJfds",
+        "mvrW4aKwAXw",
+        "fVf0RB3nvOU",
+        "RPAoXtU5Kgg",
+        "ydPqFAEgHzs",
+        "OizK-VT4aj8",
+        "NQBk9S1fpcw"
+    ],
+    "game_type": "Update"
+}

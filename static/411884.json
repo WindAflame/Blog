@@ -1,0 +1,67 @@
+{
+    "id": 411884,
+    "artworks": [
+        "ar6cft",
+        "ar6cfu",
+        "ar6cfv",
+        "ar6cfw"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Everwinter Without Mercy",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-everwinter-without-mercy",
+    "summary": "The sixth major update of Genshin Impact, also known as Version 7.0. This update includes:\n\u2022 New characters: Odette, Alyosha and Cryo Traveler\n\u2022 New region, Snezhnaya\n\u2022 New main story quests: \"Everwinter Without Mercy\" and \"Wraith's Nocturne\"\n\u2022 New elemental reaction: Stellar Swirl\n\u2022 New main event: Great Expeditionist Challenge\n\u2022 New third-person shooter elements",
+    "videos": [
+        "QgLZe9BtRJE",
+        "pAhXLYcregg",
+        "_0WRFJFhtTI",
+        "RGFJa2mwD8E",
+        "y2Zcmcbrm9s",
+        "VPOlAg5Mmbk"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,62 @@
+{
+    "id": 282929,
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Vibrant Harriers Aloft in Spring Breeze",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-vibrant-harriers-aloft-in-spring-breeze",
+    "summary": "Version 4.4 of Genshin Impact, which includes:\n\u2022 New characters: Xianyun and Gaming\n\u2022 New area: Chenyu Vale\n\u2022 New story quest for Xianyun\n\u2022 New outfits for Xingqiu, Ganyu and Shenhe\n\u2022 New main event: Vibrant Harriers Aloft in Spring Breeze\n\u2022 New quality of life features\n\u2022 \u2026and more!",
+    "videos": [
+        "zQk1QHm2-Cw",
+        "aMYk_t45ZSs",
+        "4vlTklgTWaQ",
+        "QQpPDeqUxrg",
+        "bOL1rZ5nzh0",
+        "O_7r93u9mWs",
+        "gu1Dc_9WyAg"
+    ],
+    "game_type": "Update"
+}

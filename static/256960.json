@@ -1,0 +1,66 @@
+{
+    "id": 256960,
+    "artworks": [
+        "ar2hsx",
+        "ar2hsy",
+        "ar2hsz",
+        "ar2ht0",
+        "ar2ht1",
+        "ar2ht2"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: A New Star Approaches",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-new-star-approaches",
+    "summary": "Version 1.1 of Genshin Impact, which included:\n\u2022 New characters: Tartaglia, Zhongli, Diona and Xinyan\n\u2022 New main story quests: Chapter 1, Act III - A New Star Approaches\n\u2022 New story quests for Tartaglia and Zhongli\n\u2022 New main event: Unreconciled Stars\n\u2022 City Reputation System\n\u2022 \u2026and more!",
+    "videos": [
+        "kTeoJLD8U0Y",
+        "3f2-EANyrNM",
+        "9cti_Dwd3Hc",
+        "4oBpaBEMBIM",
+        "MXSgda3ySTg",
+        "ZF4KyX0ASnI",
+        "CvCzYbVei04"
+    ],
+    "game_type": "Update"
+}

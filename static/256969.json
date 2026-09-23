@@ -1,0 +1,58 @@
+{
+    "id": 256969,
+    "artworks": [
+        "ar2hsm",
+        "ar2hsn",
+        "ar2hso"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Invitation of Windblume",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-invitation-of-windblume",
+    "summary": "Version 1.4 of Genshin Impact, which included:\n\u2022 New character: Rosaria\n\u2022 New main story quests: Chapter I, Act IV - We Will Be Reunited\n\u2022 New quest category: Hangout Events for Barbara, Bennett, Chongyun and Noelle\n\u2022 New main event: Invitation of Windblume\n\u2022 \u2026and more!",
+    "videos": [
+        "vv_JnSwFp0A",
+        "KJwOW1zS8UM"
+    ],
+    "game_type": "Update"
+}

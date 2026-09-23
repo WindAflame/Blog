@@ -1,0 +1,60 @@
+{
+    "id": 417641,
+    "artworks": [
+        "ar6l49"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: A Rekviem for the Underworld",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-a-rekviem-for-the-underworld",
+    "summary": "Version 7.1 of Genshin Impact. This update includes:\n\u2022 New characters: Vesna and Vodyanitsa\n\u2022 New main story quests: \"White Night, Like a Dream Upon Waking\" and \"A Rekviem for the Underworld\"\n\u2022 New main event: Silverwing in Pursuit of the Moon\n\u2022 6th anniversary celebrations",
+    "videos": [
+        "EwWbahV3qmU",
+        "JbrNt_gewBI"
+    ],
+    "game_type": "Update"
+}

@@ -1,0 +1,60 @@
+{
+    "id": 400877,
+    "artworks": [
+        "ar5u5g"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Truth Amongst the Pages of Purana",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-truth-amongst-the-pages-of-purana",
+    "summary": "Version \"Luna VII\" of Genshin Impact, also known as \"Song of the Welkin Moon: Andante\". This update includes:\n\u2022 New character: Nicole, Lohen and Prune\n\u2022 New story quests for Lohen\n\u2022 New main story quests: \"As All Falls to Emptiness\" and \"Of Myriad Paths, Flux, and Dissolution\"\n\u2022 New main event: Phantasmal Pals\n\u2022 New updates for Miliastra Wonderland\n\u2022 New QoL, and more!",
+    "videos": [
+        "Tq9rQtiHg5U",
+        "7jLZhb6OkIY"
+    ],
+    "game_type": "Update"
+}

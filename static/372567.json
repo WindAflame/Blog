@@ -1,0 +1,67 @@
+{
+    "id": 372567,
+    "artworks": [
+        "ar4f4a",
+        "ar4f4b"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        },
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        }
+    ],
+    "name": "Genshin Impact: An Elegy for Faded Moonlight",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Xbox Series X|S",
+            "slug": "series-x-s"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-an-elegy-for-faded-moonlight",
+    "summary": "Version \"Luna II\" of Genshin Impact, also known as \"Song of the Welkin Moon: Reprise\". This update includes:\n\u2022 New characters: Nefer and Miliastra Wonderland's Manekin\n\u2022 New main story quest: \"An Elegy for Faded Moonlight\"\n\u2022 New main event: Ruins Exploration - Fieldwise Center\n\u2022 New QoL, and more!\n\nAdditionally, this update also adds Miliastra Wonderland, a new gameplay mode centered around user-generated content.",
+    "videos": [
+        "w50jW_iEXns",
+        "nZA0vvO6EbU",
+        "46q9MNa50Yo",
+        "B1KN8VxTt8c"
+    ],
+    "game_type": "Update"
+}

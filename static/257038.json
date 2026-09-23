@@ -1,0 +1,69 @@
+{
+    "id": 257038,
+    "artworks": [
+        "ar2hrq",
+        "ar2hrr",
+        "ar2hrs",
+        "ar2hrt",
+        "ar2hru",
+        "ar2hrv"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Adventure",
+            "slug": "adventure"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "HoYoverse",
+            "slug": "hoyoverse"
+        },
+        {
+            "name": "Cognosphere",
+            "slug": "cognosphere"
+        }
+    ],
+    "name": "Genshin Impact: Fleeting Colors in Flight",
+    "parent_game": {
+        "name": "Genshin Impact",
+        "slug": "genshin-impact"
+    },
+    "platforms": [
+        {
+            "name": "PlayStation 5",
+            "slug": "ps5"
+        },
+        {
+            "name": "PlayStation 4",
+            "slug": "ps4--1"
+        },
+        {
+            "name": "iOS",
+            "slug": "ios"
+        },
+        {
+            "name": "PC (Microsoft Windows)",
+            "slug": "win"
+        },
+        {
+            "name": "Android",
+            "slug": "android"
+        }
+    ],
+    "slug": "genshin-impact-fleeting-colors-in-flight",
+    "summary": "Version 2.4 of Genshin Impact, which included:\n\u2022 New characters: Shenhe and Yun Jin\n\u2022 New area: Enkanomiya\n\u2022 New main story quest: Interlude Chapter, Act I - \"The Crane Returns on the Wind\"\n\u2022 New hangout events for Ningguang and Yun Jin\n\u2022 New main event: Fleeting Colors in Flight\n\u2022 \u2026and more!",
+    "videos": [
+        "2Rjxp4bBu6s",
+        "piiSGbsxMRQ",
+        "YxIa114Od84",
+        "jvGnekdMOhI",
+        "_skFhoR5jYE",
+        "thdCksamSog"
+    ],
+    "game_type": "Update"
+}
