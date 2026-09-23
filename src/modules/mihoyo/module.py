@@ -1,9 +1,19 @@
+import logging
 from typing import Optional
 from ..base import BaseModule
 from ...models.game_config import GameConfig
 from ...models.news_article import NewsArticle
 from .ennead_client import EnneadAPIClient
-from .config import MIHOYO_GAMES, ENNEAD_API_URLS, GAME_WEBSITES, MIHOYO_BASE_NAMES, HOYOLAB_LANG_CODES
+from .config import (
+    MIHOYO_GAMES,
+    ENNEAD_API_URLS,
+    GAME_WEBSITES,
+    MIHOYO_BASE_NAMES,
+    HOYOLAB_LANG_CODES,
+    FANDOM_VERSION_URLS,
+)
+
+logger = logging.getLogger(__name__)
 
 
 class MihoyoModule(BaseModule):
@@ -75,5 +85,11 @@ class MihoyoModule(BaseModule):
             hoyolab_lang = HOYOLAB_LANG_CODES.get(lang, "en-us")
             separator = "&" if "?" in news_article.url else "?"
             context["update_url"] = f"{news_article.url}{separator}lang={hoyolab_lang}"
+        elif lang == "en":
+            fandom_url = FANDOM_VERSION_URLS.get(game_key, "")
+            logger.warning(
+                "Data not found by the module. Please complete manually from this URL: %s",
+                fandom_url,
+            )
 
         return context

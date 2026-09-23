@@ -36,6 +36,15 @@ HOYOLAB_LANG_CODES = {
     "fr": "fr-fr",
 }
 
+# Fandom wiki "Version Info" category, used as a manual fallback when the
+# Ennead API has no matching news article (e.g. old versions no longer
+# listed in the current notices feed)
+FANDOM_VERSION_URLS = {
+    "genshin": "https://genshin-impact.fandom.com/wiki/Category:Version_Info",
+    "starrail": "https://honkai-star-rail.fandom.com/wiki/Category:Version_Info",
+    "zzz": "https://zenless-zone-zero.fandom.com/wiki/Category:Version_Info",
+}
+
 # Base game names to filter from alternative names
 MIHOYO_BASE_NAMES = [
     "Genshin Impact", "Honkai: Star Rail", "Zenless Zone Zero",
