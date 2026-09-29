@@ -86,31 +86,18 @@ releases](https://github.com/WindAflame/playnite-plugins/releases) et l'ouvrir a
 Playnite. Il suffit ensuite de choisir **RetroArch (Steam)** comme émulateur dans les
 associations de plateformes de l'extension RomM.
 
-<!-- TODO: vérifier que la synchro RomM reconnaît bien l'émulateur Custom « RetroArch (Steam) » (profil + retroarch.cfg) avant de publier. -->
+Bonne surprise : la synchro des sauvegardes de l'extension RomM reconnaît parfaitement cet
+émulateur, alors qu'il passe par Steam. Il n'y a rien de plus à configurer.
 
-## Étape 4 : régler RetroArch pour des sauvegardes portables
+## Étape 4 : les réglages de RetroArch… ou pas
 
 Pour qu'une sauvegarde faite sur la ROG Xbox Ally soit reprise ailleurs, RetroArch doit
-l'écrire **au même endroit, avec le même nom, sur chaque machine**. Dans les réglages
-**Paramètres > Répertoires** et **Paramètres > Sauvegarde** de RetroArch :
+l'écrire **au même endroit, avec le même nom, sur chaque machine**.
 
-- garder les dossiers de sauvegarde **par défaut**, à l'intérieur du dossier de
-  RetroArch : c'est là que Steam Cloud les récupère ;
-- ne **pas** écrire les sauvegardes dans le dossier du contenu ;
-- utiliser les **mêmes options de tri** (par *core*, par dossier de contenu) sur tous les
-  appareils ;
-- utiliser le **même *core*** pour un système donné partout.
-
-Côté `retroarch.cfg`, ça donne :
-
-```ini
-savefiles_in_content_dir = "false"
-sort_savefiles_enable = "false"
-sort_savefiles_by_content_enable = "false"
-```
-
-Les valeurs de tri comptent moins que leur cohérence : il faut simplement les mêmes sur
-chaque machine.
+Bonne nouvelle : je n'ai touché à aucun réglage. Avec la configuration par défaut de
+RetroArch sur Steam, les sauvegardes vont dans le dossier que Steam Cloud synchronise, et
+RomM garantit le même nom de fichier partout. La seule règle : ne pas modifier les dossiers
+de sauvegarde sur une machine sans le faire sur les autres.
 
 ## Étape 5 : activer la synchro RomM
 
@@ -122,8 +109,8 @@ serveur. Il suffit de cocher **Enable save sync** dans ses réglages. Ensuite :
 - l'action **Sync saves with RomM**, dans le menu d'un jeu, force une synchro à la main ;
 - en cas de conflit, **la version la plus récente gagne**.
 
-Pour trouver les sauvegardes, l'extension lit directement `retroarch.cfg`. Les réglages de
-l'étape 4 lui servent donc aussi.
+Pour trouver les sauvegardes, l'extension lit directement la configuration de RetroArch :
+là non plus, rien à régler.
 
 ## Le résultat : trois copies de chaque sauvegarde
 
