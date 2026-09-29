@@ -20,4 +20,4 @@ In this section, I'm going to share with you a selection of games I've personall
 
 Get ready to (re)discover titles that offer an unforgettable local gaming experience!
 
-{{ list_games_list(path="data.toml", format="toml") }}
+{{ list_games(path="data.toml", format="toml", view="list") }}
