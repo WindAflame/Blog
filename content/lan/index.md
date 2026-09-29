@@ -21,3 +21,10 @@ In this section, I'm going to share with you a selection of games I've personall
 Get ready to (re)discover titles that offer an unforgettable local gaming experience!
 
 {{ list_games(path="data.toml", format="toml", view="list") }}
+
+## What do you play over LAN?
+
+This list isn't set in stone: I keep adding to it after each game night with friends. Is
+there a game that always wins everyone over at your place? Do you disagree with one of my
+picks? Share your suggestions and your thoughts in the comments, and I'll happily try your
+recommendations for the next updates of this list!

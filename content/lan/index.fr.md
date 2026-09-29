@@ -23,3 +23,10 @@ Dans cette section, je vais partager avec vous une sélection de jeux que j'ai p
 Préparez-vous à (re)découvrir des titres qui offrent une expérience de jeu inoubliable en local !
 
 {{ list_games(path="data.fr.toml", format="toml", view="list") }}
+
+## Et vous, à quoi jouez-vous en LAN ?
+
+Cette liste n'est pas figée : je la complète au fil de mes soirées entre amis. Il manque
+un jeu qui fait toujours l'unanimité chez vous ? Vous n'êtes pas d'accord avec l'un de mes
+choix ? Partagez vos suggestions et votre avis en commentaire, je testerai volontiers vos
+recommandations pour les prochaines mises à jour de cette liste !
