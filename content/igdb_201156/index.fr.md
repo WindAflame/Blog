@@ -22,7 +22,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,8 +38,8 @@ TODO
 
 ## Liens utile pour mieux comprendre mon avis
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 
 ## OST - Playlist
 
-{{ igdb_playlist_youtube() }}
+{{ <igdb_playlist_youtube /> }}

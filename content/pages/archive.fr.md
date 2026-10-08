@@ -5,4 +5,5 @@ path = "fr/archive"
 template = "archive.html"
 [extra]
 section = "_index.fr.md"
+date_format = "%d-%m"
 +++

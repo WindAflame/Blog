@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "411884"
 [taxonomies]
-tags = ["game", "review", "411884"]
+tags = ["game", "review", "411884", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 7.0 « L'impitoyable hiver éternel »](https://www.hoyolab.com/article/46233468?lang=fr-fr)

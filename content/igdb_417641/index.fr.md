@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "417641"
 [taxonomies]
-tags = ["game", "review", "417641"]
+tags = ["game", "review", "417641", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 7.1 « Un rekviem pour l'au-delà »](https://www.hoyolab.com/article/46791577?lang=fr-fr)

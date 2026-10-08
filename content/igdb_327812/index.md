@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -32,7 +32,7 @@ Does my review matter to you?
 
 ## Useful links to better understand my opinion
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 1.5](https://zenless.hoyoverse.com/en-us/news/129572)
 
 ## OST - Playlist

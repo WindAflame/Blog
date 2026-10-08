@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Genshin Impact Version 2.5 Update Details](https://www.hoyolab.com/article/3382151)

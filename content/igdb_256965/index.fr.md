@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens utile pour mieux comprendre mon avis
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 1.2](https://genshin.hoyoverse.com/fr/news/detail/103809)

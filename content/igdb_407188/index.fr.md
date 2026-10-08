@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "407188"
 [taxonomies]
-tags = ["game", "review", "407188"]
+tags = ["game", "review", "407188", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de mise à jour de la version Luna VIII « Chant de l'astre de la nuit - Scherzo : Fontinalia ensoleillé en été »](https://www.hoyolab.com/article/45670084?lang=fr-fr)

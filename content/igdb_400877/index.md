@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "400877"
 [taxonomies]
-tags = ["game", "review", "400877"]
+tags = ["game", "review", "400877", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - ["Song of the Welkin Moon: Andante — Truth Amongst the Pages of Purana" Version "Luna VII" Update Details](https://www.hoyolab.com/article/45096719?lang=en-us)

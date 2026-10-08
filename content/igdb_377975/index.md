@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -32,5 +32,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Zenless Zone Zero: Update 2.4 - On the Precipice of the Abyss](http://#)

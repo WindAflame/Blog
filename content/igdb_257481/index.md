@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Genshin Impact Version 3.8 Update Details](https://genshin.hoyoverse.com/en/news/detail/112174)

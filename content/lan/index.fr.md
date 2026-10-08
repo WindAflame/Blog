@@ -22,7 +22,7 @@ Dans cette section, je vais partager avec vous une sélection de jeux que j'ai p
 
 Préparez-vous à (re)découvrir des titres qui offrent une expérience de jeu inoubliable en local !
 
-{{ list_games(path="data.fr.toml", format="toml", view="list") }}
+{{ <list_games path="data.fr.toml" format="toml" view="list" /> }}
 
 ## Et vous, à quoi jouez-vous en LAN ?
 

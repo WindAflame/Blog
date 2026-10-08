@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Zenless Zone Zero: Update 2.4 - On the Precipice of the Abyss](http://#)

@@ -20,7 +20,7 @@ authors = ["unknown_writer"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de la version Luna III « Chant de l'astre de la nuit - Interlude : Une nocturne au grand nord »](https://www.hoyolab.com/article/42588332?lang=fr-fr)

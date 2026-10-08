@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 

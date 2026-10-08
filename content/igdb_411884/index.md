@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "411884"
 [taxonomies]
-tags = ["game", "review", "411884"]
+tags = ["game", "review", "411884", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - ["Everwinter Without Mercy" Version 7.0 Update Details](https://www.hoyolab.com/article/46233468?lang=en-us)

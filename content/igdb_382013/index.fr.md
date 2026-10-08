@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de la version Luna IV « Chant de l'astre de la nuit - Final : Un voyageur, par une nuit d'hiver »](https://www.hoyolab.com/article/43220659?lang=fr-fr)

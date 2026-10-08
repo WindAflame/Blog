@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -32,6 +32,6 @@ Does my review matter to you?
 
 ## Useful links to better understand my opinion
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 
 ## OST - Playlist

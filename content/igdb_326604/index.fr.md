@@ -19,7 +19,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -31,5 +31,5 @@ authors = ["endyw"]
 
 ## Liens utile pour mieux comprendre mon avis
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 5.3](https://genshin.hoyoverse.com/fr/news/detail/127791)

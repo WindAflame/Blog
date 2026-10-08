@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "400877"
 [taxonomies]
-tags = ["game", "review", "400877"]
+tags = ["game", "review", "400877", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -38,5 +38,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de mise à jour de la version Luna VII « Chant de l'astre de la nuit - Andante : Vérité du Purana »](https://www.hoyolab.com/article/45096719?lang=fr-fr)

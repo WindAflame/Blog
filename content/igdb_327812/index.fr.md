@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -36,7 +36,7 @@ Qu'est ce que vous voulez avec mon avis ?
 
 ## Liens utile pour mieux comprendre mon avis
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 1.5](https://zenless.hoyoverse.com/fr-fr/news/129572)
 
 ## OST - Playlist

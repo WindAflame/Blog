@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "417641"
 [taxonomies]
-tags = ["game", "review", "417641"]
+tags = ["game", "review", "417641", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - ["A Rekviem for the Underworld" Version 7.1 Update Details](https://www.hoyolab.com/article/46791577?lang=en-us)

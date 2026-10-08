@@ -23,7 +23,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -48,8 +48,8 @@ Les jeux Gears of war ont toujours été beau. Celui-ci est beau même au moment
 
 ## Liens utile pour mieux comprendre mon avis
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 
 ## OST - Playlist
 
-{{ igdb_playlist_youtube() }}
+{{ <igdb_playlist_youtube /> }}

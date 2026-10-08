@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -32,7 +32,7 @@ Does my review matter to you?
 
 ## Useful links to better understand my opinion
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Version 3.0 "Paean of Era Nova" Update](https://hsr.hoyoverse.com/en-us/news/127987)
 
 ## OST - Playlist

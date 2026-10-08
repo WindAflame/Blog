@@ -20,7 +20,7 @@ authors = ["unknown_writer"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -32,5 +32,5 @@ authors = ["unknown_writer"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - ["Song of the Welkin Moon: Interlude - A Nocturne of the Far North": Version "Luna III" Update Details](https://www.hoyolab.com/article/42588332?lang=en-us)

@@ -48,5 +48,5 @@ Est-ce que mon avis vous importe ?
 
 ## Liens
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Détails de la mise à jour de version 5.4](https://genshin.hoyoverse.com/fr/news/detail/154285)

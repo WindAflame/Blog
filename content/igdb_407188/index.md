@@ -14,13 +14,13 @@ height = 620
 [extra.igdb]
 id = "407188"
 [taxonomies]
-tags = ["game", "review", "407188"]
+tags = ["game", "review", "407188", "Genshin Impact"]
 authors = ["endyw"]
 +++
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Links
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - ["Song of the Welkin Moon: Scherzo — Sunny Summer Fontinalia": Version "Luna VIII" Update Details](https://www.hoyolab.com/article/45670084?lang=en-us)

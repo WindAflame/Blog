@@ -20,7 +20,7 @@ authors = ["endyw"]
 
 ## About this game
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Introduce
 
@@ -36,5 +36,5 @@ authors = ["endyw"]
 
 ## Useful links to better understand my opinion
 
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 - [Genshin Impact Version 1.1 Update Details](https://genshin.hoyoverse.com/en/news/detail/103763)

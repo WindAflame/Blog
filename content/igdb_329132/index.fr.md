@@ -21,7 +21,7 @@ authors = ["endyw"]
 
 ## Informations sur ce jeu
 
-{{ igdb() }}
+{{ <igdb /> }}
 
 ## Présentation du jeu
 
@@ -79,15 +79,15 @@ Malheureusement, cette version propose moins d'exploration, moins de puzzles et 
 
 ## Comparaison Original vs. Remake
 
-{{ youtube(id="g2fUEUk1Sm0") }}
+{{ <youtube id="g2fUEUk1Sm0" /> }}
 
 ## Liens utile pour mieux comprendre mon avis
 
 - [Ninja Gaiden II (2008)](https://www.igdb.com/games/ninja-gaiden-ii)
 - [Ninja Gaiden Σ2 (2009)](https://www.igdb.com/games/ninja-gaiden-sigma-2)
 - [Ninja Gaiden: Master Collection (2021)](https://www.igdb.com/games/ninja-gaiden-master-collection)
-- {{ igdb_url() }}
+- {{ <igdb_url /> }}
 
 ## OST - Playlist
 
-{{ igdb_playlist_youtube() }}
+{{ <igdb_playlist_youtube /> }}

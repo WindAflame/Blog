@@ -4,4 +4,4 @@ title = "Mes Projets"
 path = "fr/projects"
 +++
 
-{{ projects(path="data.fr.toml", format="toml") }}
+{{ <projects path="data.fr.toml" format="toml" /> }}
