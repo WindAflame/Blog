@@ -1,0 +1,54 @@
+{
+    "id": 1439,
+    "aggregated_rating": 90.0,
+    "artworks": [
+        "ar21z0"
+    ],
+    "genres": [
+        {
+            "name": "Role-playing (RPG)",
+            "slug": "role-playing-rpg"
+        },
+        {
+            "name": "Strategy",
+            "slug": "strategy"
+        },
+        {
+            "name": "Turn-based strategy (TBS)",
+            "slug": "turn-based-strategy-tbs"
+        },
+        {
+            "name": "Tactical",
+            "slug": "tactical"
+        }
+    ],
+    "involved_companies": [
+        {
+            "name": "Nintendo",
+            "slug": "nintendo"
+        },
+        {
+            "name": "Intelligent Systems",
+            "slug": "intelligent-systems"
+        }
+    ],
+    "name": "Fire Emblem",
+    "platforms": [
+        {
+            "name": "Wii U",
+            "slug": "wiiu"
+        },
+        {
+            "name": "Game Boy Advance",
+            "slug": "gba"
+        }
+    ],
+    "rating": 86.72441146932445,
+    "slug": "fire-emblem",
+    "summary": "It is the seventh game of the Fire Emblem series, the second game in the series to be released for the Game Boy Advance, and the first to be released in both North America and Europe. It features a prologue storyline designed to introduce newcomers to Fire Emblem gameplay and tactical basics. The overall narrative is a prequel to the events of the previous game, Fire Emblem: The Binding Blade, which is set twenty years later.\n\nThe game was first released under the localized title \"Fire Emblem\" in the West, but it was later rebranded as \"Fire Emblem: The Blazing Blade\" when Fire Emblem Heroes was released.",
+    "videos": [
+        "ArGxu00WTdo",
+        "LGMO_eOqEEo"
+    ],
+    "game_type": "Main Game"
+}
