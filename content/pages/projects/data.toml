@@ -26,3 +26,13 @@ links = [
     { name = "source", url = "https://github.com/WindAflame/matroska-series-companion" },
     { name = "MKVToolNix", url = "https://mkvtoolnix.download/downloads.html" },
 ]
+
+[[project]]
+name = "Playnite RetroArch (Steam)"
+desc = "Playnite extension that auto-configures RetroArch (Steam) emulator profiles, one per core, so games launch through Steam (Steam Input, Steam Cloud, Remote Play Together). It also downloads missing libretro cores on launch."
+tags = ["PowerShell", "Playnite", "RetroArch", "Steam"]
+links = [
+    { name = "documentation", url = "https://windaflame.github.io/playnite-plugins/" },
+    { name = "source", url = "https://github.com/WindAflame/playnite-plugins" },
+    { name = "Playnite", url = "https://playnite.link/" },
+]
