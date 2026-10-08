@@ -3,7 +3,7 @@ publish = "public"
 command = "zola build --base-url $URL"
 
 [build.environment]
-ZOLA_VERSION = "0.22.1"
+ZOLA_VERSION = "0.23.6"
 
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"

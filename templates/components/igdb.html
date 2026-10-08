@@ -1,0 +1,67 @@
+{#- IGDB components: game data comes from static/<igdb id>.json, labels from data/igdb.<lang>.json #}
+
+{% component igdb(@page: map) %}
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
+{%- set t = load_data(path="data/igdb." ~ page.lang ~ ".json", format="json", required=false) %}
+{%- if not t %}
+  {%- set t = load_data(path="data/igdb.en.json", format="json") %}
+{%- endif %}
+<div>
+<ul>
+<li>
+<strong>{{ t.igdb_company.value }}:</strong>
+{% for item in igdb_game_data.involved_companies %}
+<a href="https://www.igdb.com/companies/{{ item.slug }}">{{ item.name }}</a>{% if not loop.last %},{% endif %}
+{%- endfor %}
+</li>
+<li>
+<strong>{{ t.igdb_genre.value }}:</strong>
+{% for item in igdb_game_data.genres %}
+<a href="https://www.igdb.com/genres/{{ item.slug }}">{{ item.name }}</a>{% if not loop.last %},{% endif %}
+{%- endfor %}
+</li>
+<li>
+<strong>{{ t.igdb_platform.value }}:</strong>
+{% for item in igdb_game_data.platforms %}
+<a href="https://www.igdb.com/platforms/{{ item.slug }}">{{ item.name }}</a>{% if not loop.last %},{% endif %}
+{%- endfor %}
+</li>
+{%- if igdb_game_data.game_type == "Remake" %}
+<li><strong>{{ t.igdb_remake.value }}:</strong>
+<a href="https://www.igdb.com/games/{{ igdb_game_data.parent_game.slug }}">{{ igdb_game_data.parent_game.name }}</a>
+</li>
+{%- endif %}
+<li><strong>{{ t.igdb_synopsis.value }}:</strong></li>
+</ul>
+<p>{{ igdb_game_data.summary }}</p>
+{%- if igdb_game_data.videos %}
+<ul>
+<li>
+<strong>{{ t.igdb_trailer.value }}:</strong>
+</li>
+</ul>
+{{ <youtube id={igdb_game_data.videos[0]} /> }}
+{%- endif %}
+{%- if igdb_game_data.aggregated_rating and igdb_game_data.rating %}
+<ul>
+<li><strong>{{ t.igdb_review.value }}:</strong>
+{{ t.igdb_review_critic.value }} : {{ igdb_game_data.aggregated_rating }}
+| {{ t.igdb_review_user.value }} : {{ igdb_game_data.rating }}
+</li>
+</ul>
+{%- endif %}
+<small style="font-style: italic;">{{ t.igdb_nfo.value }}<a
+href="https://www.igdb.com/games/{{ igdb_game_data.slug }}">IGDB</a></small>
+</div>
+{% endcomponent %}
+
+{% component igdb_url(@page: map) %}
+{%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") -%}
+<a href="https://www.igdb.com/games/{{ igdb_game_data.slug }}">{{ igdb_game_data.name }}</a>
+{%- endcomponent %}
+
+{% component igdb_playlist_youtube(@page: map) %}
+{%- if page.extra.igdb?.playlist %}
+{{ <youtube id={page.extra.igdb.playlist.video_id} playlist={page.extra.igdb.playlist.playlist_id} /> }}
+{%- endif %}
+{% endcomponent %}

@@ -1,11 +1,59 @@
 {% extends "index.html" %}
-{%- block meta %}
-  {%- set g_is_article = true %}
-{%- endblock meta %}
 {% block main %}
 {%- if page.extra.igdb %}
-{% include "page_igdb.html" %}
-{%- else %}
-{% include "page_blog.html" %}
+  {#- Page article with information from IGDB #}
+  {%- set igdb_game_data = load_data(path="static/" ~ page.extra.igdb.id ~ ".json", format="json") %}
+  {%- set igdb_t = load_data(path="data/igdb." ~ page.lang ~ ".json", format="json", required=false) %}
+  {%- if not igdb_t %}
+    {%- set igdb_t = load_data(path="data/igdb.en.json", format="json") %}
+  {%- endif %}
+  {%- if igdb_game_data.artworks %}
+    {%- set ctx = {...ctx, "image": {
+      "url": "https://images.igdb.com/igdb/image/upload/t_720p/" ~ igdb_game_data.artworks[0] ~ ".webp",
+      "alt": page.extra.cover?.alt,
+    }} %}
+  {%- else %}
+    {%- set ctx = {...ctx, "image": none} %}
+  {%- endif %}
+{%- elif page.extra.cover?.image_url is string %}
+  {#- Cover image from an external URL #}
+  {%- set ctx = {...ctx, "image": {
+    "url": page.extra.cover.image_url,
+    "alt": page.extra.cover.alt,
+    "width": page.extra.cover.width,
+    "height": page.extra.cover.height,
+  }} %}
 {%- endif %}
+<article>
+  {% include "injects/page_start.html" %}
+  <header class="mb-16">
+    <h1 class="my-0! pb-3">{{ page.title }}</h1>
+    {%- if page.extra.igdb %}
+    <div class="text-md antialiased pb-1">
+      {{ igdb_t.igdb_genre.value }}: {% for item in igdb_game_data.genres %}
+        <a href="https://www.igdb.com/genres/{{ item.slug }}">{{ item.name }}</a>{% if not loop.last %},{% endif %}
+      {% endfor %}
+      |
+      {{ igdb_t.igdb_company.value }}: {% for item in igdb_game_data.involved_companies %}
+        <a href="https://www.igdb.com/companies/{{ item.slug }}">{{ item.name }}</a>{% if not loop.last %},{% endif %}
+      {% endfor %}
+    </div>
+    {%- endif %}
+    {{ <_page_info page={page} on_page={true} /> }}
+  </header>
+  {{ <_cover_image /> }}
+  {{ <_toc conf={config.extra.toc} def={true} /> }}
+  <!-- Content -->
+  <section>{{ page.content | safe }}</section>
+  <hr />
+  {{ <_post_taxonomies /> }}
+  {%- if page.lower is map or page.higher is map %}
+  {{ <_post_navigation invert={config.extra.invert_page_navigation} /> }}
+  {%- endif %}
+  {%- if page.extra.comment | default(value=config.extra.comment) %}
+  {%- set giscus_conf = {...config.extra.giscus, "lang": page.lang} %}
+  {{ <_giscus conf={giscus_conf} /> }}
+  {%- endif %}
+  {% include "injects/page_end.html" %}
+</article>
 {% endblock main %}
