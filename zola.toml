@@ -8,6 +8,7 @@ minify_html = false
 
 title = "EWA's blog"
 description = ""
+# Enabled when better render
 build_search_index = false
 generate_feeds = true
 feed_filenames = ["atom.xml"]
@@ -19,6 +20,7 @@ taxonomies = [
 [languages.fr]
 title = "Blog EWA"
 description = ""
+# Enabled when better render
 build_search_index = false
 generate_feeds = true
 feed_filenames = ["atom.xml"]
@@ -46,6 +48,9 @@ mermaid = false
 comment = true
 title_separator = " | "
 header_menu_name = "menu_header"
+# Add "search_button" when better render to search
+header_buttons = ["site_title", "theme_select", "translations_select"]
+menu_i18n = true
 use_cdn = false
 disable_default_favicon = false
 
@@ -53,6 +58,7 @@ disable_default_favicon = false
 menu_header = [
   { url = "@base/projects/", names = { "en" = "Project", "fr" = "Projet"} },
   { url = "@base/archive/", name = "Archive" },
+  { url = "@base/tags/", name = "Tags" },
   { url = "@base/about/", names = { "en" = "About me", "fr" = "A propos de" } },
 ]
 
